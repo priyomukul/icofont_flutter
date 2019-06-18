@@ -1,14 +1,29 @@
 # icofont_flutter
 
-The IcoFont Icon Pack available as Flutter Icon Page
+The [IcoFont Icon](https://icofont.com) Pack available as Flutter Icon Page
 
-## Getting Started
+### Based on IcoFont Version 1.0.1
+@license - https://icofont.com/license/
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+# Installation
+In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+icofont_flutter: <latest_version>
+```
+
+# Usage
+```javascript
+import 'package:icofont_flutter/icofont_flutter.dart';
+
+class MyWidget extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return new IconButton(
+      // Use the IcoFontIcons class for the IconData
+      icon: new Icon(IcoFontIcons.brandAcer), 
+      onPressed: () { print("Pressed"); }
+     );
+  }
+}
+```
+
