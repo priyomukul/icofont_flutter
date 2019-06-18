@@ -1,6 +1,6 @@
 # icofont_flutter
 
-The [IcoFont Icon](https://icofont.com) Pack available as Flutter Icon Page
+The [IcoFont Icon](https://icofont.com) Pack available as Flutter Icon Pack
 
 ### Based on IcoFont Version 1.0.1
 
