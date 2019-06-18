@@ -1,3 +1,8 @@
+## [1.1.0] - June 19, 2019.
+
+* Desicriptions and Some improvements.
+* An example app is created
+
 ## [1.0.0] - June 18, 2019.
 
 * Add LICENSE.md file
