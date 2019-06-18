@@ -28,4 +28,4 @@ class MyWidget extends StatelessWidget {
 ```
 
 # Special Thanks to IcoFont Team
-for creating such wonderful icon pack for make design.
+for creating such wonderful icon pack for making design.
