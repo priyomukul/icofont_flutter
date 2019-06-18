@@ -3,7 +3,6 @@
 The [IcoFont Icon](https://icofont.com) Pack available as Flutter Icon Page
 
 ### Based on IcoFont Version 1.0.1
-@license - https://icofont.com/license/
 
 # Installation
 In the `dependencies:` section of your `pubspec.yaml`, add the following line:
