@@ -27,3 +27,5 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
+# Thanks to JoomShaper
+for creating such a wonderfull icon pack too use for web.

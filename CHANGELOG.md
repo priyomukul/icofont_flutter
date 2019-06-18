@@ -1,3 +1,5 @@
-## [0.0.1] - TODO: Add release date.
+## [1.0.0] - June 18, 2019.
 
-* TODO: Describe initial release.
+* Add LICENSE.md file
+* Created README.md file with instructions for using this package.
+* Created `IcoFontIcons` class, which provides all IcoFont Icons as IconData, similar to Flutter's built-in Icons class.
