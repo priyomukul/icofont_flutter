@@ -19,7 +19,7 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return new IconButton(
       // Use the IcoFontIcons class for the IconData
-      icon: new Icon(IcoFontIcons.brandAcer), 
+      icon: new Icon(IcoFontIcons.brandIcofont),
       onPressed: () { print("Pressed"); }
      );
   }
