@@ -1,3 +1,7 @@
+## [1.2.0] - June 19, 2019.
+
+* Desicriptions and SDK version update.
+
 ## [1.1.0] - June 19, 2019.
 
 * Desicriptions and Some improvements.
