@@ -1,2103 +1,4208 @@
 library icofont_flutter;
 
 import 'package:flutter/widgets.dart';
-import 'package:icofont_flutter/icofont_data.dart';
 
-/// IcoFontIcons.
+/// This is main class which provides IcoFont icon as IconData.
 class IcoFontIcons {
-  static const IconData angryMonster = IcoFontData(0xe800);
-  static const IconData bathtub = IcoFontData(0xe801);
-  static const IconData birdWings = IcoFontData(0xe802);
-  static const IconData bow = IcoFontData(0xe803);
-  static const IconData castle = IcoFontData(0xe804);
-  static const IconData circuit = IcoFontData(0xe805);
-  static const IconData crownKing = IcoFontData(0xe806);
-  static const IconData crownQueen = IcoFontData(0xe807);
-  static const IconData dart = IcoFontData(0xe808);
-  static const IconData disabilityRace = IcoFontData(0xe809);
-  static const IconData divingGoggle = IcoFontData(0xe80a);
-  static const IconData eyeOpen = IcoFontData(0xe80b);
-  static const IconData floraFlower = IcoFontData(0xe80c);
-  static const IconData flora = IcoFontData(0xe80d);
-  static const IconData giftBox = IcoFontData(0xe80e);
-  static const IconData halloweenPumpkin = IcoFontData(0xe80f);
-  static const IconData handPower = IcoFontData(0xe810);
-  static const IconData handThunder = IcoFontData(0xe811);
-  static const IconData kingMonster = IcoFontData(0xe812);
-  static const IconData love = IcoFontData(0xe813);
-  static const IconData magicianHat = IcoFontData(0xe814);
-  static const IconData nativeAmerican = IcoFontData(0xe815);
-  static const IconData owlLook = IcoFontData(0xe816);
-  static const IconData phoenix = IcoFontData(0xe817);
-  static const IconData robotFace = IcoFontData(0xe818);
-  static const IconData sandClock = IcoFontData(0xe819);
-  static const IconData shieldAlt = IcoFontData(0xe81a);
-  static const IconData shipWheel = IcoFontData(0xe81b);
-  static const IconData skullDanger = IcoFontData(0xe81c);
-  static const IconData skullFace = IcoFontData(0xe81d);
-  static const IconData snowmobile = IcoFontData(0xe81e);
-  static const IconData spaceShuttle = IcoFontData(0xe81f);
-  static const IconData starShape = IcoFontData(0xe820);
-  static const IconData swirl = IcoFontData(0xe821);
-  static const IconData tattooWing = IcoFontData(0xe822);
-  static const IconData throne = IcoFontData(0xe823);
-  static const IconData treeAlt = IcoFontData(0xe824);
-  static const IconData triangle = IcoFontData(0xe825);
-  static const IconData unityHand = IcoFontData(0xe826);
-  static const IconData weed = IcoFontData(0xe827);
-  static const IconData womanBird = IcoFontData(0xe828);
-  static const IconData bat = IcoFontData(0xe829);
-  static const IconData bearFace = IcoFontData(0xe82a);
-  static const IconData bearTracks = IcoFontData(0xe82b);
-  static const IconData bear = IcoFontData(0xe82c);
-  static const IconData birdAlt = IcoFontData(0xe82d);
-  static const IconData birdFlying = IcoFontData(0xe82e);
-  static const IconData bird = IcoFontData(0xe82f);
-  static const IconData birds = IcoFontData(0xe830);
-  static const IconData bone = IcoFontData(0xe831);
-  static const IconData bull = IcoFontData(0xe832);
-  static const IconData butterflyAlt = IcoFontData(0xe833);
-  static const IconData butterfly = IcoFontData(0xe834);
-  static const IconData camelAlt = IcoFontData(0xe835);
-  static const IconData camelHead = IcoFontData(0xe836);
-  static const IconData camel = IcoFontData(0xe837);
-  static const IconData catAlt1 = IcoFontData(0xe838);
-  static const IconData catAlt2 = IcoFontData(0xe839);
-  static const IconData catAlt3 = IcoFontData(0xe83a);
-  static const IconData catDog = IcoFontData(0xe83b);
-  static const IconData catFace = IcoFontData(0xe83c);
-  static const IconData cat = IcoFontData(0xe83d);
-  static const IconData cowHead = IcoFontData(0xe83e);
-  static const IconData cow = IcoFontData(0xe83f);
-  static const IconData crab = IcoFontData(0xe840);
-  static const IconData crocodile = IcoFontData(0xe841);
-  static const IconData deerHead = IcoFontData(0xe842);
-  static const IconData dogAlt = IcoFontData(0xe843);
-  static const IconData dogBarking = IcoFontData(0xe844);
-  static const IconData dog = IcoFontData(0xe845);
-  static const IconData dolphin = IcoFontData(0xe846);
-  static const IconData duckTracks = IcoFontData(0xe847);
-  static const IconData eagleHead = IcoFontData(0xe848);
-  static const IconData eatenFish = IcoFontData(0xe849);
-  static const IconData elephantAlt = IcoFontData(0xe84a);
-  static const IconData elephantHeadAlt = IcoFontData(0xe84b);
-  static const IconData elephantHead = IcoFontData(0xe84c);
-  static const IconData elephant = IcoFontData(0xe84d);
-  static const IconData elk = IcoFontData(0xe84e);
-  static const IconData fish1 = IcoFontData(0xe84f);
-  static const IconData fish2 = IcoFontData(0xe850);
-  static const IconData fish3 = IcoFontData(0xe851);
-  static const IconData fish4 = IcoFontData(0xe852);
-  static const IconData fish5 = IcoFontData(0xe853);
-  static const IconData fish = IcoFontData(0xe854);
-  static const IconData foxAlt = IcoFontData(0xe855);
-  static const IconData fox = IcoFontData(0xe856);
-  static const IconData frogTracks = IcoFontData(0xe857);
-  static const IconData frog = IcoFontData(0xe858);
-  static const IconData froggy = IcoFontData(0xe859);
-  static const IconData giraffeHead1 = IcoFontData(0xe85a);
-  static const IconData giraffeHead2 = IcoFontData(0xe85b);
-  static const IconData giraffeHead = IcoFontData(0xe85c);
-  static const IconData giraffe = IcoFontData(0xe85d);
-  static const IconData goatHead = IcoFontData(0xe85e);
-  static const IconData gorilla = IcoFontData(0xe85f);
-  static const IconData henTracks = IcoFontData(0xe860);
-  static const IconData horseHead1 = IcoFontData(0xe861);
-  static const IconData horseHead2 = IcoFontData(0xe862);
-  static const IconData horseHead = IcoFontData(0xe863);
-  static const IconData horseTracks = IcoFontData(0xe864);
-  static const IconData jellyfish = IcoFontData(0xe865);
-  static const IconData kangaroo = IcoFontData(0xe866);
-  static const IconData lemur = IcoFontData(0xe867);
-  static const IconData lionHead1 = IcoFontData(0xe868);
-  static const IconData lionHead2 = IcoFontData(0xe869);
-  static const IconData lionHead = IcoFontData(0xe86a);
-  static const IconData lion = IcoFontData(0xe86b);
-  static const IconData monkey2 = IcoFontData(0xe86c);
-  static const IconData monkey3 = IcoFontData(0xe86d);
-  static const IconData monkeyFace = IcoFontData(0xe86e);
-  static const IconData monkey = IcoFontData(0xe86f);
-  static const IconData octopusAlt = IcoFontData(0xe870);
-  static const IconData octopus = IcoFontData(0xe871);
-  static const IconData owl = IcoFontData(0xe872);
-  static const IconData pandaFace = IcoFontData(0xe873);
-  static const IconData panda = IcoFontData(0xe874);
-  static const IconData panther = IcoFontData(0xe875);
-  static const IconData parrotLip = IcoFontData(0xe876);
-  static const IconData parrot = IcoFontData(0xe877);
-  static const IconData paw = IcoFontData(0xe878);
-  static const IconData pelican = IcoFontData(0xe879);
-  static const IconData penguin = IcoFontData(0xe87a);
-  static const IconData pigFace = IcoFontData(0xe87b);
-  static const IconData pig = IcoFontData(0xe87c);
-  static const IconData pigeon1 = IcoFontData(0xe87d);
-  static const IconData pigeon2 = IcoFontData(0xe87e);
-  static const IconData pigeon = IcoFontData(0xe87f);
-  static const IconData rabbit = IcoFontData(0xe880);
-  static const IconData rat = IcoFontData(0xe881);
-  static const IconData rhinoHead = IcoFontData(0xe882);
-  static const IconData rhino = IcoFontData(0xe883);
-  static const IconData rooster = IcoFontData(0xe884);
-  static const IconData seahorse = IcoFontData(0xe885);
-  static const IconData seal = IcoFontData(0xe886);
-  static const IconData shrimpAlt = IcoFontData(0xe887);
-  static const IconData shrimp = IcoFontData(0xe888);
-  static const IconData snail1 = IcoFontData(0xe889);
-  static const IconData snail2 = IcoFontData(0xe88a);
-  static const IconData snail3 = IcoFontData(0xe88b);
-  static const IconData snail = IcoFontData(0xe88c);
-  static const IconData snake = IcoFontData(0xe88d);
-  static const IconData squid = IcoFontData(0xe88e);
-  static const IconData squirrel = IcoFontData(0xe88f);
-  static const IconData tigerFace = IcoFontData(0xe890);
-  static const IconData tiger = IcoFontData(0xe891);
-  static const IconData turtle = IcoFontData(0xe892);
-  static const IconData whale = IcoFontData(0xe893);
-  static const IconData woodpecker = IcoFontData(0xe894);
-  static const IconData zebra = IcoFontData(0xe895);
-  static const IconData brandAcer = IcoFontData(0xe896);
-  static const IconData brandAdidas = IcoFontData(0xe897);
-  static const IconData brandAdobe = IcoFontData(0xe898);
-  static const IconData brandAirNewZealand = IcoFontData(0xe899);
-  static const IconData brandAirbnb = IcoFontData(0xe89a);
-  static const IconData brandAircell = IcoFontData(0xe89b);
-  static const IconData brandAirtel = IcoFontData(0xe89c);
-  static const IconData brandAlcatel = IcoFontData(0xe89d);
-  static const IconData brandAlibaba = IcoFontData(0xe89e);
-  static const IconData brandAliexpress = IcoFontData(0xe89f);
-  static const IconData brandAlipay = IcoFontData(0xe8a0);
-  static const IconData brandAmazon = IcoFontData(0xe8a1);
-  static const IconData brandAmd = IcoFontData(0xe8a2);
-  static const IconData brandAmericanAirlines = IcoFontData(0xe8a3);
-  static const IconData brandAndroidRobot = IcoFontData(0xe8a4);
-  static const IconData brandAndroid = IcoFontData(0xe8a5);
-  static const IconData brandAol = IcoFontData(0xe8a6);
-  static const IconData brandApple = IcoFontData(0xe8a7);
-  static const IconData brandAppstore = IcoFontData(0xe8a8);
-  static const IconData brandAsus = IcoFontData(0xe8a9);
-  static const IconData brandAti = IcoFontData(0xe8aa);
-  static const IconData brandAtt = IcoFontData(0xe8ab);
-  static const IconData brandAudi = IcoFontData(0xe8ac);
-  static const IconData brandAxiata = IcoFontData(0xe8ad);
-  static const IconData brandBada = IcoFontData(0xe8ae);
-  static const IconData brandBbc = IcoFontData(0xe8af);
-  static const IconData brandBing = IcoFontData(0xe8b0);
-  static const IconData brandBlackberry = IcoFontData(0xe8b1);
-  static const IconData brandBmw = IcoFontData(0xe8b2);
-  static const IconData brandBox = IcoFontData(0xe8b3);
-  static const IconData brandBurgerKing = IcoFontData(0xe8b4);
-  static const IconData brandBusinessInsider = IcoFontData(0xe8b5);
-  static const IconData brandBuzzfeed = IcoFontData(0xe8b6);
-  static const IconData brandCannon = IcoFontData(0xe8b7);
-  static const IconData brandCasio = IcoFontData(0xe8b8);
-  static const IconData brandChinaMobile = IcoFontData(0xe8b9);
-  static const IconData brandChinaTelecom = IcoFontData(0xe8ba);
-  static const IconData brandChinaUnicom = IcoFontData(0xe8bb);
-  static const IconData brandCisco = IcoFontData(0xe8bc);
-  static const IconData brandCitibank = IcoFontData(0xe8bd);
-  static const IconData brandCnet = IcoFontData(0xe8be);
-  static const IconData brandCnn = IcoFontData(0xe8bf);
-  static const IconData brandCocalCola = IcoFontData(0xe8c0);
-  static const IconData brandCompaq = IcoFontData(0xe8c1);
-  static const IconData brandDebian = IcoFontData(0xe8c2);
-  static const IconData brandDelicious = IcoFontData(0xe8c3);
-  static const IconData brandDell = IcoFontData(0xe8c4);
-  static const IconData brandDesignbump = IcoFontData(0xe8c5);
-  static const IconData brandDesignfloat = IcoFontData(0xe8c6);
-  static const IconData brandDisney = IcoFontData(0xe8c7);
-  static const IconData brandDodge = IcoFontData(0xe8c8);
-  static const IconData brandDove = IcoFontData(0xe8c9);
-  static const IconData brandDrupal = IcoFontData(0xe8ca);
-  static const IconData brandEbay = IcoFontData(0xe8cb);
-  static const IconData brandEleven = IcoFontData(0xe8cc);
-  static const IconData brandEmirates = IcoFontData(0xe8cd);
-  static const IconData brandEspn = IcoFontData(0xe8ce);
-  static const IconData brandEtihadAirways = IcoFontData(0xe8cf);
-  static const IconData brandEtisalat = IcoFontData(0xe8d0);
-  static const IconData brandEtsy = IcoFontData(0xe8d1);
-  static const IconData brandFastrack = IcoFontData(0xe8d2);
-  static const IconData brandFedex = IcoFontData(0xe8d3);
-  static const IconData brandFerrari = IcoFontData(0xe8d4);
-  static const IconData brandFitbit = IcoFontData(0xe8d5);
-  static const IconData brandFlikr = IcoFontData(0xe8d6);
-  static const IconData brandForbes = IcoFontData(0xe8d7);
-  static const IconData brandFoursquare = IcoFontData(0xe8d8);
-  static const IconData brandFoxconn = IcoFontData(0xe8d9);
-  static const IconData brandFujitsu = IcoFontData(0xe8da);
-  static const IconData brandGeneralElectric = IcoFontData(0xe8db);
-  static const IconData brandGillette = IcoFontData(0xe8dc);
-  static const IconData brandGizmodo = IcoFontData(0xe8dd);
-  static const IconData brandGnome = IcoFontData(0xe8de);
-  static const IconData brandGoogle = IcoFontData(0xe8df);
-  static const IconData brandGopro = IcoFontData(0xe8e0);
-  static const IconData brandGucci = IcoFontData(0xe8e1);
-  static const IconData brandHallmark = IcoFontData(0xe8e2);
-  static const IconData brandHi5 = IcoFontData(0xe8e3);
-  static const IconData brandHonda = IcoFontData(0xe8e4);
-  static const IconData brandHp = IcoFontData(0xe8e5);
-  static const IconData brandHsbc = IcoFontData(0xe8e6);
-  static const IconData brandHtc = IcoFontData(0xe8e7);
-  static const IconData brandHuawei = IcoFontData(0xe8e8);
-  static const IconData brandHulu = IcoFontData(0xe8e9);
-  static const IconData brandHyundai = IcoFontData(0xe8ea);
-  static const IconData brandIbm = IcoFontData(0xe8eb);
-  static const IconData brandIcofont = IcoFontData(0xe8ec);
-  static const IconData brandIcq = IcoFontData(0xe8ed);
-  static const IconData brandIkea = IcoFontData(0xe8ee);
-  static const IconData brandImdb = IcoFontData(0xe8ef);
-  static const IconData brandIndiegogo = IcoFontData(0xe8f0);
-  static const IconData brandIntel = IcoFontData(0xe8f1);
-  static const IconData brandIpair = IcoFontData(0xe8f2);
-  static const IconData brandJaguar = IcoFontData(0xe8f3);
-  static const IconData brandJava = IcoFontData(0xe8f4);
-  static const IconData brandJoomla = IcoFontData(0xe8f5);
-  static const IconData brandKickstarter = IcoFontData(0xe8f6);
-  static const IconData brandKik = IcoFontData(0xe8f7);
-  static const IconData brandLastfm = IcoFontData(0xe8f8);
-  static const IconData brandLego = IcoFontData(0xe8f9);
-  static const IconData brandLenovo = IcoFontData(0xe8fa);
-  static const IconData brandLevis = IcoFontData(0xe8fb);
-  static const IconData brandLexus = IcoFontData(0xe8fc);
-  static const IconData brandLg = IcoFontData(0xe8fd);
-  static const IconData brandLifeHacker = IcoFontData(0xe8fe);
-  static const IconData brandLinuxMint = IcoFontData(0xe8ff);
-  static const IconData brandLinux = IcoFontData(0xe900);
-  static const IconData brandLionix = IcoFontData(0xe901);
-  static const IconData brandLoreal = IcoFontData(0xe902);
-  static const IconData brandLouisVuitton = IcoFontData(0xe903);
-  static const IconData brandMacOs = IcoFontData(0xe904);
-  static const IconData brandMarvelApp = IcoFontData(0xe905);
-  static const IconData brandMashable = IcoFontData(0xe906);
-  static const IconData brandMazda = IcoFontData(0xe907);
-  static const IconData brandMcdonals = IcoFontData(0xe908);
-  static const IconData brandMercedes = IcoFontData(0xe909);
-  static const IconData brandMicromax = IcoFontData(0xe90a);
-  static const IconData brandMicrosoft = IcoFontData(0xe90b);
-  static const IconData brandMobileme = IcoFontData(0xe90c);
-  static const IconData brandMobily = IcoFontData(0xe90d);
-  static const IconData brandMotorola = IcoFontData(0xe90e);
-  static const IconData brandMsi = IcoFontData(0xe90f);
-  static const IconData brandMts = IcoFontData(0xe910);
-  static const IconData brandMyspace = IcoFontData(0xe911);
-  static const IconData brandMytv = IcoFontData(0xe912);
-  static const IconData brandNasa = IcoFontData(0xe913);
-  static const IconData brandNatgeo = IcoFontData(0xe914);
-  static const IconData brandNbc = IcoFontData(0xe915);
-  static const IconData brandNescafe = IcoFontData(0xe916);
-  static const IconData brandNestle = IcoFontData(0xe917);
-  static const IconData brandNetflix = IcoFontData(0xe918);
-  static const IconData brandNexus = IcoFontData(0xe919);
-  static const IconData brandNike = IcoFontData(0xe91a);
-  static const IconData brandNokia = IcoFontData(0xe91b);
-  static const IconData brandNvidia = IcoFontData(0xe91c);
-  static const IconData brandOmega = IcoFontData(0xe91d);
-  static const IconData brandOpensuse = IcoFontData(0xe91e);
-  static const IconData brandOracle = IcoFontData(0xe91f);
-  static const IconData brandPanasonic = IcoFontData(0xe920);
-  static const IconData brandPaypal = IcoFontData(0xe921);
-  static const IconData brandPepsi = IcoFontData(0xe922);
-  static const IconData brandPhilips = IcoFontData(0xe923);
-  static const IconData brandPizzaHut = IcoFontData(0xe924);
-  static const IconData brandPlaystation = IcoFontData(0xe925);
-  static const IconData brandPuma = IcoFontData(0xe926);
-  static const IconData brandQatarAir = IcoFontData(0xe927);
-  static const IconData brandQvc = IcoFontData(0xe928);
-  static const IconData brandReadernaut = IcoFontData(0xe929);
-  static const IconData brandRedbull = IcoFontData(0xe92a);
-  static const IconData brandReebok = IcoFontData(0xe92b);
-  static const IconData brandReuters = IcoFontData(0xe92c);
-  static const IconData brandSamsung = IcoFontData(0xe92d);
-  static const IconData brandSap = IcoFontData(0xe92e);
-  static const IconData brandSaudiaAirlines = IcoFontData(0xe92f);
-  static const IconData brandScribd = IcoFontData(0xe930);
-  static const IconData brandShell = IcoFontData(0xe931);
-  static const IconData brandSiemens = IcoFontData(0xe932);
-  static const IconData brandSkTelecom = IcoFontData(0xe933);
-  static const IconData brandSlideshare = IcoFontData(0xe934);
-  static const IconData brandSmashingMagazine = IcoFontData(0xe935);
-  static const IconData brandSnapchat = IcoFontData(0xe936);
-  static const IconData brandSonyEricsson = IcoFontData(0xe937);
-  static const IconData brandSony = IcoFontData(0xe938);
-  static const IconData brandSoundcloud = IcoFontData(0xe939);
-  static const IconData brandSprint = IcoFontData(0xe93a);
-  static const IconData brandSquidoo = IcoFontData(0xe93b);
-  static const IconData brandStarbucks = IcoFontData(0xe93c);
-  static const IconData brandStc = IcoFontData(0xe93d);
-  static const IconData brandSteam = IcoFontData(0xe93e);
-  static const IconData brandSuzuki = IcoFontData(0xe93f);
-  static const IconData brandSymbian = IcoFontData(0xe940);
-  static const IconData brandTMobile = IcoFontData(0xe941);
-  static const IconData brandTango = IcoFontData(0xe942);
-  static const IconData brandTarget = IcoFontData(0xe943);
-  static const IconData brandTataIndicom = IcoFontData(0xe944);
-  static const IconData brandTechcrunch = IcoFontData(0xe945);
-  static const IconData brandTelenor = IcoFontData(0xe946);
-  static const IconData brandTeliasonera = IcoFontData(0xe947);
-  static const IconData brandTesla = IcoFontData(0xe948);
-  static const IconData brandTheVerge = IcoFontData(0xe949);
-  static const IconData brandThenextweb = IcoFontData(0xe94a);
-  static const IconData brandToshiba = IcoFontData(0xe94b);
-  static const IconData brandToyota = IcoFontData(0xe94c);
-  static const IconData brandTribenet = IcoFontData(0xe94d);
-  static const IconData brandUbuntu = IcoFontData(0xe94e);
-  static const IconData brandUnilever = IcoFontData(0xe94f);
-  static const IconData brandVaio = IcoFontData(0xe950);
-  static const IconData brandVerizon = IcoFontData(0xe951);
-  static const IconData brandViber = IcoFontData(0xe952);
-  static const IconData brandVodafone = IcoFontData(0xe953);
-  static const IconData brandVolkswagen = IcoFontData(0xe954);
-  static const IconData brandWalmart = IcoFontData(0xe955);
-  static const IconData brandWarnerbros = IcoFontData(0xe956);
-  static const IconData brandWhatsapp = IcoFontData(0xe957);
-  static const IconData brandWikipedia = IcoFontData(0xe958);
-  static const IconData brandWindows = IcoFontData(0xe959);
-  static const IconData brandWire = IcoFontData(0xe95a);
-  static const IconData brandWordpress = IcoFontData(0xe95b);
-  static const IconData brandXiaomi = IcoFontData(0xe95c);
-  static const IconData brandYahoobuzz = IcoFontData(0xe95d);
-  static const IconData brandYamaha = IcoFontData(0xe95e);
-  static const IconData brandYoutube = IcoFontData(0xe95f);
-  static const IconData brandZain = IcoFontData(0xe960);
-  static const IconData bankAlt = IcoFontData(0xe961);
-  static const IconData bank = IcoFontData(0xe962);
-  static const IconData barcode = IcoFontData(0xe963);
-  static const IconData billAlt = IcoFontData(0xe964);
-  static const IconData billboard = IcoFontData(0xe965);
-  static const IconData briefcase1 = IcoFontData(0xe966);
-  static const IconData briefcase2 = IcoFontData(0xe967);
-  static const IconData businessman = IcoFontData(0xe968);
-  static const IconData businesswoman = IcoFontData(0xe969);
-  static const IconData chair = IcoFontData(0xe96a);
-  static const IconData coins = IcoFontData(0xe96b);
-  static const IconData company = IcoFontData(0xe96c);
-  static const IconData contactAdd = IcoFontData(0xe96d);
-  static const IconData filesStack = IcoFontData(0xe96e);
-  static const IconData handshakeDeal = IcoFontData(0xe96f);
-  static const IconData idCard = IcoFontData(0xe970);
-  static const IconData meetingAdd = IcoFontData(0xe971);
-  static const IconData moneyBag = IcoFontData(0xe972);
-  static const IconData pieChart = IcoFontData(0xe973);
-  static const IconData presentationAlt = IcoFontData(0xe974);
-  static const IconData presentation = IcoFontData(0xe975);
-  static const IconData stamp = IcoFontData(0xe976);
-  static const IconData stockMobile = IcoFontData(0xe977);
-  static const IconData chartArrowsAxis = IcoFontData(0xe978);
-  static const IconData chartBarGraph = IcoFontData(0xe979);
-  static const IconData chartFlow1 = IcoFontData(0xe97a);
-  static const IconData chartFlow2 = IcoFontData(0xe97b);
-  static const IconData chartFlow = IcoFontData(0xe97c);
-  static const IconData chartGrowth = IcoFontData(0xe97d);
-  static const IconData chartHistogramAlt = IcoFontData(0xe97e);
-  static const IconData chartHistogram = IcoFontData(0xe97f);
-  static const IconData chartLineAlt = IcoFontData(0xe980);
-  static const IconData chartLine = IcoFontData(0xe981);
-  static const IconData chartPieAlt = IcoFontData(0xe982);
-  static const IconData chartPie = IcoFontData(0xe983);
-  static const IconData chartRadarGraph = IcoFontData(0xe984);
-  static const IconData architectureAlt = IcoFontData(0xe985);
-  static const IconData architecture = IcoFontData(0xe986);
-  static const IconData barricade = IcoFontData(0xe987);
-  static const IconData bolt = IcoFontData(0xe988);
-  static const IconData bricks = IcoFontData(0xe989);
-  static const IconData buildingAlt = IcoFontData(0xe98a);
-  static const IconData bullDozer = IcoFontData(0xe98b);
-  static const IconData calculations = IcoFontData(0xe98c);
-  static const IconData cementMix = IcoFontData(0xe98d);
-  static const IconData cementMixer = IcoFontData(0xe98e);
-  static const IconData concreteMixer = IcoFontData(0xe98f);
-  static const IconData dangerZone = IcoFontData(0xe990);
-  static const IconData drill = IcoFontData(0xe991);
-  static const IconData ecoEnergy = IcoFontData(0xe992);
-  static const IconData ecoEnvironmen = IcoFontData(0xe993);
-  static const IconData energyAir = IcoFontData(0xe994);
-  static const IconData energyOil = IcoFontData(0xe995);
-  static const IconData energySavings = IcoFontData(0xe996);
-  static const IconData energySolar = IcoFontData(0xe997);
-  static const IconData energyWater = IcoFontData(0xe998);
-  static const IconData engineer = IcoFontData(0xe999);
-  static const IconData fireExtinguisherAlt = IcoFontData(0xe99a);
-  static const IconData fireExtinguisher = IcoFontData(0xe99b);
-  static const IconData fixTools = IcoFontData(0xe99c);
-  static const IconData forkLift = IcoFontData(0xe99d);
-  static const IconData glueOil = IcoFontData(0xe99e);
-  static const IconData hammerAlt = IcoFontData(0xe99f);
-  static const IconData hammer = IcoFontData(0xe9a0);
-  static const IconData helpRobot = IcoFontData(0xe9a1);
-  static const IconData industries1 = IcoFontData(0xe9a2);
-  static const IconData industries2 = IcoFontData(0xe9a3);
-  static const IconData industries3 = IcoFontData(0xe9a4);
-  static const IconData industries4 = IcoFontData(0xe9a5);
-  static const IconData industries5 = IcoFontData(0xe9a6);
-  static const IconData industries = IcoFontData(0xe9a7);
-  static const IconData labour = IcoFontData(0xe9a8);
-  static const IconData mining = IcoFontData(0xe9a9);
-  static const IconData paintBrush = IcoFontData(0xe9aa);
-  static const IconData pollution = IcoFontData(0xe9ab);
-  static const IconData powerZone = IcoFontData(0xe9ac);
-  static const IconData radioActive = IcoFontData(0xe9ad);
-  static const IconData recycleAlt = IcoFontData(0xe9ae);
-  static const IconData recyclingMan = IcoFontData(0xe9af);
-  static const IconData safetyHatLight = IcoFontData(0xe9b0);
-  static const IconData safetyHat = IcoFontData(0xe9b1);
-  static const IconData saw = IcoFontData(0xe9b2);
-  static const IconData screwDriver = IcoFontData(0xe9b3);
-  static const IconData tools1 = IcoFontData(0xe9b4);
-  static const IconData toolsBag = IcoFontData(0xe9b5);
-  static const IconData towTruck = IcoFontData(0xe9b6);
-  static const IconData trolley = IcoFontData(0xe9b7);
-  static const IconData trowel = IcoFontData(0xe9b8);
-  static const IconData underConstructionAlt = IcoFontData(0xe9b9);
-  static const IconData underConstruction = IcoFontData(0xe9ba);
-  static const IconData vehicleCement = IcoFontData(0xe9bb);
-  static const IconData vehicleCrane = IcoFontData(0xe9bc);
-  static const IconData vehicleDeliveryVan = IcoFontData(0xe9bd);
-  static const IconData vehicleDozer = IcoFontData(0xe9be);
-  static const IconData vehicleExcavator = IcoFontData(0xe9bf);
-  static const IconData vehicleTrucktor = IcoFontData(0xe9c0);
-  static const IconData vehicleWrecking = IcoFontData(0xe9c1);
-  static const IconData worker = IcoFontData(0xe9c2);
-  static const IconData workersGroup = IcoFontData(0xe9c3);
-  static const IconData wrench = IcoFontData(0xe9c4);
-  static const IconData afghaniFalse = IcoFontData(0xe9c5);
-  static const IconData afghaniMinus = IcoFontData(0xe9c6);
-  static const IconData afghaniPlus = IcoFontData(0xe9c7);
-  static const IconData afghaniTrue = IcoFontData(0xe9c8);
-  static const IconData afghani = IcoFontData(0xe9c9);
-  static const IconData bahtFalse = IcoFontData(0xe9ca);
-  static const IconData bahtMinus = IcoFontData(0xe9cb);
-  static const IconData bahtPlus = IcoFontData(0xe9cc);
-  static const IconData bahtTrue = IcoFontData(0xe9cd);
-  static const IconData baht = IcoFontData(0xe9ce);
-  static const IconData bitcoinFalse = IcoFontData(0xe9cf);
-  static const IconData bitcoinMinus = IcoFontData(0xe9d0);
-  static const IconData bitcoinPlus = IcoFontData(0xe9d1);
-  static const IconData bitcoinTrue = IcoFontData(0xe9d2);
-  static const IconData bitcoin = IcoFontData(0xe9d3);
-  static const IconData dollarFlase = IcoFontData(0xe9d4);
-  static const IconData dollarMinus = IcoFontData(0xe9d5);
-  static const IconData dollarPlus = IcoFontData(0xe9d6);
-  static const IconData dollarTrue = IcoFontData(0xe9d7);
-  static const IconData dollar = IcoFontData(0xe9d8);
-  static const IconData dongFalse = IcoFontData(0xe9d9);
-  static const IconData dongMinus = IcoFontData(0xe9da);
-  static const IconData dongPlus = IcoFontData(0xe9db);
-  static const IconData dongTrue = IcoFontData(0xe9dc);
-  static const IconData dong = IcoFontData(0xe9dd);
-  static const IconData euroFalse = IcoFontData(0xe9de);
-  static const IconData euroMinus = IcoFontData(0xe9df);
-  static const IconData euroPlus = IcoFontData(0xe9e0);
-  static const IconData euroTrue = IcoFontData(0xe9e1);
-  static const IconData euro = IcoFontData(0xe9e2);
-  static const IconData frankFalse = IcoFontData(0xe9e3);
-  static const IconData frankMinus = IcoFontData(0xe9e4);
-  static const IconData frankPlus = IcoFontData(0xe9e5);
-  static const IconData frankTrue = IcoFontData(0xe9e6);
-  static const IconData frank = IcoFontData(0xe9e7);
-  static const IconData hryvniaFalse = IcoFontData(0xe9e8);
-  static const IconData hryvniaMinus = IcoFontData(0xe9e9);
-  static const IconData hryvniaPlus = IcoFontData(0xe9ea);
-  static const IconData hryvniaTrue = IcoFontData(0xe9eb);
-  static const IconData hryvnia = IcoFontData(0xe9ec);
-  static const IconData liraFalse = IcoFontData(0xe9ed);
-  static const IconData liraMinus = IcoFontData(0xe9ee);
-  static const IconData liraPlus = IcoFontData(0xe9ef);
-  static const IconData liraTrue = IcoFontData(0xe9f0);
-  static const IconData lira = IcoFontData(0xe9f1);
-  static const IconData pesetaFalse = IcoFontData(0xe9f2);
-  static const IconData pesetaMinus = IcoFontData(0xe9f3);
-  static const IconData pesetaPlus = IcoFontData(0xe9f4);
-  static const IconData pesetaTrue = IcoFontData(0xe9f5);
-  static const IconData peseta = IcoFontData(0xe9f6);
-  static const IconData pesoFalse = IcoFontData(0xe9f7);
-  static const IconData pesoMinus = IcoFontData(0xe9f8);
-  static const IconData pesoPlus = IcoFontData(0xe9f9);
-  static const IconData pesoTrue = IcoFontData(0xe9fa);
-  static const IconData peso = IcoFontData(0xe9fb);
-  static const IconData poundFalse = IcoFontData(0xe9fc);
-  static const IconData poundMinus = IcoFontData(0xe9fd);
-  static const IconData poundPlus = IcoFontData(0xe9fe);
-  static const IconData poundTrue = IcoFontData(0xe9ff);
-  static const IconData pound = IcoFontData(0xea00);
-  static const IconData renminbiFalse = IcoFontData(0xea01);
-  static const IconData renminbiMinus = IcoFontData(0xea02);
-  static const IconData renminbiPlus = IcoFontData(0xea03);
-  static const IconData renminbiTrue = IcoFontData(0xea04);
-  static const IconData renminbi = IcoFontData(0xea05);
-  static const IconData riyalFalse = IcoFontData(0xea06);
-  static const IconData riyalMinus = IcoFontData(0xea07);
-  static const IconData riyalPlus = IcoFontData(0xea08);
-  static const IconData riyalTrue = IcoFontData(0xea09);
-  static const IconData riyal = IcoFontData(0xea0a);
-  static const IconData roubleFalse = IcoFontData(0xea0b);
-  static const IconData roubleMinus = IcoFontData(0xea0c);
-  static const IconData roublePlus = IcoFontData(0xea0d);
-  static const IconData roubleTrue = IcoFontData(0xea0e);
-  static const IconData rouble = IcoFontData(0xea0f);
-  static const IconData rupeeFalse = IcoFontData(0xea10);
-  static const IconData rupeeMinus = IcoFontData(0xea11);
-  static const IconData rupeePlus = IcoFontData(0xea12);
-  static const IconData rupeeTrue = IcoFontData(0xea13);
-  static const IconData rupee = IcoFontData(0xea14);
-  static const IconData takaFalse = IcoFontData(0xea15);
-  static const IconData takaMinus = IcoFontData(0xea16);
-  static const IconData takaPlus = IcoFontData(0xea17);
-  static const IconData takaTrue = IcoFontData(0xea18);
-  static const IconData taka = IcoFontData(0xea19);
-  static const IconData turkishLiraFalse = IcoFontData(0xea1a);
-  static const IconData turkishLiraMinus = IcoFontData(0xea1b);
-  static const IconData turkishLiraPlus = IcoFontData(0xea1c);
-  static const IconData turkishLiraTrue = IcoFontData(0xea1d);
-  static const IconData turkishLira = IcoFontData(0xea1e);
-  static const IconData wonFalse = IcoFontData(0xea1f);
-  static const IconData wonMinus = IcoFontData(0xea20);
-  static const IconData wonPlus = IcoFontData(0xea21);
-  static const IconData wonTrue = IcoFontData(0xea22);
-  static const IconData won = IcoFontData(0xea23);
-  static const IconData yenFalse = IcoFontData(0xea24);
-  static const IconData yenMinus = IcoFontData(0xea25);
-  static const IconData yenPlus = IcoFontData(0xea26);
-  static const IconData yenTrue = IcoFontData(0xea27);
-  static const IconData yen = IcoFontData(0xea28);
-  static const IconData androidNexus = IcoFontData(0xea29);
-  static const IconData androidTablet = IcoFontData(0xea2a);
-  static const IconData appleWatch = IcoFontData(0xea2b);
-  static const IconData drawingTablet = IcoFontData(0xea2c);
-  static const IconData earphone = IcoFontData(0xea2d);
-  static const IconData flashDrive = IcoFontData(0xea2e);
-  static const IconData gameConsole = IcoFontData(0xea2f);
-  static const IconData gameController = IcoFontData(0xea30);
-  static const IconData gamePad = IcoFontData(0xea31);
-  static const IconData game = IcoFontData(0xea32);
-  static const IconData headphoneAlt1 = IcoFontData(0xea33);
-  static const IconData headphoneAlt2 = IcoFontData(0xea34);
-  static const IconData headphoneAlt3 = IcoFontData(0xea35);
-  static const IconData headphoneAlt = IcoFontData(0xea36);
-  static const IconData headphone = IcoFontData(0xea37);
-  static const IconData htcOne = IcoFontData(0xea38);
-  static const IconData imac = IcoFontData(0xea39);
-  static const IconData ipad = IcoFontData(0xea3a);
-  static const IconData iphone = IcoFontData(0xea3b);
-  static const IconData ipodNano = IcoFontData(0xea3c);
-  static const IconData ipodTouch = IcoFontData(0xea3d);
-  static const IconData keyboardAlt = IcoFontData(0xea3e);
-  static const IconData keyboardWireless = IcoFontData(0xea3f);
-  static const IconData keyboard = IcoFontData(0xea40);
-  static const IconData laptopAlt = IcoFontData(0xea41);
-  static const IconData laptop = IcoFontData(0xea42);
-  static const IconData macbook = IcoFontData(0xea43);
-  static const IconData magicMouse = IcoFontData(0xea44);
-  static const IconData microChip = IcoFontData(0xea45);
-  static const IconData microphoneAlt = IcoFontData(0xea46);
-  static const IconData microphone = IcoFontData(0xea47);
-  static const IconData monitor = IcoFontData(0xea48);
-  static const IconData mouse = IcoFontData(0xea49);
-  static const IconData mp3Player = IcoFontData(0xea4a);
-  static const IconData nintendo = IcoFontData(0xea4b);
-  static const IconData playstationAlt = IcoFontData(0xea4c);
-  static const IconData psvita = IcoFontData(0xea4d);
-  static const IconData radioMic = IcoFontData(0xea4e);
-  static const IconData radio = IcoFontData(0xea4f);
-  static const IconData refrigerator = IcoFontData(0xea50);
-  static const IconData samsungGalaxy = IcoFontData(0xea51);
-  static const IconData surfaceTablet = IcoFontData(0xea52);
-  static const IconData uiHeadPhone = IcoFontData(0xea53);
-  static const IconData uiKeyboard = IcoFontData(0xea54);
-  static const IconData washingMachine = IcoFontData(0xea55);
-  static const IconData wifiRouter = IcoFontData(0xea56);
-  static const IconData wiiU = IcoFontData(0xea57);
-  static const IconData windowsLumia = IcoFontData(0xea58);
-  static const IconData wirelessMouse = IcoFontData(0xea59);
-  static const IconData xbox360 = IcoFontData(0xea5a);
-  static const IconData arrowDown = IcoFontData(0xea5b);
-  static const IconData arrowLeft = IcoFontData(0xea5c);
-  static const IconData arrowRight = IcoFontData(0xea5d);
-  static const IconData arrowUp = IcoFontData(0xea5e);
-  static const IconData blockDown = IcoFontData(0xea5f);
-  static const IconData blockLeft = IcoFontData(0xea60);
-  static const IconData blockRight = IcoFontData(0xea61);
-  static const IconData blockUp = IcoFontData(0xea62);
-  static const IconData bubbleDown = IcoFontData(0xea63);
-  static const IconData bubbleLeft = IcoFontData(0xea64);
-  static const IconData bubbleRight = IcoFontData(0xea65);
-  static const IconData bubbleUp = IcoFontData(0xea66);
-  static const IconData caretDown = IcoFontData(0xea67);
-  static const IconData caretLeft = IcoFontData(0xea68);
-  static const IconData caretRight = IcoFontData(0xea69);
-  static const IconData caretUp = IcoFontData(0xea6a);
-  static const IconData circledDown = IcoFontData(0xea6b);
-  static const IconData circledLeft = IcoFontData(0xea6c);
-  static const IconData circledRight = IcoFontData(0xea6d);
-  static const IconData circledUp = IcoFontData(0xea6e);
-  static const IconData collapse = IcoFontData(0xea6f);
-  static const IconData cursorDrag = IcoFontData(0xea70);
-  static const IconData curvedDoubleLeft = IcoFontData(0xea71);
-  static const IconData curvedDoubleRight = IcoFontData(0xea72);
-  static const IconData curvedDown = IcoFontData(0xea73);
-  static const IconData curvedLeft = IcoFontData(0xea74);
-  static const IconData curvedRight = IcoFontData(0xea75);
-  static const IconData curvedUp = IcoFontData(0xea76);
-  static const IconData dottedDown = IcoFontData(0xea77);
-  static const IconData dottedLeft = IcoFontData(0xea78);
-  static const IconData dottedRight = IcoFontData(0xea79);
-  static const IconData dottedUp = IcoFontData(0xea7a);
-  static const IconData doubleLeft = IcoFontData(0xea7b);
-  static const IconData doubleRight = IcoFontData(0xea7c);
-  static const IconData expandAlt = IcoFontData(0xea7d);
-  static const IconData handDown = IcoFontData(0xea7e);
-  static const IconData handDrag = IcoFontData(0xea7f);
-  static const IconData handDrag1 = IcoFontData(0xea80);
-  static const IconData handDrag2 = IcoFontData(0xea81);
-  static const IconData handDrawnAltDown = IcoFontData(0xea82);
-  static const IconData handDrawnAltLeft = IcoFontData(0xea83);
-  static const IconData handDrawnAltRight = IcoFontData(0xea84);
-  static const IconData handDrawnAltUp = IcoFontData(0xea85);
-  static const IconData handDrawnDown = IcoFontData(0xea86);
-  static const IconData handDrawnLeft = IcoFontData(0xea87);
-  static const IconData handDrawnRight = IcoFontData(0xea88);
-  static const IconData handDrawnUp = IcoFontData(0xea89);
-  static const IconData handGrippers = IcoFontData(0xea8a);
-  static const IconData handLeft = IcoFontData(0xea8b);
-  static const IconData handRight = IcoFontData(0xea8c);
-  static const IconData handUp = IcoFontData(0xea8d);
-  static const IconData lineBlockDown = IcoFontData(0xea8e);
-  static const IconData lineBlockLeft = IcoFontData(0xea8f);
-  static const IconData lineBlockRight = IcoFontData(0xea90);
-  static const IconData lineBlockUp = IcoFontData(0xea91);
-  static const IconData longArrowDown = IcoFontData(0xea92);
-  static const IconData longArrowLeft = IcoFontData(0xea93);
-  static const IconData longArrowRight = IcoFontData(0xea94);
-  static const IconData longArrowUp = IcoFontData(0xea95);
-  static const IconData roundedCollapse = IcoFontData(0xea96);
-  static const IconData roundedDoubleLeft = IcoFontData(0xea97);
-  static const IconData roundedDoubleRight = IcoFontData(0xea98);
-  static const IconData roundedDown = IcoFontData(0xea99);
-  static const IconData roundedExpand = IcoFontData(0xea9a);
-  static const IconData roundedLeftDown = IcoFontData(0xea9b);
-  static const IconData roundedLeftUp = IcoFontData(0xea9c);
-  static const IconData roundedLeft = IcoFontData(0xea9d);
-  static const IconData roundedRightDown = IcoFontData(0xea9e);
-  static const IconData roundedRightUp = IcoFontData(0xea9f);
-  static const IconData roundedRight = IcoFontData(0xeaa0);
-  static const IconData roundedUp = IcoFontData(0xeaa1);
-  static const IconData scrollBubbleDown = IcoFontData(0xeaa2);
-  static const IconData scrollBubbleLeft = IcoFontData(0xeaa3);
-  static const IconData scrollBubbleRight = IcoFontData(0xeaa4);
-  static const IconData scrollBubbleUp = IcoFontData(0xeaa5);
-  static const IconData scrollDoubleDown = IcoFontData(0xeaa6);
-  static const IconData scrollDoubleLeft = IcoFontData(0xeaa7);
-  static const IconData scrollDoubleRight = IcoFontData(0xeaa8);
-  static const IconData scrollDoubleUp = IcoFontData(0xeaa9);
-  static const IconData scrollDown = IcoFontData(0xeaaa);
-  static const IconData scrollLeft = IcoFontData(0xeaab);
-  static const IconData scrollLongDown = IcoFontData(0xeaac);
-  static const IconData scrollLongLeft = IcoFontData(0xeaad);
-  static const IconData scrollLongRight = IcoFontData(0xeaae);
-  static const IconData scrollLongUp = IcoFontData(0xeaaf);
-  static const IconData scrollRight = IcoFontData(0xeab0);
-  static const IconData scrollUp = IcoFontData(0xeab1);
-  static const IconData simpleDown = IcoFontData(0xeab2);
-  static const IconData simpleLeftDown = IcoFontData(0xeab3);
-  static const IconData simpleLeftUp = IcoFontData(0xeab4);
-  static const IconData simpleLeft = IcoFontData(0xeab5);
-  static const IconData simpleRightDown = IcoFontData(0xeab6);
-  static const IconData simpleRightUp = IcoFontData(0xeab7);
-  static const IconData simpleRight = IcoFontData(0xeab8);
-  static const IconData simpleUp = IcoFontData(0xeab9);
-  static const IconData squareDown = IcoFontData(0xeaba);
-  static const IconData squareLeft = IcoFontData(0xeabb);
-  static const IconData squareRight = IcoFontData(0xeabc);
-  static const IconData squareUp = IcoFontData(0xeabd);
-  static const IconData stylishDown = IcoFontData(0xeabe);
-  static const IconData stylishLeft = IcoFontData(0xeabf);
-  static const IconData stylishRight = IcoFontData(0xeac0);
-  static const IconData stylishUp = IcoFontData(0xeac1);
-  static const IconData swooshDown = IcoFontData(0xeac2);
-  static const IconData swooshLeft = IcoFontData(0xeac3);
-  static const IconData swooshRight = IcoFontData(0xeac4);
-  static const IconData swooshUp = IcoFontData(0xeac5);
-  static const IconData thinDoubleLeft = IcoFontData(0xeac6);
-  static const IconData thinDoubleRight = IcoFontData(0xeac7);
-  static const IconData thinDown = IcoFontData(0xeac8);
-  static const IconData thinLeft = IcoFontData(0xeac9);
-  static const IconData thinRight = IcoFontData(0xeaca);
-  static const IconData thinUp = IcoFontData(0xeacb);
-  static const IconData abc = IcoFontData(0xeacc);
-  static const IconData atom = IcoFontData(0xeacd);
-  static const IconData award = IcoFontData(0xeace);
-  static const IconData bellAlt = IcoFontData(0xeacf);
-  static const IconData blackBoard = IcoFontData(0xead0);
-  static const IconData bookAlt = IcoFontData(0xead1);
-  static const IconData book = IcoFontData(0xead2);
-  static const IconData brainstorming = IcoFontData(0xead3);
-  static const IconData certificateAlt1 = IcoFontData(0xead4);
-  static const IconData certificateAlt2 = IcoFontData(0xead5);
-  static const IconData certificate = IcoFontData(0xead6);
-  static const IconData education = IcoFontData(0xead7);
-  static const IconData electron = IcoFontData(0xead8);
-  static const IconData fountainPen = IcoFontData(0xead9);
-  static const IconData globeAlt = IcoFontData(0xeada);
-  static const IconData graduateAlt = IcoFontData(0xeadb);
-  static const IconData graduate = IcoFontData(0xeadc);
-  static const IconData groupStudents = IcoFontData(0xeadd);
-  static const IconData hatAlt = IcoFontData(0xeade);
-  static const IconData hat = IcoFontData(0xeadf);
-  static const IconData instrument = IcoFontData(0xeae0);
-  static const IconData lampLight = IcoFontData(0xeae1);
-  static const IconData medal = IcoFontData(0xeae2);
-  static const IconData microscopeAlt = IcoFontData(0xeae3);
-  static const IconData microscope = IcoFontData(0xeae4);
-  static const IconData paper = IcoFontData(0xeae5);
-  static const IconData penAlt4 = IcoFontData(0xeae6);
-  static const IconData penNib = IcoFontData(0xeae7);
-  static const IconData pencilAlt5 = IcoFontData(0xeae8);
-  static const IconData quillPen = IcoFontData(0xeae9);
-  static const IconData readBookAlt = IcoFontData(0xeaea);
-  static const IconData readBook = IcoFontData(0xeaeb);
-  static const IconData schoolBag = IcoFontData(0xeaec);
-  static const IconData schoolBus = IcoFontData(0xeaed);
-  static const IconData studentAlt = IcoFontData(0xeaee);
-  static const IconData student = IcoFontData(0xeaef);
-  static const IconData teacher = IcoFontData(0xeaf0);
-  static const IconData testBulb = IcoFontData(0xeaf1);
-  static const IconData testTubeAlt = IcoFontData(0xeaf2);
-  static const IconData university = IcoFontData(0xeaf3);
-  static const IconData angry = IcoFontData(0xeaf4);
-  static const IconData astonished = IcoFontData(0xeaf5);
-  static const IconData confounded = IcoFontData(0xeaf6);
-  static const IconData confused = IcoFontData(0xeaf7);
-  static const IconData crying = IcoFontData(0xeaf8);
-  static const IconData dizzy = IcoFontData(0xeaf9);
-  static const IconData expressionless = IcoFontData(0xeafa);
-  static const IconData heartEyes = IcoFontData(0xeafb);
-  static const IconData laughing = IcoFontData(0xeafc);
-  static const IconData nerdSmile = IcoFontData(0xeafd);
-  static const IconData openMouth = IcoFontData(0xeafe);
-  static const IconData rage = IcoFontData(0xeaff);
-  static const IconData rollingEyes = IcoFontData(0xeb00);
-  static const IconData sad = IcoFontData(0xeb01);
-  static const IconData simpleSmile = IcoFontData(0xeb02);
-  static const IconData slightlySmile = IcoFontData(0xeb03);
-  static const IconData smirk = IcoFontData(0xeb04);
-  static const IconData stuckOutTongue = IcoFontData(0xeb05);
-  static const IconData winkSmile = IcoFontData(0xeb06);
-  static const IconData worried = IcoFontData(0xeb07);
-  static const IconData fileAlt = IcoFontData(0xeb08);
-  static const IconData fileAudio = IcoFontData(0xeb09);
-  static const IconData fileAviMp4 = IcoFontData(0xeb0a);
-  static const IconData fileBmp = IcoFontData(0xeb0b);
-  static const IconData fileCode = IcoFontData(0xeb0c);
-  static const IconData fileCss = IcoFontData(0xeb0d);
-  static const IconData fileDocument = IcoFontData(0xeb0e);
-  static const IconData fileEps = IcoFontData(0xeb0f);
-  static const IconData fileExcel = IcoFontData(0xeb10);
-  static const IconData fileExe = IcoFontData(0xeb11);
-  static const IconData fileFile = IcoFontData(0xeb12);
-  static const IconData fileFlv = IcoFontData(0xeb13);
-  static const IconData fileGif = IcoFontData(0xeb14);
-  static const IconData fileHtml5 = IcoFontData(0xeb15);
-  static const IconData fileImage = IcoFontData(0xeb16);
-  static const IconData fileIso = IcoFontData(0xeb17);
-  static const IconData fileJava = IcoFontData(0xeb18);
-  static const IconData fileJavascript = IcoFontData(0xeb19);
-  static const IconData fileJpg = IcoFontData(0xeb1a);
-  static const IconData fileMidi = IcoFontData(0xeb1b);
-  static const IconData fileMov = IcoFontData(0xeb1c);
-  static const IconData fileMp3 = IcoFontData(0xeb1d);
-  static const IconData filePdf = IcoFontData(0xeb1e);
-  static const IconData filePhp = IcoFontData(0xeb1f);
-  static const IconData filePng = IcoFontData(0xeb20);
-  static const IconData filePowerpoint = IcoFontData(0xeb21);
-  static const IconData filePresentation = IcoFontData(0xeb22);
-  static const IconData filePsb = IcoFontData(0xeb23);
-  static const IconData filePsd = IcoFontData(0xeb24);
-  static const IconData filePython = IcoFontData(0xeb25);
-  static const IconData fileRuby = IcoFontData(0xeb26);
-  static const IconData fileSpreadsheet = IcoFontData(0xeb27);
-  static const IconData fileSql = IcoFontData(0xeb28);
-  static const IconData fileSvg = IcoFontData(0xeb29);
-  static const IconData fileText = IcoFontData(0xeb2a);
-  static const IconData fileTiff = IcoFontData(0xeb2b);
-  static const IconData fileVideo = IcoFontData(0xeb2c);
-  static const IconData fileWave = IcoFontData(0xeb2d);
-  static const IconData fileWmv = IcoFontData(0xeb2e);
-  static const IconData fileWord = IcoFontData(0xeb2f);
-  static const IconData fileZip = IcoFontData(0xeb30);
-  static const IconData cyclingAlt = IcoFontData(0xeb31);
-  static const IconData cycling = IcoFontData(0xeb32);
-  static const IconData dumbbell = IcoFontData(0xeb33);
-  static const IconData dumbbells = IcoFontData(0xeb34);
-  static const IconData gymAlt1 = IcoFontData(0xeb35);
-  static const IconData gymAlt2 = IcoFontData(0xeb36);
-  static const IconData gymAlt3 = IcoFontData(0xeb37);
-  static const IconData gym = IcoFontData(0xeb38);
-  static const IconData muscleWeight = IcoFontData(0xeb39);
-  static const IconData muscle = IcoFontData(0xeb3a);
-  static const IconData apple = IcoFontData(0xeb3b);
-  static const IconData arabianCoffee = IcoFontData(0xeb3c);
-  static const IconData artichoke = IcoFontData(0xeb3d);
-  static const IconData asparagus = IcoFontData(0xeb3e);
-  static const IconData avocado = IcoFontData(0xeb3f);
-  static const IconData babyFood = IcoFontData(0xeb40);
-  static const IconData banana = IcoFontData(0xeb41);
-  static const IconData bbq = IcoFontData(0xeb42);
-  static const IconData beans = IcoFontData(0xeb43);
-  static const IconData beer = IcoFontData(0xeb44);
-  static const IconData bellPepperCapsicum = IcoFontData(0xeb45);
-  static const IconData birthdayCake = IcoFontData(0xeb46);
-  static const IconData bread = IcoFontData(0xeb47);
-  static const IconData broccoli = IcoFontData(0xeb48);
-  static const IconData burger = IcoFontData(0xeb49);
-  static const IconData cabbage = IcoFontData(0xeb4a);
-  static const IconData carrot = IcoFontData(0xeb4b);
-  static const IconData cauliFlower = IcoFontData(0xeb4c);
-  static const IconData cheese = IcoFontData(0xeb4d);
-  static const IconData chef = IcoFontData(0xeb4e);
-  static const IconData cherry = IcoFontData(0xeb4f);
-  static const IconData chickenFry = IcoFontData(0xeb50);
-  static const IconData chicken = IcoFontData(0xeb51);
-  static const IconData cocktail = IcoFontData(0xeb52);
-  static const IconData coconutWater = IcoFontData(0xeb53);
-  static const IconData coconut = IcoFontData(0xeb54);
-  static const IconData coffeeAlt = IcoFontData(0xeb55);
-  static const IconData coffeeCup = IcoFontData(0xeb56);
-  static const IconData coffeeMug = IcoFontData(0xeb57);
-  static const IconData coffeePot = IcoFontData(0xeb58);
-  static const IconData cola = IcoFontData(0xeb59);
-  static const IconData corn = IcoFontData(0xeb5a);
-  static const IconData croissant = IcoFontData(0xeb5b);
-  static const IconData cropPlant = IcoFontData(0xeb5c);
-  static const IconData cucumber = IcoFontData(0xeb5d);
-  static const IconData culinary = IcoFontData(0xeb5e);
-  static const IconData cupCake = IcoFontData(0xeb5f);
-  static const IconData diningTable = IcoFontData(0xeb60);
-  static const IconData donut = IcoFontData(0xeb61);
-  static const IconData eggPlant = IcoFontData(0xeb62);
-  static const IconData eggPoached = IcoFontData(0xeb63);
-  static const IconData farmerAlt = IcoFontData(0xeb64);
-  static const IconData farmer = IcoFontData(0xeb65);
-  static const IconData fastFood = IcoFontData(0xeb66);
-  static const IconData foodBasket = IcoFontData(0xeb67);
-  static const IconData foodCart = IcoFontData(0xeb68);
-  static const IconData forkAndKnife = IcoFontData(0xeb69);
-  static const IconData frenchFries = IcoFontData(0xeb6a);
-  static const IconData fruits = IcoFontData(0xeb6b);
-  static const IconData grapes = IcoFontData(0xeb6c);
-  static const IconData honey = IcoFontData(0xeb6d);
-  static const IconData hotDog = IcoFontData(0xeb6e);
-  static const IconData iceCreamAlt = IcoFontData(0xeb6f);
-  static const IconData iceCream = IcoFontData(0xeb70);
-  static const IconData juice = IcoFontData(0xeb71);
-  static const IconData ketchup = IcoFontData(0xeb72);
-  static const IconData kiwi = IcoFontData(0xeb73);
-  static const IconData layeredCake = IcoFontData(0xeb74);
-  static const IconData lemonAlt = IcoFontData(0xeb75);
-  static const IconData lemon = IcoFontData(0xeb76);
-  static const IconData lobster = IcoFontData(0xeb77);
-  static const IconData mango = IcoFontData(0xeb78);
-  static const IconData milk = IcoFontData(0xeb79);
-  static const IconData mushroom = IcoFontData(0xeb7a);
-  static const IconData noodles = IcoFontData(0xeb7b);
-  static const IconData onion = IcoFontData(0xeb7c);
-  static const IconData orange = IcoFontData(0xeb7d);
-  static const IconData pear = IcoFontData(0xeb7e);
-  static const IconData peas = IcoFontData(0xeb7f);
-  static const IconData pepper = IcoFontData(0xeb80);
-  static const IconData pieAlt = IcoFontData(0xeb81);
-  static const IconData pie = IcoFontData(0xeb82);
-  static const IconData pineapple = IcoFontData(0xeb83);
-  static const IconData pizzaSlice = IcoFontData(0xeb84);
-  static const IconData pizza = IcoFontData(0xeb85);
-  static const IconData plant = IcoFontData(0xeb86);
-  static const IconData popcorn = IcoFontData(0xeb87);
-  static const IconData potato = IcoFontData(0xeb88);
-  static const IconData pumpkin = IcoFontData(0xeb89);
-  static const IconData raddish = IcoFontData(0xeb8a);
-  static const IconData restaurantMenu = IcoFontData(0xeb8b);
-  static const IconData restaurant = IcoFontData(0xeb8c);
-  static const IconData saltAndPepper = IcoFontData(0xeb8d);
-  static const IconData sandwich = IcoFontData(0xeb8e);
-  static const IconData sausage = IcoFontData(0xeb8f);
-  static const IconData softDrinks = IcoFontData(0xeb90);
-  static const IconData soupBowl = IcoFontData(0xeb91);
-  static const IconData spoonAndFork = IcoFontData(0xeb92);
-  static const IconData steak = IcoFontData(0xeb93);
-  static const IconData strawberry = IcoFontData(0xeb94);
-  static const IconData subSandwich = IcoFontData(0xeb95);
-  static const IconData sushi = IcoFontData(0xeb96);
-  static const IconData taco = IcoFontData(0xeb97);
-  static const IconData teaPot = IcoFontData(0xeb98);
-  static const IconData tea = IcoFontData(0xeb99);
-  static const IconData tomato = IcoFontData(0xeb9a);
-  static const IconData watermelon = IcoFontData(0xeb9b);
-  static const IconData wheat = IcoFontData(0xeb9c);
-  static const IconData babyBackpack = IcoFontData(0xeb9d);
-  static const IconData babyCloth = IcoFontData(0xeb9e);
-  static const IconData babyMilkBottle = IcoFontData(0xeb9f);
-  static const IconData babyTrolley = IcoFontData(0xeba0);
-  static const IconData baby = IcoFontData(0xeba1);
-  static const IconData candy = IcoFontData(0xeba2);
-  static const IconData holdingHands = IcoFontData(0xeba3);
-  static const IconData infantNipple = IcoFontData(0xeba4);
-  static const IconData kidsScooter = IcoFontData(0xeba5);
-  static const IconData safetyPin = IcoFontData(0xeba6);
-  static const IconData teddyBear = IcoFontData(0xeba7);
-  static const IconData toyBall = IcoFontData(0xeba8);
-  static const IconData toyCat = IcoFontData(0xeba9);
-  static const IconData toyDuck = IcoFontData(0xebaa);
-  static const IconData toyElephant = IcoFontData(0xebab);
-  static const IconData toyHand = IcoFontData(0xebac);
-  static const IconData toyHorse = IcoFontData(0xebad);
-  static const IconData toyLattu = IcoFontData(0xebae);
-  static const IconData toyTrain = IcoFontData(0xebaf);
-  static const IconData burglar = IcoFontData(0xebb0);
-  static const IconData cannonFiring = IcoFontData(0xebb1);
-  static const IconData ccCamera = IcoFontData(0xebb2);
-  static const IconData copBadge = IcoFontData(0xebb3);
-  static const IconData cop = IcoFontData(0xebb4);
-  static const IconData courtHammer = IcoFontData(0xebb5);
-  static const IconData court = IcoFontData(0xebb6);
-  static const IconData fingerPrint = IcoFontData(0xebb7);
-  static const IconData gavel = IcoFontData(0xebb8);
-  static const IconData handcuffAlt = IcoFontData(0xebb9);
-  static const IconData handcuff = IcoFontData(0xebba);
-  static const IconData investigation = IcoFontData(0xebbb);
-  static const IconData investigator = IcoFontData(0xebbc);
-  static const IconData jail = IcoFontData(0xebbd);
-  static const IconData judge = IcoFontData(0xebbe);
-  static const IconData lawAlt1 = IcoFontData(0xebbf);
-  static const IconData lawAlt2 = IcoFontData(0xebc0);
-  static const IconData lawAlt3 = IcoFontData(0xebc1);
-  static const IconData lawBook = IcoFontData(0xebc2);
-  static const IconData lawDocument = IcoFontData(0xebc3);
-  static const IconData lawOrder = IcoFontData(0xebc4);
-  static const IconData lawProtect = IcoFontData(0xebc5);
-  static const IconData lawScales = IcoFontData(0xebc6);
-  static const IconData law = IcoFontData(0xebc7);
-  static const IconData lawyerAlt1 = IcoFontData(0xebc8);
-  static const IconData lawyerAlt2 = IcoFontData(0xebc9);
-  static const IconData lawyer = IcoFontData(0xebca);
-  static const IconData legal = IcoFontData(0xebcb);
-  static const IconData pistol = IcoFontData(0xebcc);
-  static const IconData policeBadge = IcoFontData(0xebcd);
-  static const IconData policeCap = IcoFontData(0xebce);
-  static const IconData policeCarAlt1 = IcoFontData(0xebcf);
-  static const IconData policeCarAlt2 = IcoFontData(0xebd0);
-  static const IconData policeCar = IcoFontData(0xebd1);
-  static const IconData policeHat = IcoFontData(0xebd2);
-  static const IconData policeVan = IcoFontData(0xebd3);
-  static const IconData police = IcoFontData(0xebd4);
-  static const IconData thiefAlt = IcoFontData(0xebd5);
-  static const IconData thief = IcoFontData(0xebd6);
-  static const IconData abacusAlt = IcoFontData(0xebd7);
-  static const IconData abacus = IcoFontData(0xebd8);
-  static const IconData angle180 = IcoFontData(0xebd9);
-  static const IconData angle45 = IcoFontData(0xebda);
-  static const IconData angle90 = IcoFontData(0xebdb);
-  static const IconData angle = IcoFontData(0xebdc);
-  static const IconData calculatorAlt1 = IcoFontData(0xebdd);
-  static const IconData calculatorAlt2 = IcoFontData(0xebde);
-  static const IconData calculator = IcoFontData(0xebdf);
-  static const IconData circleRulerAlt = IcoFontData(0xebe0);
-  static const IconData circleRuler = IcoFontData(0xebe1);
-  static const IconData compassAlt1 = IcoFontData(0xebe2);
-  static const IconData compassAlt2 = IcoFontData(0xebe3);
-  static const IconData compassAlt3 = IcoFontData(0xebe4);
-  static const IconData compassAlt4 = IcoFontData(0xebe5);
-  static const IconData goldenRatio = IcoFontData(0xebe6);
-  static const IconData markerAlt1 = IcoFontData(0xebe7);
-  static const IconData markerAlt2 = IcoFontData(0xebe8);
-  static const IconData markerAlt3 = IcoFontData(0xebe9);
-  static const IconData marker = IcoFontData(0xebea);
-  static const IconData math = IcoFontData(0xebeb);
-  static const IconData mathematicalAlt1 = IcoFontData(0xebec);
-  static const IconData mathematicalAlt2 = IcoFontData(0xebed);
-  static const IconData mathematical = IcoFontData(0xebee);
-  static const IconData penAlt1 = IcoFontData(0xebef);
-  static const IconData penAlt2 = IcoFontData(0xebf0);
-  static const IconData penAlt3 = IcoFontData(0xebf1);
-  static const IconData penHolderAlt1 = IcoFontData(0xebf2);
-  static const IconData penHolder = IcoFontData(0xebf3);
-  static const IconData pen = IcoFontData(0xebf4);
-  static const IconData pencilAlt1 = IcoFontData(0xebf5);
-  static const IconData pencilAlt2 = IcoFontData(0xebf6);
-  static const IconData pencilAlt3 = IcoFontData(0xebf7);
-  static const IconData pencilAlt4 = IcoFontData(0xebf8);
-  static const IconData pencil = IcoFontData(0xebf9);
-  static const IconData rulerAlt1 = IcoFontData(0xebfa);
-  static const IconData rulerAlt2 = IcoFontData(0xebfb);
-  static const IconData rulerCompassAlt = IcoFontData(0xebfc);
-  static const IconData rulerCompass = IcoFontData(0xebfd);
-  static const IconData rulerPencilAlt1 = IcoFontData(0xebfe);
-  static const IconData rulerPencilAlt2 = IcoFontData(0xebff);
-  static const IconData rulerPencil = IcoFontData(0xec00);
-  static const IconData ruler = IcoFontData(0xec01);
-  static const IconData rulersAlt = IcoFontData(0xec02);
-  static const IconData rulers = IcoFontData(0xec03);
-  static const IconData squareRoot = IcoFontData(0xec04);
-  static const IconData uiCalculator = IcoFontData(0xec05);
-  static const IconData aids = IcoFontData(0xec06);
-  static const IconData ambulanceCrescent = IcoFontData(0xec07);
-  static const IconData ambulanceCross = IcoFontData(0xec08);
-  static const IconData ambulance = IcoFontData(0xec09);
-  static const IconData autism = IcoFontData(0xec0a);
-  static const IconData bandage = IcoFontData(0xec0b);
-  static const IconData blind = IcoFontData(0xec0c);
-  static const IconData bloodDrop = IcoFontData(0xec0d);
-  static const IconData bloodTest = IcoFontData(0xec0e);
-  static const IconData blood = IcoFontData(0xec0f);
-  static const IconData brainAlt = IcoFontData(0xec10);
-  static const IconData brain = IcoFontData(0xec11);
-  static const IconData capsule = IcoFontData(0xec12);
-  static const IconData crutch = IcoFontData(0xec13);
-  static const IconData disabled = IcoFontData(0xec14);
-  static const IconData dnaAlt1 = IcoFontData(0xec15);
-  static const IconData dnaAlt2 = IcoFontData(0xec16);
-  static const IconData dna = IcoFontData(0xec17);
-  static const IconData doctorAlt = IcoFontData(0xec18);
-  static const IconData doctor = IcoFontData(0xec19);
-  static const IconData drugPack = IcoFontData(0xec1a);
-  static const IconData drug = IcoFontData(0xec1b);
-  static const IconData firstAidAlt = IcoFontData(0xec1c);
-  static const IconData firstAid = IcoFontData(0xec1d);
-  static const IconData heartBeatAlt = IcoFontData(0xec1e);
-  static const IconData heartBeat = IcoFontData(0xec1f);
-  static const IconData heartbeat = IcoFontData(0xec20);
-  static const IconData herbal = IcoFontData(0xec21);
-  static const IconData hospital = IcoFontData(0xec22);
-  static const IconData icu = IcoFontData(0xec23);
-  static const IconData injectionSyringe = IcoFontData(0xec24);
-  static const IconData laboratory = IcoFontData(0xec25);
-  static const IconData medicalSignAlt = IcoFontData(0xec26);
-  static const IconData medicalSign = IcoFontData(0xec27);
-  static const IconData nurseAlt = IcoFontData(0xec28);
-  static const IconData nurse = IcoFontData(0xec29);
-  static const IconData nursingHome = IcoFontData(0xec2a);
-  static const IconData operationTheater = IcoFontData(0xec2b);
-  static const IconData paralysisDisability = IcoFontData(0xec2c);
-  static const IconData patientBed = IcoFontData(0xec2d);
-  static const IconData patientFile = IcoFontData(0xec2e);
-  static const IconData pills = IcoFontData(0xec2f);
-  static const IconData prescription = IcoFontData(0xec30);
-  static const IconData pulse = IcoFontData(0xec31);
-  static const IconData stethoscopeAlt = IcoFontData(0xec32);
-  static const IconData stethoscope = IcoFontData(0xec33);
-  static const IconData stretcher = IcoFontData(0xec34);
-  static const IconData surgeonAlt = IcoFontData(0xec35);
-  static const IconData surgeon = IcoFontData(0xec36);
-  static const IconData tablets = IcoFontData(0xec37);
-  static const IconData testBottle = IcoFontData(0xec38);
-  static const IconData testTube = IcoFontData(0xec39);
-  static const IconData thermometerAlt = IcoFontData(0xec3a);
-  static const IconData thermometer = IcoFontData(0xec3b);
-  static const IconData tooth = IcoFontData(0xec3c);
-  static const IconData xray = IcoFontData(0xec3d);
-  static const IconData uiAdd = IcoFontData(0xec3e);
-  static const IconData uiAlarm = IcoFontData(0xec3f);
-  static const IconData uiBattery = IcoFontData(0xec40);
-  static const IconData uiBlock = IcoFontData(0xec41);
-  static const IconData uiBluetooth = IcoFontData(0xec42);
-  static const IconData uiBrightness = IcoFontData(0xec43);
-  static const IconData uiBrowser = IcoFontData(0xec44);
-  static const IconData uiCalendar = IcoFontData(0xec45);
-  static const IconData uiCall = IcoFontData(0xec46);
-  static const IconData uiCamera = IcoFontData(0xec47);
-  static const IconData uiCart = IcoFontData(0xec48);
-  static const IconData uiCellPhone = IcoFontData(0xec49);
-  static const IconData uiChat = IcoFontData(0xec4a);
-  static const IconData uiCheck = IcoFontData(0xec4b);
-  static const IconData uiClipBoard = IcoFontData(0xec4c);
-  static const IconData uiClip = IcoFontData(0xec4d);
-  static const IconData uiClock = IcoFontData(0xec4e);
-  static const IconData uiClose = IcoFontData(0xec4f);
-  static const IconData uiContactList = IcoFontData(0xec50);
-  static const IconData uiCopy = IcoFontData(0xec51);
-  static const IconData uiCut = IcoFontData(0xec52);
-  static const IconData uiDelete = IcoFontData(0xec53);
-  static const IconData uiDialPhone = IcoFontData(0xec54);
-  static const IconData uiEdit = IcoFontData(0xec55);
-  static const IconData uiEmail = IcoFontData(0xec56);
-  static const IconData uiFile = IcoFontData(0xec57);
-  static const IconData uiFireWall = IcoFontData(0xec58);
-  static const IconData uiFlashLight = IcoFontData(0xec59);
-  static const IconData uiFlight = IcoFontData(0xec5a);
-  static const IconData uiFolder = IcoFontData(0xec5b);
-  static const IconData uiGame = IcoFontData(0xec5c);
-  static const IconData uiHandicapped = IcoFontData(0xec5d);
-  static const IconData uiHome = IcoFontData(0xec5e);
-  static const IconData uiImage = IcoFontData(0xec5f);
-  static const IconData uiLaoding = IcoFontData(0xec60);
-  static const IconData uiLock = IcoFontData(0xec61);
-  static const IconData uiLoveAdd = IcoFontData(0xec62);
-  static const IconData uiLoveBroken = IcoFontData(0xec63);
-  static const IconData uiLoveRemove = IcoFontData(0xec64);
-  static const IconData uiLove = IcoFontData(0xec65);
-  static const IconData uiMap = IcoFontData(0xec66);
-  static const IconData uiMessage = IcoFontData(0xec67);
-  static const IconData uiMessaging = IcoFontData(0xec68);
-  static const IconData uiMovie = IcoFontData(0xec69);
-  static const IconData uiMusicPlayer = IcoFontData(0xec6a);
-  static const IconData uiMusic = IcoFontData(0xec6b);
-  static const IconData uiMute = IcoFontData(0xec6c);
-  static const IconData uiNetwork = IcoFontData(0xec6d);
-  static const IconData uiNext = IcoFontData(0xec6e);
-  static const IconData uiNote = IcoFontData(0xec6f);
-  static const IconData uiOffice = IcoFontData(0xec70);
-  static const IconData uiPassword = IcoFontData(0xec71);
-  static const IconData uiPause = IcoFontData(0xec72);
-  static const IconData uiPlayStop = IcoFontData(0xec73);
-  static const IconData uiPlay = IcoFontData(0xec74);
-  static const IconData uiPointer = IcoFontData(0xec75);
-  static const IconData uiPower = IcoFontData(0xec76);
-  static const IconData uiPress = IcoFontData(0xec77);
-  static const IconData uiPrevious = IcoFontData(0xec78);
-  static const IconData uiRateAdd = IcoFontData(0xec79);
-  static const IconData uiRateBlank = IcoFontData(0xec7a);
-  static const IconData uiRateRemove = IcoFontData(0xec7b);
-  static const IconData uiRating = IcoFontData(0xec7c);
-  static const IconData uiRecord = IcoFontData(0xec7d);
-  static const IconData uiRemove = IcoFontData(0xec7e);
-  static const IconData uiReply = IcoFontData(0xec7f);
-  static const IconData uiRotation = IcoFontData(0xec80);
-  static const IconData uiRss = IcoFontData(0xec81);
-  static const IconData uiSearch = IcoFontData(0xec82);
-  static const IconData uiSettings = IcoFontData(0xec83);
-  static const IconData uiSocialLink = IcoFontData(0xec84);
-  static const IconData uiTag = IcoFontData(0xec85);
-  static const IconData uiTextChat = IcoFontData(0xec86);
-  static const IconData uiTextLoading = IcoFontData(0xec87);
-  static const IconData uiTheme = IcoFontData(0xec88);
-  static const IconData uiTimer = IcoFontData(0xec89);
-  static const IconData uiTouchPhone = IcoFontData(0xec8a);
-  static const IconData uiTravel = IcoFontData(0xec8b);
-  static const IconData uiUnlock = IcoFontData(0xec8c);
-  static const IconData uiUserGroup = IcoFontData(0xec8d);
-  static const IconData uiUser = IcoFontData(0xec8e);
-  static const IconData uiVCard = IcoFontData(0xec8f);
-  static const IconData uiVideoChat = IcoFontData(0xec90);
-  static const IconData uiVideoMessage = IcoFontData(0xec91);
-  static const IconData uiVideoPlay = IcoFontData(0xec92);
-  static const IconData uiVideo = IcoFontData(0xec93);
-  static const IconData uiVolume = IcoFontData(0xec94);
-  static const IconData uiWeather = IcoFontData(0xec95);
-  static const IconData uiWifi = IcoFontData(0xec96);
-  static const IconData uiZoomIn = IcoFontData(0xec97);
-  static const IconData uiZoomOut = IcoFontData(0xec98);
-  static const IconData cassettePlayer = IcoFontData(0xec99);
-  static const IconData cassette = IcoFontData(0xec9a);
-  static const IconData forward = IcoFontData(0xec9b);
-  static const IconData guiter = IcoFontData(0xec9c);
-  static const IconData movie = IcoFontData(0xec9d);
-  static const IconData multimedia = IcoFontData(0xec9e);
-  static const IconData musicAlt = IcoFontData(0xec9f);
-  static const IconData musicDisk = IcoFontData(0xeca0);
-  static const IconData musicNote = IcoFontData(0xeca1);
-  static const IconData musicNotes = IcoFontData(0xeca2);
-  static const IconData music = IcoFontData(0xeca3);
-  static const IconData muteVolume = IcoFontData(0xeca4);
-  static const IconData pause = IcoFontData(0xeca5);
-  static const IconData playAlt1 = IcoFontData(0xeca6);
-  static const IconData playAlt2 = IcoFontData(0xeca7);
-  static const IconData playAlt3 = IcoFontData(0xeca8);
-  static const IconData playPause = IcoFontData(0xeca9);
-  static const IconData play = IcoFontData(0xecaa);
-  static const IconData record = IcoFontData(0xecab);
-  static const IconData retroMusicDisk = IcoFontData(0xecac);
-  static const IconData rewind = IcoFontData(0xecad);
-  static const IconData songNotes = IcoFontData(0xecae);
-  static const IconData soundWaveAlt = IcoFontData(0xecaf);
-  static const IconData soundWave = IcoFontData(0xecb0);
-  static const IconData stop = IcoFontData(0xecb1);
-  static const IconData videoAlt = IcoFontData(0xecb2);
-  static const IconData videoCam = IcoFontData(0xecb3);
-  static const IconData videoClapper = IcoFontData(0xecb4);
-  static const IconData video = IcoFontData(0xecb5);
-  static const IconData volumeBar = IcoFontData(0xecb6);
-  static const IconData volumeDown = IcoFontData(0xecb7);
-  static const IconData volumeMute = IcoFontData(0xecb8);
-  static const IconData volumeOff = IcoFontData(0xecb9);
-  static const IconData volumeUp = IcoFontData(0xecba);
-  static const IconData youtubePlay = IcoFontData(0xecbb);
-  static const IconData twoCheckoutAlt = IcoFontData(0xecbc);
-  static const IconData twoCheckout = IcoFontData(0xecbd);
-  static const IconData amazonAlt = IcoFontData(0xecbe);
-  static const IconData amazon = IcoFontData(0xecbf);
-  static const IconData americanExpressAlt = IcoFontData(0xecc0);
-  static const IconData americanExpress = IcoFontData(0xecc1);
-  static const IconData applePayAlt = IcoFontData(0xecc2);
-  static const IconData applePay = IcoFontData(0xecc3);
-  static const IconData bankTransferAlt = IcoFontData(0xecc4);
-  static const IconData bankTransfer = IcoFontData(0xecc5);
-  static const IconData braintreeAlt = IcoFontData(0xecc6);
-  static const IconData braintree = IcoFontData(0xecc7);
-  static const IconData cashOnDeliveryAlt = IcoFontData(0xecc8);
-  static const IconData cashOnDelivery = IcoFontData(0xecc9);
-  static const IconData dinersClubAlt1 = IcoFontData(0xecca);
-  static const IconData dinersClubAlt2 = IcoFontData(0xeccb);
-  static const IconData dinersClubAlt3 = IcoFontData(0xeccc);
-  static const IconData dinersClub = IcoFontData(0xeccd);
-  static const IconData discoverAlt = IcoFontData(0xecce);
-  static const IconData discover = IcoFontData(0xeccf);
-  static const IconData ewayAlt = IcoFontData(0xecd0);
-  static const IconData eway = IcoFontData(0xecd1);
-  static const IconData googleWalletAlt1 = IcoFontData(0xecd2);
-  static const IconData googleWalletAlt2 = IcoFontData(0xecd3);
-  static const IconData googleWalletAlt3 = IcoFontData(0xecd4);
-  static const IconData googleWallet = IcoFontData(0xecd5);
-  static const IconData jcbAlt = IcoFontData(0xecd6);
-  static const IconData jcb = IcoFontData(0xecd7);
-  static const IconData maestroAlt = IcoFontData(0xecd8);
-  static const IconData maestro = IcoFontData(0xecd9);
-  static const IconData mastercardAlt = IcoFontData(0xecda);
-  static const IconData mastercard = IcoFontData(0xecdb);
-  static const IconData payoneerAlt = IcoFontData(0xecdc);
-  static const IconData payoneer = IcoFontData(0xecdd);
-  static const IconData paypalAlt = IcoFontData(0xecde);
-  static const IconData paypal = IcoFontData(0xecdf);
-  static const IconData sageAlt = IcoFontData(0xece0);
-  static const IconData sage = IcoFontData(0xece1);
-  static const IconData skrillAlt = IcoFontData(0xece2);
-  static const IconData skrill = IcoFontData(0xece3);
-  static const IconData stripeAlt = IcoFontData(0xece4);
-  static const IconData stripe = IcoFontData(0xece5);
-  static const IconData visaAlt = IcoFontData(0xece6);
-  static const IconData visaElectron = IcoFontData(0xece7);
-  static const IconData visa = IcoFontData(0xece8);
-  static const IconData westernUnionAlt = IcoFontData(0xece9);
-  static const IconData westernUnion = IcoFontData(0xecea);
-  static const IconData boy = IcoFontData(0xeceb);
-  static const IconData businessManAlt1 = IcoFontData(0xecec);
-  static const IconData businessManAlt2 = IcoFontData(0xeced);
-  static const IconData businessManAlt3 = IcoFontData(0xecee);
-  static const IconData businessMan = IcoFontData(0xecef);
-  static const IconData female = IcoFontData(0xecf0);
-  static const IconData funkyMan = IcoFontData(0xecf1);
-  static const IconData girlAlt = IcoFontData(0xecf2);
-  static const IconData girl = IcoFontData(0xecf3);
-  static const IconData group = IcoFontData(0xecf4);
-  static const IconData hotelBoyAlt = IcoFontData(0xecf5);
-  static const IconData hotelBoy = IcoFontData(0xecf6);
-  static const IconData kid = IcoFontData(0xecf7);
-  static const IconData manInGlasses = IcoFontData(0xecf8);
-  static const IconData people = IcoFontData(0xecf9);
-  static const IconData support = IcoFontData(0xecfa);
-  static const IconData userAlt1 = IcoFontData(0xecfb);
-  static const IconData userAlt2 = IcoFontData(0xecfc);
-  static const IconData userAlt3 = IcoFontData(0xecfd);
-  static const IconData userAlt4 = IcoFontData(0xecfe);
-  static const IconData userAlt5 = IcoFontData(0xecff);
-  static const IconData userAlt6 = IcoFontData(0xed00);
-  static const IconData userAlt7 = IcoFontData(0xed01);
-  static const IconData userFemale = IcoFontData(0xed02);
-  static const IconData userMale = IcoFontData(0xed03);
-  static const IconData userSuited = IcoFontData(0xed04);
-  static const IconData user = IcoFontData(0xed05);
-  static const IconData usersAlt1 = IcoFontData(0xed06);
-  static const IconData usersAlt2 = IcoFontData(0xed07);
-  static const IconData usersAlt3 = IcoFontData(0xed08);
-  static const IconData usersAlt4 = IcoFontData(0xed09);
-  static const IconData usersAlt5 = IcoFontData(0xed0a);
-  static const IconData usersAlt6 = IcoFontData(0xed0b);
-  static const IconData usersSocial = IcoFontData(0xed0c);
-  static const IconData users = IcoFontData(0xed0d);
-  static const IconData waiterAlt = IcoFontData(0xed0e);
-  static const IconData waiter = IcoFontData(0xed0f);
-  static const IconData womanInGlasses = IcoFontData(0xed10);
-  static const IconData search1 = IcoFontData(0xed11);
-  static const IconData search2 = IcoFontData(0xed12);
-  static const IconData searchDocument = IcoFontData(0xed13);
-  static const IconData searchFolder = IcoFontData(0xed14);
-  static const IconData searchJob = IcoFontData(0xed15);
-  static const IconData searchMap = IcoFontData(0xed16);
-  static const IconData searchProperty = IcoFontData(0xed17);
-  static const IconData searchRestaurant = IcoFontData(0xed18);
-  static const IconData searchStock = IcoFontData(0xed19);
-  static const IconData searchUser = IcoFontData(0xed1a);
-  static const IconData search = IcoFontData(0xed1b);
-  static const IconData fiveHundredpx = IcoFontData(0xed1c);
-  static const IconData aim = IcoFontData(0xed1d);
-  static const IconData badoo = IcoFontData(0xed1e);
-  static const IconData baiduTieba = IcoFontData(0xed1f);
-  static const IconData bbmMessenger = IcoFontData(0xed20);
-  static const IconData bebo = IcoFontData(0xed21);
-  static const IconData behance = IcoFontData(0xed22);
-  static const IconData blogger = IcoFontData(0xed23);
-  static const IconData bootstrap = IcoFontData(0xed24);
-  static const IconData brightkite = IcoFontData(0xed25);
-  static const IconData cloudapp = IcoFontData(0xed26);
-  static const IconData concrete5 = IcoFontData(0xed27);
-  static const IconData delicious = IcoFontData(0xed28);
-  static const IconData designbump = IcoFontData(0xed29);
-  static const IconData designfloat = IcoFontData(0xed2a);
-  static const IconData deviantart = IcoFontData(0xed2b);
-  static const IconData digg = IcoFontData(0xed2c);
-  static const IconData dotcms = IcoFontData(0xed2d);
-  static const IconData dribbble = IcoFontData(0xed2e);
-  static const IconData dribble = IcoFontData(0xed2f);
-  static const IconData dropbox = IcoFontData(0xed30);
-  static const IconData ebuddy = IcoFontData(0xed31);
-  static const IconData ello = IcoFontData(0xed32);
-  static const IconData ember = IcoFontData(0xed33);
-  static const IconData envato = IcoFontData(0xed34);
-  static const IconData evernote = IcoFontData(0xed35);
-  static const IconData facebookMessenger = IcoFontData(0xed36);
-  static const IconData facebook = IcoFontData(0xed37);
-  static const IconData feedburner = IcoFontData(0xed38);
-  static const IconData flikr = IcoFontData(0xed39);
-  static const IconData folkd = IcoFontData(0xed3a);
-  static const IconData foursquare = IcoFontData(0xed3b);
-  static const IconData friendfeed = IcoFontData(0xed3c);
-  static const IconData ghost = IcoFontData(0xed3d);
-  static const IconData github = IcoFontData(0xed3e);
-  static const IconData gnome = IcoFontData(0xed3f);
-  static const IconData googleBuzz = IcoFontData(0xed40);
-  static const IconData googleHangouts = IcoFontData(0xed41);
-  static const IconData googleMap = IcoFontData(0xed42);
-  static const IconData googlePlus = IcoFontData(0xed43);
-  static const IconData googleTalk = IcoFontData(0xed44);
-  static const IconData hypeMachine = IcoFontData(0xed45);
-  static const IconData instagram = IcoFontData(0xed46);
-  static const IconData kakaotalk = IcoFontData(0xed47);
-  static const IconData kickstarter = IcoFontData(0xed48);
-  static const IconData kik = IcoFontData(0xed49);
-  static const IconData kiwibox = IcoFontData(0xed4a);
-  static const IconData lineMessenger = IcoFontData(0xed4b);
-  static const IconData line = IcoFontData(0xed4c);
-  static const IconData linkedin = IcoFontData(0xed4d);
-  static const IconData linuxMint = IcoFontData(0xed4e);
-  static const IconData liveMessenger = IcoFontData(0xed4f);
-  static const IconData livejournal = IcoFontData(0xed50);
-  static const IconData magento = IcoFontData(0xed51);
-  static const IconData meetme = IcoFontData(0xed52);
-  static const IconData meetup = IcoFontData(0xed53);
-  static const IconData mixx = IcoFontData(0xed54);
-  static const IconData newsvine = IcoFontData(0xed55);
-  static const IconData nimbuss = IcoFontData(0xed56);
-  static const IconData odnoklassniki = IcoFontData(0xed57);
-  static const IconData opencart = IcoFontData(0xed58);
-  static const IconData oscommerce = IcoFontData(0xed59);
-  static const IconData pandora = IcoFontData(0xed5a);
-  static const IconData photobucket = IcoFontData(0xed5b);
-  static const IconData picasa = IcoFontData(0xed5c);
-  static const IconData pinterest = IcoFontData(0xed5d);
-  static const IconData prestashop = IcoFontData(0xed5e);
-  static const IconData qik = IcoFontData(0xed5f);
-  static const IconData qq = IcoFontData(0xed60);
-  static const IconData readernaut = IcoFontData(0xed61);
-  static const IconData reddit = IcoFontData(0xed62);
-  static const IconData renren = IcoFontData(0xed63);
-  static const IconData rss = IcoFontData(0xed64);
-  static const IconData shopify = IcoFontData(0xed65);
-  static const IconData silverstripe = IcoFontData(0xed66);
-  static const IconData skype = IcoFontData(0xed67);
-  static const IconData slack = IcoFontData(0xed68);
-  static const IconData slashdot = IcoFontData(0xed69);
-  static const IconData slidshare = IcoFontData(0xed6a);
-  static const IconData smugmug = IcoFontData(0xed6b);
-  static const IconData snapchat = IcoFontData(0xed6c);
-  static const IconData soundcloud = IcoFontData(0xed6d);
-  static const IconData spotify = IcoFontData(0xed6e);
-  static const IconData stackExchange = IcoFontData(0xed6f);
-  static const IconData stackOverflow = IcoFontData(0xed70);
-  static const IconData steam = IcoFontData(0xed71);
-  static const IconData stumbleupon = IcoFontData(0xed72);
-  static const IconData tagged = IcoFontData(0xed73);
-  static const IconData technorati = IcoFontData(0xed74);
-  static const IconData telegram = IcoFontData(0xed75);
-  static const IconData tinder = IcoFontData(0xed76);
-  static const IconData trello = IcoFontData(0xed77);
-  static const IconData tumblr = IcoFontData(0xed78);
-  static const IconData twitch = IcoFontData(0xed79);
-  static const IconData twitter = IcoFontData(0xed7a);
-  static const IconData typo3 = IcoFontData(0xed7b);
-  static const IconData ubercart = IcoFontData(0xed7c);
-  static const IconData viber = IcoFontData(0xed7d);
-  static const IconData viddler = IcoFontData(0xed7e);
-  static const IconData vimeo = IcoFontData(0xed7f);
-  static const IconData vine = IcoFontData(0xed80);
-  static const IconData virb = IcoFontData(0xed81);
-  static const IconData virtuemart = IcoFontData(0xed82);
-  static const IconData vk = IcoFontData(0xed83);
-  static const IconData wechat = IcoFontData(0xed84);
-  static const IconData weibo = IcoFontData(0xed85);
-  static const IconData whatsapp = IcoFontData(0xed86);
-  static const IconData xing = IcoFontData(0xed87);
-  static const IconData yahoo = IcoFontData(0xed88);
-  static const IconData yelp = IcoFontData(0xed89);
-  static const IconData youku = IcoFontData(0xed8a);
-  static const IconData youtube = IcoFontData(0xed8b);
-  static const IconData zencart = IcoFontData(0xed8c);
-  static const IconData badmintonBirdie = IcoFontData(0xed8d);
-  static const IconData baseball = IcoFontData(0xed8e);
-  static const IconData baseballer = IcoFontData(0xed8f);
-  static const IconData basketballHoop = IcoFontData(0xed90);
-  static const IconData basketball = IcoFontData(0xed91);
-  static const IconData billiardBall = IcoFontData(0xed92);
-  static const IconData bootAlt1 = IcoFontData(0xed93);
-  static const IconData bootAlt2 = IcoFontData(0xed94);
-  static const IconData boot = IcoFontData(0xed95);
-  static const IconData bowlingAlt = IcoFontData(0xed96);
-  static const IconData bowling = IcoFontData(0xed97);
-  static const IconData canoe = IcoFontData(0xed98);
-  static const IconData cheerLeader = IcoFontData(0xed99);
-  static const IconData climbing = IcoFontData(0xed9a);
-  static const IconData corner = IcoFontData(0xed9b);
-  static const IconData fieldAlt = IcoFontData(0xed9c);
-  static const IconData field = IcoFontData(0xed9d);
-  static const IconData footballAlt = IcoFontData(0xed9e);
-  static const IconData footballAmerican = IcoFontData(0xed9f);
-  static const IconData football = IcoFontData(0xeda0);
-  static const IconData foul = IcoFontData(0xeda1);
-  static const IconData goalKeeper = IcoFontData(0xeda2);
-  static const IconData goal = IcoFontData(0xeda3);
-  static const IconData golfAlt = IcoFontData(0xeda4);
-  static const IconData golfBag = IcoFontData(0xeda5);
-  static const IconData golfCart = IcoFontData(0xeda6);
-  static const IconData golfField = IcoFontData(0xeda7);
-  static const IconData golf = IcoFontData(0xeda8);
-  static const IconData golfer = IcoFontData(0xeda9);
-  static const IconData helmet = IcoFontData(0xedaa);
-  static const IconData hockeyAlt = IcoFontData(0xedab);
-  static const IconData hockey = IcoFontData(0xedac);
-  static const IconData iceSkate = IcoFontData(0xedad);
-  static const IconData jerseyAlt = IcoFontData(0xedae);
-  static const IconData jersey = IcoFontData(0xedaf);
-  static const IconData jumping = IcoFontData(0xedb0);
-  static const IconData kick = IcoFontData(0xedb1);
-  static const IconData leg = IcoFontData(0xedb2);
-  static const IconData matchReview = IcoFontData(0xedb3);
-  static const IconData medalSport = IcoFontData(0xedb4);
-  static const IconData offside = IcoFontData(0xedb5);
-  static const IconData olympicLogo = IcoFontData(0xedb6);
-  static const IconData olympic = IcoFontData(0xedb7);
-  static const IconData padding = IcoFontData(0xedb8);
-  static const IconData penaltyCard = IcoFontData(0xedb9);
-  static const IconData racer = IcoFontData(0xedba);
-  static const IconData racingCar = IcoFontData(0xedbb);
-  static const IconData racingFlagAlt = IcoFontData(0xedbc);
-  static const IconData racingFlag = IcoFontData(0xedbd);
-  static const IconData racingsWheel = IcoFontData(0xedbe);
-  static const IconData referee = IcoFontData(0xedbf);
-  static const IconData refreeJersey = IcoFontData(0xedc0);
-  static const IconData resultSport = IcoFontData(0xedc1);
-  static const IconData rugbyBall = IcoFontData(0xedc2);
-  static const IconData rugbyPlayer = IcoFontData(0xedc3);
-  static const IconData rugby = IcoFontData(0xedc4);
-  static const IconData runnerAlt1 = IcoFontData(0xedc5);
-  static const IconData runnerAlt2 = IcoFontData(0xedc6);
-  static const IconData runner = IcoFontData(0xedc7);
-  static const IconData scoreBoard = IcoFontData(0xedc8);
-  static const IconData skiingMan = IcoFontData(0xedc9);
-  static const IconData skydivingGoggles = IcoFontData(0xedca);
-  static const IconData snowMobile = IcoFontData(0xedcb);
-  static const IconData steering = IcoFontData(0xedcc);
-  static const IconData stopwatch = IcoFontData(0xedcd);
-  static const IconData substitute = IcoFontData(0xedce);
-  static const IconData swimmer = IcoFontData(0xedcf);
-  static const IconData tableTennis = IcoFontData(0xedd0);
-  static const IconData teamAlt = IcoFontData(0xedd1);
-  static const IconData team = IcoFontData(0xedd2);
-  static const IconData tennisPlayer = IcoFontData(0xedd3);
-  static const IconData tennis = IcoFontData(0xedd4);
-  static const IconData tracking = IcoFontData(0xedd5);
-  static const IconData trophyAlt = IcoFontData(0xedd6);
-  static const IconData trophy = IcoFontData(0xedd7);
-  static const IconData volleyballAlt = IcoFontData(0xedd8);
-  static const IconData volleyballFire = IcoFontData(0xedd9);
-  static const IconData volleyball = IcoFontData(0xedda);
-  static const IconData waterBottle = IcoFontData(0xeddb);
-  static const IconData whistleAlt = IcoFontData(0xeddc);
-  static const IconData whistle = IcoFontData(0xeddd);
-  static const IconData winTrophy = IcoFontData(0xedde);
-  static const IconData alignCenter = IcoFontData(0xeddf);
-  static const IconData alignLeft = IcoFontData(0xede0);
-  static const IconData alignRight = IcoFontData(0xede1);
-  static const IconData allCaps = IcoFontData(0xede2);
-  static const IconData bold = IcoFontData(0xede3);
-  static const IconData brush = IcoFontData(0xede4);
-  static const IconData clipBoard = IcoFontData(0xede5);
-  static const IconData codeAlt = IcoFontData(0xede6);
-  static const IconData colorBucket = IcoFontData(0xede7);
-  static const IconData colorPicker = IcoFontData(0xede8);
-  static const IconData copyInvert = IcoFontData(0xede9);
-  static const IconData copy = IcoFontData(0xedea);
-  static const IconData cut = IcoFontData(0xedeb);
-  static const IconData deleteAlt = IcoFontData(0xedec);
-  static const IconData editAlt = IcoFontData(0xeded);
-  static const IconData eraserAlt = IcoFontData(0xedee);
-  static const IconData font = IcoFontData(0xedef);
-  static const IconData heading = IcoFontData(0xedf0);
-  static const IconData indent = IcoFontData(0xedf1);
-  static const IconData italicAlt = IcoFontData(0xedf2);
-  static const IconData italic = IcoFontData(0xedf3);
-  static const IconData justifyAll = IcoFontData(0xedf4);
-  static const IconData justifyCenter = IcoFontData(0xedf5);
-  static const IconData justifyLeft = IcoFontData(0xedf6);
-  static const IconData justifyRight = IcoFontData(0xedf7);
-  static const IconData linkBroken = IcoFontData(0xedf8);
-  static const IconData outdent = IcoFontData(0xedf9);
-  static const IconData paperClip = IcoFontData(0xedfa);
-  static const IconData paragraph = IcoFontData(0xedfb);
-  static const IconData pin = IcoFontData(0xedfc);
-  static const IconData printer = IcoFontData(0xedfd);
-  static const IconData redo = IcoFontData(0xedfe);
-  static const IconData rotation = IcoFontData(0xedff);
-  static const IconData save = IcoFontData(0xee00);
-  static const IconData smallCap = IcoFontData(0xee01);
-  static const IconData strikeThrough = IcoFontData(0xee02);
-  static const IconData subListing = IcoFontData(0xee03);
-  static const IconData subscript = IcoFontData(0xee04);
-  static const IconData superscript = IcoFontData(0xee05);
-  static const IconData table = IcoFontData(0xee06);
-  static const IconData textHeight = IcoFontData(0xee07);
-  static const IconData textWidth = IcoFontData(0xee08);
-  static const IconData trash = IcoFontData(0xee09);
-  static const IconData underline = IcoFontData(0xee0a);
-  static const IconData undo = IcoFontData(0xee0b);
-  static const IconData airBalloon = IcoFontData(0xee0c);
-  static const IconData airplaneAlt = IcoFontData(0xee0d);
-  static const IconData airplane = IcoFontData(0xee0e);
-  static const IconData articulatedTruck = IcoFontData(0xee0f);
-  static const IconData autoMobile = IcoFontData(0xee10);
-  static const IconData autoRickshaw = IcoFontData(0xee11);
-  static const IconData bicycleAlt1 = IcoFontData(0xee12);
-  static const IconData bicycleAlt2 = IcoFontData(0xee13);
-  static const IconData bicycle = IcoFontData(0xee14);
-  static const IconData busAlt1 = IcoFontData(0xee15);
-  static const IconData busAlt2 = IcoFontData(0xee16);
-  static const IconData busAlt3 = IcoFontData(0xee17);
-  static const IconData bus = IcoFontData(0xee18);
-  static const IconData cab = IcoFontData(0xee19);
-  static const IconData cableCar = IcoFontData(0xee1a);
-  static const IconData carAlt1 = IcoFontData(0xee1b);
-  static const IconData carAlt2 = IcoFontData(0xee1c);
-  static const IconData carAlt3 = IcoFontData(0xee1d);
-  static const IconData carAlt4 = IcoFontData(0xee1e);
-  static const IconData car = IcoFontData(0xee1f);
-  static const IconData deliveryTime = IcoFontData(0xee20);
-  static const IconData fastDelivery = IcoFontData(0xee21);
-  static const IconData fireTruckAlt = IcoFontData(0xee22);
-  static const IconData fireTruck = IcoFontData(0xee23);
-  static const IconData freeDelivery = IcoFontData(0xee24);
-  static const IconData helicopter = IcoFontData(0xee25);
-  static const IconData motorBikeAlt = IcoFontData(0xee26);
-  static const IconData motorBike = IcoFontData(0xee27);
-  static const IconData motorBiker = IcoFontData(0xee28);
-  static const IconData oilTruck = IcoFontData(0xee29);
-  static const IconData rickshaw = IcoFontData(0xee2a);
-  static const IconData rocketAlt1 = IcoFontData(0xee2b);
-  static const IconData rocketAlt2 = IcoFontData(0xee2c);
-  static const IconData rocket = IcoFontData(0xee2d);
-  static const IconData sailBoatAlt1 = IcoFontData(0xee2e);
-  static const IconData sailBoatAlt2 = IcoFontData(0xee2f);
-  static const IconData sailBoat = IcoFontData(0xee30);
-  static const IconData scooter = IcoFontData(0xee31);
-  static const IconData seaPlane = IcoFontData(0xee32);
-  static const IconData shipAlt = IcoFontData(0xee33);
-  static const IconData ship = IcoFontData(0xee34);
-  static const IconData speedBoat = IcoFontData(0xee35);
-  static const IconData taxi = IcoFontData(0xee36);
-  static const IconData tractor = IcoFontData(0xee37);
-  static const IconData trainLine = IcoFontData(0xee38);
-  static const IconData trainSteam = IcoFontData(0xee39);
-  static const IconData tram = IcoFontData(0xee3a);
-  static const IconData truckAlt = IcoFontData(0xee3b);
-  static const IconData truckLoaded = IcoFontData(0xee3c);
-  static const IconData truck = IcoFontData(0xee3d);
-  static const IconData vanAlt = IcoFontData(0xee3e);
-  static const IconData van = IcoFontData(0xee3f);
-  static const IconData yacht = IcoFontData(0xee40);
-  static const IconData fiveStarHotel = IcoFontData(0xee41);
-  static const IconData airTicket = IcoFontData(0xee42);
-  static const IconData beachBed = IcoFontData(0xee43);
-  static const IconData beach = IcoFontData(0xee44);
-  static const IconData campingVest = IcoFontData(0xee45);
-  static const IconData directionSign = IcoFontData(0xee46);
-  static const IconData hillSide = IcoFontData(0xee47);
-  static const IconData hill = IcoFontData(0xee48);
-  static const IconData hotel = IcoFontData(0xee49);
-  static const IconData islandAlt = IcoFontData(0xee4a);
-  static const IconData island = IcoFontData(0xee4b);
-  static const IconData sandalsFemale = IcoFontData(0xee4c);
-  static const IconData sandalsMale = IcoFontData(0xee4d);
-  static const IconData travelling = IcoFontData(0xee4e);
-  static const IconData breakdown = IcoFontData(0xee4f);
-  static const IconData celsius = IcoFontData(0xee50);
-  static const IconData clouds = IcoFontData(0xee51);
-  static const IconData cloudy = IcoFontData(0xee52);
-  static const IconData dust = IcoFontData(0xee53);
-  static const IconData eclipse = IcoFontData(0xee54);
-  static const IconData fahrenheit = IcoFontData(0xee55);
-  static const IconData forestFire = IcoFontData(0xee56);
-  static const IconData fullNight = IcoFontData(0xee57);
-  static const IconData fullSunny = IcoFontData(0xee58);
-  static const IconData hailNight = IcoFontData(0xee59);
-  static const IconData hailRainyNight = IcoFontData(0xee5a);
-  static const IconData hailRainySunny = IcoFontData(0xee5b);
-  static const IconData hailRainy = IcoFontData(0xee5c);
-  static const IconData hailSunny = IcoFontData(0xee5d);
-  static const IconData hailThunderNight = IcoFontData(0xee5e);
-  static const IconData hailThunderSunny = IcoFontData(0xee5f);
-  static const IconData hailThunder = IcoFontData(0xee60);
-  static const IconData hail = IcoFontData(0xee61);
-  static const IconData hillNight = IcoFontData(0xee62);
-  static const IconData hillSunny = IcoFontData(0xee63);
-  static const IconData hurricane = IcoFontData(0xee64);
-  static const IconData meteor = IcoFontData(0xee65);
-  static const IconData night = IcoFontData(0xee66);
-  static const IconData rainyNight = IcoFontData(0xee67);
-  static const IconData rainySunny = IcoFontData(0xee68);
-  static const IconData rainyThunder = IcoFontData(0xee69);
-  static const IconData rainy = IcoFontData(0xee6a);
-  static const IconData snowAlt = IcoFontData(0xee6b);
-  static const IconData snowFlake = IcoFontData(0xee6c);
-  static const IconData snowTemp = IcoFontData(0xee6d);
-  static const IconData snow = IcoFontData(0xee6e);
-  static const IconData snowyHail = IcoFontData(0xee6f);
-  static const IconData snowyNightHail = IcoFontData(0xee70);
-  static const IconData snowyNightRainy = IcoFontData(0xee71);
-  static const IconData snowyNight = IcoFontData(0xee72);
-  static const IconData snowyRainy = IcoFontData(0xee73);
-  static const IconData snowySunnyHail = IcoFontData(0xee74);
-  static const IconData snowySunnyRainy = IcoFontData(0xee75);
-  static const IconData snowySunny = IcoFontData(0xee76);
-  static const IconData snowyThunderNight = IcoFontData(0xee77);
-  static const IconData snowyThunderSunny = IcoFontData(0xee78);
-  static const IconData snowyThunder = IcoFontData(0xee79);
-  static const IconData snowyWindyNight = IcoFontData(0xee7a);
-  static const IconData snowyWindySunny = IcoFontData(0xee7b);
-  static const IconData snowyWindy = IcoFontData(0xee7c);
-  static const IconData snowy = IcoFontData(0xee7d);
-  static const IconData sunAlt = IcoFontData(0xee7e);
-  static const IconData sunRise = IcoFontData(0xee7f);
-  static const IconData sunSet = IcoFontData(0xee80);
-  static const IconData sun = IcoFontData(0xee81);
-  static const IconData sunnyDayTemp = IcoFontData(0xee82);
-  static const IconData sunny = IcoFontData(0xee83);
-  static const IconData thunderLight = IcoFontData(0xee84);
-  static const IconData tornado = IcoFontData(0xee85);
-  static const IconData umbrellaAlt = IcoFontData(0xee86);
-  static const IconData umbrella = IcoFontData(0xee87);
-  static const IconData volcano = IcoFontData(0xee88);
-  static const IconData wave = IcoFontData(0xee89);
-  static const IconData windScale0 = IcoFontData(0xee8a);
-  static const IconData windScale1 = IcoFontData(0xee8b);
-  static const IconData windScale10 = IcoFontData(0xee8c);
-  static const IconData windScale11 = IcoFontData(0xee8d);
-  static const IconData windScale12 = IcoFontData(0xee8e);
-  static const IconData windScale2 = IcoFontData(0xee8f);
-  static const IconData windScale3 = IcoFontData(0xee90);
-  static const IconData windScale4 = IcoFontData(0xee91);
-  static const IconData windScale5 = IcoFontData(0xee92);
-  static const IconData windScale6 = IcoFontData(0xee93);
-  static const IconData windScale7 = IcoFontData(0xee94);
-  static const IconData windScale8 = IcoFontData(0xee95);
-  static const IconData windScale9 = IcoFontData(0xee96);
-  static const IconData windWaves = IcoFontData(0xee97);
-  static const IconData wind = IcoFontData(0xee98);
-  static const IconData windyHail = IcoFontData(0xee99);
-  static const IconData windyNight = IcoFontData(0xee9a);
-  static const IconData windyRaining = IcoFontData(0xee9b);
-  static const IconData windySunny = IcoFontData(0xee9c);
-  static const IconData windyThunderRaining = IcoFontData(0xee9d);
-  static const IconData windyThunder = IcoFontData(0xee9e);
-  static const IconData windy = IcoFontData(0xee9f);
-  static const IconData addons = IcoFontData(0xeea0);
-  static const IconData addressBook = IcoFontData(0xeea1);
-  static const IconData adjust = IcoFontData(0xeea2);
-  static const IconData alarm = IcoFontData(0xeea3);
-  static const IconData anchor = IcoFontData(0xeea4);
-  static const IconData archive = IcoFontData(0xeea5);
-  static const IconData at = IcoFontData(0xeea6);
-  static const IconData attachment = IcoFontData(0xeea7);
-  static const IconData audio = IcoFontData(0xeea8);
-  static const IconData automation = IcoFontData(0xeea9);
-  static const IconData badge = IcoFontData(0xeeaa);
-  static const IconData bagAlt = IcoFontData(0xeeab);
-  static const IconData bag = IcoFontData(0xeeac);
-  static const IconData ban = IcoFontData(0xeead);
-  static const IconData barCode = IcoFontData(0xeeae);
-  static const IconData bars = IcoFontData(0xeeaf);
-  static const IconData basket = IcoFontData(0xeeb0);
-  static const IconData batteryEmpty = IcoFontData(0xeeb1);
-  static const IconData batteryFull = IcoFontData(0xeeb2);
-  static const IconData batteryHalf = IcoFontData(0xeeb3);
-  static const IconData batteryLow = IcoFontData(0xeeb4);
-  static const IconData beaker = IcoFontData(0xeeb5);
-  static const IconData beard = IcoFontData(0xeeb6);
-  static const IconData bed = IcoFontData(0xeeb7);
-  static const IconData bell = IcoFontData(0xeeb8);
-  static const IconData beverage = IcoFontData(0xeeb9);
-  static const IconData bill = IcoFontData(0xeeba);
-  static const IconData bin = IcoFontData(0xeebb);
-  static const IconData binary = IcoFontData(0xeebc);
-  static const IconData binoculars = IcoFontData(0xeebd);
-  static const IconData bluetooth = IcoFontData(0xeebe);
-  static const IconData bomb = IcoFontData(0xeebf);
-  static const IconData bookMark = IcoFontData(0xeec0);
-  static const IconData box = IcoFontData(0xeec1);
-  static const IconData briefcase = IcoFontData(0xeec2);
-  static const IconData broken = IcoFontData(0xeec3);
-  static const IconData bucket = IcoFontData(0xeec4);
-  static const IconData bucket1 = IcoFontData(0xeec5);
-  static const IconData bucket2 = IcoFontData(0xeec6);
-  static const IconData bug = IcoFontData(0xeec7);
-  static const IconData building = IcoFontData(0xeec8);
-  static const IconData bulbAlt = IcoFontData(0xeec9);
-  static const IconData bullet = IcoFontData(0xeeca);
-  static const IconData bullhorn = IcoFontData(0xeecb);
-  static const IconData bullseye = IcoFontData(0xeecc);
-  static const IconData calendar = IcoFontData(0xeecd);
-  static const IconData cameraAlt = IcoFontData(0xeece);
-  static const IconData camera = IcoFontData(0xeecf);
-  static const IconData card = IcoFontData(0xeed0);
-  static const IconData cartAlt = IcoFontData(0xeed1);
-  static const IconData cart = IcoFontData(0xeed2);
-  static const IconData cc = IcoFontData(0xeed3);
-  static const IconData charging = IcoFontData(0xeed4);
-  static const IconData chat = IcoFontData(0xeed5);
-  static const IconData checkAlt = IcoFontData(0xeed6);
-  static const IconData checkCircled = IcoFontData(0xeed7);
-  static const IconData check = IcoFontData(0xeed8);
-  static const IconData checked = IcoFontData(0xeed9);
-  static const IconData childrenCare = IcoFontData(0xeeda);
-  static const IconData clip = IcoFontData(0xeedb);
-  static const IconData clockTime = IcoFontData(0xeedc);
-  static const IconData closeCircled = IcoFontData(0xeedd);
-  static const IconData closeLineCircled = IcoFontData(0xeede);
-  static const IconData closeLineSquaredAlt = IcoFontData(0xeedf);
-  static const IconData closeLineSquared = IcoFontData(0xeee0);
-  static const IconData closeLine = IcoFontData(0xeee1);
-  static const IconData closeSquaredAlt = IcoFontData(0xeee2);
-  static const IconData closeSquared = IcoFontData(0xeee3);
-  static const IconData close = IcoFontData(0xeee4);
-  static const IconData cloudDownload = IcoFontData(0xeee5);
-  static const IconData cloudRefresh = IcoFontData(0xeee6);
-  static const IconData cloudUpload = IcoFontData(0xeee7);
-  static const IconData cloud = IcoFontData(0xeee8);
-  static const IconData codeNotAllowed = IcoFontData(0xeee9);
-  static const IconData code = IcoFontData(0xeeea);
-  static const IconData comment = IcoFontData(0xeeeb);
-  static const IconData compassAlt = IcoFontData(0xeeec);
-  static const IconData compass = IcoFontData(0xeeed);
-  static const IconData computer = IcoFontData(0xeeee);
-  static const IconData connection = IcoFontData(0xeeef);
-  static const IconData console = IcoFontData(0xeef0);
-  static const IconData contacts = IcoFontData(0xeef1);
-  static const IconData contrast = IcoFontData(0xeef2);
-  static const IconData copyright = IcoFontData(0xeef3);
-  static const IconData creditCard = IcoFontData(0xeef4);
-  static const IconData crop = IcoFontData(0xeef5);
-  static const IconData crown = IcoFontData(0xeef6);
-  static const IconData cube = IcoFontData(0xeef7);
-  static const IconData cubes = IcoFontData(0xeef8);
-  static const IconData dashboardWeb = IcoFontData(0xeef9);
-  static const IconData dashboard = IcoFontData(0xeefa);
-  static const IconData data = IcoFontData(0xeefb);
-  static const IconData databaseAdd = IcoFontData(0xeefc);
-  static const IconData databaseLocked = IcoFontData(0xeefd);
-  static const IconData databaseRemove = IcoFontData(0xeefe);
-  static const IconData database = IcoFontData(0xeeff);
-  static const IconData delete = IcoFontData(0xef00);
-  static const IconData diamond = IcoFontData(0xef01);
-  static const IconData diceMultiple = IcoFontData(0xef02);
-  static const IconData dice = IcoFontData(0xef03);
-  static const IconData disc = IcoFontData(0xef04);
-  static const IconData diskette = IcoFontData(0xef05);
-  static const IconData documentFolder = IcoFontData(0xef06);
-  static const IconData downloadAlt = IcoFontData(0xef07);
-  static const IconData download = IcoFontData(0xef08);
-  static const IconData downloaded = IcoFontData(0xef09);
-  static const IconData drag = IcoFontData(0xef0a);
-  static const IconData drag1 = IcoFontData(0xef0b);
-  static const IconData drag2 = IcoFontData(0xef0c);
-  static const IconData drag3 = IcoFontData(0xef0d);
-  static const IconData earth = IcoFontData(0xef0e);
-  static const IconData ebook = IcoFontData(0xef0f);
-  static const IconData edit = IcoFontData(0xef10);
-  static const IconData eject = IcoFontData(0xef11);
-  static const IconData email = IcoFontData(0xef12);
-  static const IconData envelopeOpen = IcoFontData(0xef13);
-  static const IconData envelope = IcoFontData(0xef14);
-  static const IconData eraser = IcoFontData(0xef15);
-  static const IconData error = IcoFontData(0xef16);
-  static const IconData excavator = IcoFontData(0xef17);
-  static const IconData exchange = IcoFontData(0xef18);
-  static const IconData exclamationCircle = IcoFontData(0xef19);
-  static const IconData exclamationSquare = IcoFontData(0xef1a);
-  static const IconData exclamationTringle = IcoFontData(0xef1b);
-  static const IconData exclamation = IcoFontData(0xef1c);
-  static const IconData exit = IcoFontData(0xef1d);
-  static const IconData expand = IcoFontData(0xef1e);
-  static const IconData externalLink = IcoFontData(0xef1f);
-  static const IconData external = IcoFontData(0xef20);
-  static const IconData eyeAlt = IcoFontData(0xef21);
-  static const IconData eyeBlocked = IcoFontData(0xef22);
-  static const IconData eyeDropper = IcoFontData(0xef23);
-  static const IconData eye = IcoFontData(0xef24);
-  static const IconData favourite = IcoFontData(0xef25);
-  static const IconData fax = IcoFontData(0xef26);
-  static const IconData fileFill = IcoFontData(0xef27);
-  static const IconData film = IcoFontData(0xef28);
-  static const IconData filter = IcoFontData(0xef29);
-  static const IconData fireAlt = IcoFontData(0xef2a);
-  static const IconData fireBurn = IcoFontData(0xef2b);
-  static const IconData fire = IcoFontData(0xef2c);
-  static const IconData flagAlt1 = IcoFontData(0xef2d);
-  static const IconData flagAlt2 = IcoFontData(0xef2e);
-  static const IconData flag = IcoFontData(0xef2f);
-  static const IconData flameTorch = IcoFontData(0xef30);
-  static const IconData flashLight = IcoFontData(0xef31);
-  static const IconData flash = IcoFontData(0xef32);
-  static const IconData flask = IcoFontData(0xef33);
-  static const IconData focus = IcoFontData(0xef34);
-  static const IconData folderOpen = IcoFontData(0xef35);
-  static const IconData folder = IcoFontData(0xef36);
-  static const IconData footPrint = IcoFontData(0xef37);
-  static const IconData garbage = IcoFontData(0xef38);
-  static const IconData gearAlt = IcoFontData(0xef39);
-  static const IconData gear = IcoFontData(0xef3a);
-  static const IconData gears = IcoFontData(0xef3b);
-  static const IconData gift = IcoFontData(0xef3c);
-  static const IconData glass = IcoFontData(0xef3d);
-  static const IconData globe = IcoFontData(0xef3e);
-  static const IconData graffiti = IcoFontData(0xef3f);
-  static const IconData grocery = IcoFontData(0xef40);
-  static const IconData hand = IcoFontData(0xef41);
-  static const IconData hanger = IcoFontData(0xef42);
-  static const IconData hardDisk = IcoFontData(0xef43);
-  static const IconData heartAlt = IcoFontData(0xef44);
-  static const IconData heart = IcoFontData(0xef45);
-  static const IconData history = IcoFontData(0xef46);
-  static const IconData home = IcoFontData(0xef47);
-  static const IconData horn = IcoFontData(0xef48);
-  static const IconData hourGlass = IcoFontData(0xef49);
-  static const IconData id = IcoFontData(0xef4a);
-  static const IconData image = IcoFontData(0xef4b);
-  static const IconData inbox = IcoFontData(0xef4c);
-  static const IconData infinite = IcoFontData(0xef4d);
-  static const IconData infoCircle = IcoFontData(0xef4e);
-  static const IconData infoSquare = IcoFontData(0xef4f);
-  static const IconData info = IcoFontData(0xef50);
-  static const IconData institution = IcoFontData(0xef51);
-  static const IconData interface = IcoFontData(0xef52);
-  static const IconData invisible = IcoFontData(0xef53);
-  static const IconData jacket = IcoFontData(0xef54);
-  static const IconData jar = IcoFontData(0xef55);
-  static const IconData jewlery = IcoFontData(0xef56);
-  static const IconData karate = IcoFontData(0xef57);
-  static const IconData keyHole = IcoFontData(0xef58);
-  static const IconData key = IcoFontData(0xef59);
-  static const IconData label = IcoFontData(0xef5a);
-  static const IconData lamp = IcoFontData(0xef5b);
-  static const IconData layers = IcoFontData(0xef5c);
-  static const IconData layout = IcoFontData(0xef5d);
-  static const IconData leaf = IcoFontData(0xef5e);
-  static const IconData leaflet = IcoFontData(0xef5f);
-  static const IconData learn = IcoFontData(0xef60);
-  static const IconData lego = IcoFontData(0xef61);
-  static const IconData lens = IcoFontData(0xef62);
-  static const IconData letter = IcoFontData(0xef63);
-  static const IconData letterbox = IcoFontData(0xef64);
-  static const IconData library = IcoFontData(0xef65);
-  static const IconData license = IcoFontData(0xef66);
-  static const IconData lifeBouy = IcoFontData(0xef67);
-  static const IconData lifeBuoy = IcoFontData(0xef68);
-  static const IconData lifeJacket = IcoFontData(0xef69);
-  static const IconData lifeRing = IcoFontData(0xef6a);
-  static const IconData lightBulb = IcoFontData(0xef6b);
-  static const IconData lighter = IcoFontData(0xef6c);
-  static const IconData lightningRay = IcoFontData(0xef6d);
-  static const IconData like = IcoFontData(0xef6e);
-  static const IconData lineHeight = IcoFontData(0xef6f);
-  static const IconData linkAlt = IcoFontData(0xef70);
-  static const IconData link = IcoFontData(0xef71);
-  static const IconData list = IcoFontData(0xef72);
-  static const IconData listening = IcoFontData(0xef73);
-  static const IconData listineDots = IcoFontData(0xef74);
-  static const IconData listingBox = IcoFontData(0xef75);
-  static const IconData listingNumber = IcoFontData(0xef76);
-  static const IconData liveSupport = IcoFontData(0xef77);
-  static const IconData locationArrow = IcoFontData(0xef78);
-  static const IconData locationPin = IcoFontData(0xef79);
-  static const IconData lock = IcoFontData(0xef7a);
-  static const IconData login = IcoFontData(0xef7b);
-  static const IconData logout = IcoFontData(0xef7c);
-  static const IconData lollipop = IcoFontData(0xef7d);
-  static const IconData longDrive = IcoFontData(0xef7e);
-  static const IconData look = IcoFontData(0xef7f);
-  static const IconData loop = IcoFontData(0xef80);
-  static const IconData luggage = IcoFontData(0xef81);
-  static const IconData lunch = IcoFontData(0xef82);
-  static const IconData lungs = IcoFontData(0xef83);
-  static const IconData magicAlt = IcoFontData(0xef84);
-  static const IconData magic = IcoFontData(0xef85);
-  static const IconData magnet = IcoFontData(0xef86);
-  static const IconData mailBox = IcoFontData(0xef87);
-  static const IconData mail = IcoFontData(0xef88);
-  static const IconData male = IcoFontData(0xef89);
-  static const IconData mapPins = IcoFontData(0xef8a);
-  static const IconData map = IcoFontData(0xef8b);
-  static const IconData maximize = IcoFontData(0xef8c);
-  static const IconData measure = IcoFontData(0xef8d);
-  static const IconData medicine = IcoFontData(0xef8e);
-  static const IconData megaPhone = IcoFontData(0xef8f);
-  static const IconData megaphoneAlt = IcoFontData(0xef90);
-  static const IconData megaphone = IcoFontData(0xef91);
-  static const IconData memorial = IcoFontData(0xef92);
-  static const IconData memoryCard = IcoFontData(0xef93);
-  static const IconData micMute = IcoFontData(0xef94);
-  static const IconData mic = IcoFontData(0xef95);
-  static const IconData military = IcoFontData(0xef96);
-  static const IconData mill = IcoFontData(0xef97);
-  static const IconData minusCircle = IcoFontData(0xef98);
-  static const IconData minusSquare = IcoFontData(0xef99);
-  static const IconData minus = IcoFontData(0xef9a);
-  static const IconData mobilePhone = IcoFontData(0xef9b);
-  static const IconData molecule = IcoFontData(0xef9c);
-  static const IconData money = IcoFontData(0xef9d);
-  static const IconData moon = IcoFontData(0xef9e);
-  static const IconData mop = IcoFontData(0xef9f);
-  static const IconData muffin = IcoFontData(0xefa0);
-  static const IconData mustache = IcoFontData(0xefa1);
-  static const IconData navigationMenu = IcoFontData(0xefa2);
-  static const IconData navigation = IcoFontData(0xefa3);
-  static const IconData networkTower = IcoFontData(0xefa4);
-  static const IconData network = IcoFontData(0xefa5);
-  static const IconData news = IcoFontData(0xefa6);
-  static const IconData newspaper = IcoFontData(0xefa7);
-  static const IconData noSmoking = IcoFontData(0xefa8);
-  static const IconData notAllowed = IcoFontData(0xefa9);
-  static const IconData notebook = IcoFontData(0xefaa);
-  static const IconData notepad = IcoFontData(0xefab);
-  static const IconData notification = IcoFontData(0xefac);
-  static const IconData numbered = IcoFontData(0xefad);
-  static const IconData opposite = IcoFontData(0xefae);
-  static const IconData optic = IcoFontData(0xefaf);
-  static const IconData options = IcoFontData(0xefb0);
-  static const IconData package = IcoFontData(0xefb1);
-  static const IconData page = IcoFontData(0xefb2);
-  static const IconData paint = IcoFontData(0xefb3);
-  static const IconData paperPlane = IcoFontData(0xefb4);
-  static const IconData paperclip = IcoFontData(0xefb5);
-  static const IconData papers = IcoFontData(0xefb6);
-  static const IconData pay = IcoFontData(0xefb7);
-  static const IconData penguinLinux = IcoFontData(0xefb8);
-  static const IconData pestle = IcoFontData(0xefb9);
-  static const IconData phoneCircle = IcoFontData(0xefba);
-  static const IconData phone = IcoFontData(0xefbb);
-  static const IconData picture = IcoFontData(0xefbc);
-  static const IconData pine = IcoFontData(0xefbd);
-  static const IconData pixels = IcoFontData(0xefbe);
-  static const IconData plugin = IcoFontData(0xefbf);
-  static const IconData plusCircle = IcoFontData(0xefc0);
-  static const IconData plusSquare = IcoFontData(0xefc1);
-  static const IconData plus = IcoFontData(0xefc2);
-  static const IconData polygonal = IcoFontData(0xefc3);
-  static const IconData power = IcoFontData(0xefc4);
-  static const IconData price = IcoFontData(0xefc5);
-  static const IconData print = IcoFontData(0xefc6);
-  static const IconData puzzle = IcoFontData(0xefc7);
-  static const IconData qrCode = IcoFontData(0xefc8);
-  static const IconData queen = IcoFontData(0xefc9);
-  static const IconData questionCircle = IcoFontData(0xefca);
-  static const IconData questionSquare = IcoFontData(0xefcb);
-  static const IconData question = IcoFontData(0xefcc);
-  static const IconData quoteLeft = IcoFontData(0xefcd);
-  static const IconData quoteRight = IcoFontData(0xefce);
-  static const IconData random = IcoFontData(0xefcf);
-  static const IconData recycle = IcoFontData(0xefd0);
-  static const IconData refresh = IcoFontData(0xefd1);
-  static const IconData repair = IcoFontData(0xefd2);
-  static const IconData replyAll = IcoFontData(0xefd3);
-  static const IconData reply = IcoFontData(0xefd4);
-  static const IconData resize = IcoFontData(0xefd5);
-  static const IconData responsive = IcoFontData(0xefd6);
-  static const IconData retweet = IcoFontData(0xefd7);
-  static const IconData road = IcoFontData(0xefd8);
-  static const IconData robot = IcoFontData(0xefd9);
-  static const IconData royal = IcoFontData(0xefda);
-  static const IconData rssFeed = IcoFontData(0xefdb);
-  static const IconData safety = IcoFontData(0xefdc);
-  static const IconData saleDiscount = IcoFontData(0xefdd);
-  static const IconData satellite = IcoFontData(0xefde);
-  static const IconData sendMail = IcoFontData(0xefdf);
-  static const IconData server = IcoFontData(0xefe0);
-  static const IconData settingsAlt = IcoFontData(0xefe1);
-  static const IconData settings = IcoFontData(0xefe2);
-  static const IconData shareAlt = IcoFontData(0xefe3);
-  static const IconData shareBoxed = IcoFontData(0xefe4);
-  static const IconData share = IcoFontData(0xefe5);
-  static const IconData shield = IcoFontData(0xefe6);
-  static const IconData shoppingCart = IcoFontData(0xefe7);
-  static const IconData signIn = IcoFontData(0xefe8);
-  static const IconData signOut = IcoFontData(0xefe9);
-  static const IconData signal = IcoFontData(0xefea);
-  static const IconData siteMap = IcoFontData(0xefeb);
-  static const IconData smartPhone = IcoFontData(0xefec);
-  static const IconData soccer = IcoFontData(0xefed);
-  static const IconData sortAlt = IcoFontData(0xefee);
-  static const IconData sort = IcoFontData(0xefef);
-  static const IconData space = IcoFontData(0xeff0);
-  static const IconData spanner = IcoFontData(0xeff1);
-  static const IconData speechComments = IcoFontData(0xeff2);
-  static const IconData speedMeter = IcoFontData(0xeff3);
-  static const IconData spinnerAlt1 = IcoFontData(0xeff4);
-  static const IconData spinnerAlt2 = IcoFontData(0xeff5);
-  static const IconData spinnerAlt3 = IcoFontData(0xeff6);
-  static const IconData spinnerAlt4 = IcoFontData(0xeff7);
-  static const IconData spinnerAlt5 = IcoFontData(0xeff8);
-  static const IconData spinnerAlt6 = IcoFontData(0xeff9);
-  static const IconData spinner = IcoFontData(0xeffa);
-  static const IconData spreadsheet = IcoFontData(0xeffb);
-  static const IconData square = IcoFontData(0xeffc);
-  static const IconData sslSecurity = IcoFontData(0xeffd);
-  static const IconData starAlt1 = IcoFontData(0xeffe);
-  static const IconData starAlt2 = IcoFontData(0xefff);
-  static const IconData star = IcoFontData(0xf000);
-  static const IconData streetView = IcoFontData(0xf001);
-  static const IconData supportFaq = IcoFontData(0xf002);
-  static const IconData tackPin = IcoFontData(0xf003);
-  static const IconData tag = IcoFontData(0xf004);
-  static const IconData tags = IcoFontData(0xf005);
-  static const IconData tasksAlt = IcoFontData(0xf006);
-  static const IconData tasks = IcoFontData(0xf007);
-  static const IconData telephone = IcoFontData(0xf008);
-  static const IconData telescope = IcoFontData(0xf009);
-  static const IconData terminal = IcoFontData(0xf00a);
-  static const IconData thumbsDown = IcoFontData(0xf00b);
-  static const IconData thumbsUp = IcoFontData(0xf00c);
-  static const IconData tickBoxed = IcoFontData(0xf00d);
-  static const IconData tickMark = IcoFontData(0xf00e);
-  static const IconData ticket = IcoFontData(0xf00f);
-  static const IconData tie = IcoFontData(0xf010);
-  static const IconData toggleOff = IcoFontData(0xf011);
-  static const IconData toggleOn = IcoFontData(0xf012);
-  static const IconData toolsAlt2 = IcoFontData(0xf013);
-  static const IconData tools = IcoFontData(0xf014);
-  static const IconData touch = IcoFontData(0xf015);
-  static const IconData trafficLight = IcoFontData(0xf016);
-  static const IconData transparent = IcoFontData(0xf017);
-  static const IconData tree = IcoFontData(0xf018);
-  static const IconData uniqueIdea = IcoFontData(0xf019);
-  static const IconData unlock = IcoFontData(0xf01a);
-  static const IconData unlocked = IcoFontData(0xf01b);
-  static const IconData uploadAlt = IcoFontData(0xf01c);
-  static const IconData upload = IcoFontData(0xf01d);
-  static const IconData usbDrive = IcoFontData(0xf01e);
-  static const IconData usb = IcoFontData(0xf01f);
-  static const IconData vectorPath = IcoFontData(0xf020);
-  static const IconData verificationCheck = IcoFontData(0xf021);
-  static const IconData wallClock = IcoFontData(0xf022);
-  static const IconData wall = IcoFontData(0xf023);
-  static const IconData wallet = IcoFontData(0xf024);
-  static const IconData warningAlt = IcoFontData(0xf025);
-  static const IconData warning = IcoFontData(0xf026);
-  static const IconData waterDrop = IcoFontData(0xf027);
-  static const IconData web = IcoFontData(0xf028);
-  static const IconData wheelchair = IcoFontData(0xf029);
-  static const IconData wifiAlt = IcoFontData(0xf02a);
-  static const IconData wifi = IcoFontData(0xf02b);
-  static const IconData world = IcoFontData(0xf02c);
-  static const IconData zigzag = IcoFontData(0xf02d);
-  static const IconData zipped = IcoFontData(0xf02e);
+  // for icon called angry-monster
+  static const IconData angryMonster = _IcoFontData(0xe800);
+  // for icon called bathtub
+  static const IconData bathtub = _IcoFontData(0xe801);
+  // for icon called bird-wings
+  static const IconData birdWings = _IcoFontData(0xe802);
+  // for icon called bow
+  static const IconData bow = _IcoFontData(0xe803);
+  // for icon called castle
+  static const IconData castle = _IcoFontData(0xe804);
+  // for icon called circuit
+  static const IconData circuit = _IcoFontData(0xe805);
+  // for icon called crown-king
+  static const IconData crownKing = _IcoFontData(0xe806);
+  // for icon called crown-queen
+  static const IconData crownQueen = _IcoFontData(0xe807);
+  // for icon called dart
+  static const IconData dart = _IcoFontData(0xe808);
+  // for icon called disability-race
+  static const IconData disabilityRace = _IcoFontData(0xe809);
+  // for icon called diving-goggle
+  static const IconData divingGoggle = _IcoFontData(0xe80a);
+  // for icon called eye-open
+  static const IconData eyeOpen = _IcoFontData(0xe80b);
+  // for icon called flora-flower
+  static const IconData floraFlower = _IcoFontData(0xe80c);
+  // for icon called flora
+  static const IconData flora = _IcoFontData(0xe80d);
+  // for icon called gift-box
+  static const IconData giftBox = _IcoFontData(0xe80e);
+  // for icon called halloween-pumpkin
+  static const IconData halloweenPumpkin = _IcoFontData(0xe80f);
+  // for icon called hand-power
+  static const IconData handPower = _IcoFontData(0xe810);
+  // for icon called hand-thunder
+  static const IconData handThunder = _IcoFontData(0xe811);
+  // for icon called king-monster
+  static const IconData kingMonster = _IcoFontData(0xe812);
+  // for icon called love
+  static const IconData love = _IcoFontData(0xe813);
+  // for icon called magician-hat
+  static const IconData magicianHat = _IcoFontData(0xe814);
+  // for icon called native-american
+  static const IconData nativeAmerican = _IcoFontData(0xe815);
+  // for icon called owl-look
+  static const IconData owlLook = _IcoFontData(0xe816);
+  // for icon called phoenix
+  static const IconData phoenix = _IcoFontData(0xe817);
+  // for icon called robot-face
+  static const IconData robotFace = _IcoFontData(0xe818);
+  // for icon called sand-clock
+  static const IconData sandClock = _IcoFontData(0xe819);
+  // for icon called shield-alt
+  static const IconData shieldAlt = _IcoFontData(0xe81a);
+  // for icon called ship-wheel
+  static const IconData shipWheel = _IcoFontData(0xe81b);
+  // for icon called skull-danger
+  static const IconData skullDanger = _IcoFontData(0xe81c);
+  // for icon called skull-face
+  static const IconData skullFace = _IcoFontData(0xe81d);
+  // for icon called snowmobile
+  static const IconData snowmobile = _IcoFontData(0xe81e);
+  // for icon called space-shuttle
+  static const IconData spaceShuttle = _IcoFontData(0xe81f);
+  // for icon called star-shape
+  static const IconData starShape = _IcoFontData(0xe820);
+  // for icon called swirl
+  static const IconData swirl = _IcoFontData(0xe821);
+  // for icon called tattoo-wing
+  static const IconData tattooWing = _IcoFontData(0xe822);
+  // for icon called throne
+  static const IconData throne = _IcoFontData(0xe823);
+  // for icon called tree-alt
+  static const IconData treeAlt = _IcoFontData(0xe824);
+  // for icon called triangle
+  static const IconData triangle = _IcoFontData(0xe825);
+  // for icon called unity-hand
+  static const IconData unityHand = _IcoFontData(0xe826);
+  // for icon called weed
+  static const IconData weed = _IcoFontData(0xe827);
+  // for icon called woman-bird
+  static const IconData womanBird = _IcoFontData(0xe828);
+  // for icon called bat
+  static const IconData bat = _IcoFontData(0xe829);
+  // for icon called bear-face
+  static const IconData bearFace = _IcoFontData(0xe82a);
+  // for icon called bear-tracks
+  static const IconData bearTracks = _IcoFontData(0xe82b);
+  // for icon called bear
+  static const IconData bear = _IcoFontData(0xe82c);
+  // for icon called bird-alt
+  static const IconData birdAlt = _IcoFontData(0xe82d);
+  // for icon called bird-flying
+  static const IconData birdFlying = _IcoFontData(0xe82e);
+  // for icon called bird
+  static const IconData bird = _IcoFontData(0xe82f);
+  // for icon called birds
+  static const IconData birds = _IcoFontData(0xe830);
+  // for icon called bone
+  static const IconData bone = _IcoFontData(0xe831);
+  // for icon called bull
+  static const IconData bull = _IcoFontData(0xe832);
+  // for icon called butterfly-alt
+  static const IconData butterflyAlt = _IcoFontData(0xe833);
+  // for icon called butterfly
+  static const IconData butterfly = _IcoFontData(0xe834);
+  // for icon called camel-alt
+  static const IconData camelAlt = _IcoFontData(0xe835);
+  // for icon called camel-head
+  static const IconData camelHead = _IcoFontData(0xe836);
+  // for icon called camel
+  static const IconData camel = _IcoFontData(0xe837);
+  // for icon called cat-alt-1
+  static const IconData catAlt1 = _IcoFontData(0xe838);
+  // for icon called cat-alt-2
+  static const IconData catAlt2 = _IcoFontData(0xe839);
+  // for icon called cat-alt-3
+  static const IconData catAlt3 = _IcoFontData(0xe83a);
+  // for icon called cat-dog
+  static const IconData catDog = _IcoFontData(0xe83b);
+  // for icon called cat-face
+  static const IconData catFace = _IcoFontData(0xe83c);
+  // for icon called cat
+  static const IconData cat = _IcoFontData(0xe83d);
+  // for icon called cow-head
+  static const IconData cowHead = _IcoFontData(0xe83e);
+  // for icon called cow
+  static const IconData cow = _IcoFontData(0xe83f);
+  // for icon called crab
+  static const IconData crab = _IcoFontData(0xe840);
+  // for icon called crocodile
+  static const IconData crocodile = _IcoFontData(0xe841);
+  // for icon called deer-head
+  static const IconData deerHead = _IcoFontData(0xe842);
+  // for icon called dog-alt
+  static const IconData dogAlt = _IcoFontData(0xe843);
+  // for icon called dog-barking
+  static const IconData dogBarking = _IcoFontData(0xe844);
+  // for icon called dog
+  static const IconData dog = _IcoFontData(0xe845);
+  // for icon called dolphin
+  static const IconData dolphin = _IcoFontData(0xe846);
+  // for icon called duck-tracks
+  static const IconData duckTracks = _IcoFontData(0xe847);
+  // for icon called eagle-head
+  static const IconData eagleHead = _IcoFontData(0xe848);
+  // for icon called eaten-fish
+  static const IconData eatenFish = _IcoFontData(0xe849);
+  // for icon called elephant-alt
+  static const IconData elephantAlt = _IcoFontData(0xe84a);
+  // for icon called elephant-head-alt
+  static const IconData elephantHeadAlt = _IcoFontData(0xe84b);
+  // for icon called elephant-head
+  static const IconData elephantHead = _IcoFontData(0xe84c);
+  // for icon called elephant
+  static const IconData elephant = _IcoFontData(0xe84d);
+  // for icon called elk
+  static const IconData elk = _IcoFontData(0xe84e);
+  // for icon called fish-1
+  static const IconData fish1 = _IcoFontData(0xe84f);
+  // for icon called fish-2
+  static const IconData fish2 = _IcoFontData(0xe850);
+  // for icon called fish-3
+  static const IconData fish3 = _IcoFontData(0xe851);
+  // for icon called fish-4
+  static const IconData fish4 = _IcoFontData(0xe852);
+  // for icon called fish-5
+  static const IconData fish5 = _IcoFontData(0xe853);
+  // for icon called fish
+  static const IconData fish = _IcoFontData(0xe854);
+  // for icon called fox-alt
+  static const IconData foxAlt = _IcoFontData(0xe855);
+  // for icon called fox
+  static const IconData fox = _IcoFontData(0xe856);
+  // for icon called frog-tracks
+  static const IconData frogTracks = _IcoFontData(0xe857);
+  // for icon called frog
+  static const IconData frog = _IcoFontData(0xe858);
+  // for icon called froggy
+  static const IconData froggy = _IcoFontData(0xe859);
+  // for icon called giraffe-head-1
+  static const IconData giraffeHead1 = _IcoFontData(0xe85a);
+  // for icon called giraffe-head-2
+  static const IconData giraffeHead2 = _IcoFontData(0xe85b);
+  // for icon called giraffe-head
+  static const IconData giraffeHead = _IcoFontData(0xe85c);
+  // for icon called giraffe
+  static const IconData giraffe = _IcoFontData(0xe85d);
+  // for icon called goat-head
+  static const IconData goatHead = _IcoFontData(0xe85e);
+  // for icon called gorilla
+  static const IconData gorilla = _IcoFontData(0xe85f);
+  // for icon called hen-tracks
+  static const IconData henTracks = _IcoFontData(0xe860);
+  // for icon called horse-head-1
+  static const IconData horseHead1 = _IcoFontData(0xe861);
+  // for icon called horse-head-2
+  static const IconData horseHead2 = _IcoFontData(0xe862);
+  // for icon called horse-head
+  static const IconData horseHead = _IcoFontData(0xe863);
+  // for icon called horse-tracks
+  static const IconData horseTracks = _IcoFontData(0xe864);
+  // for icon called jellyfish
+  static const IconData jellyfish = _IcoFontData(0xe865);
+  // for icon called kangaroo
+  static const IconData kangaroo = _IcoFontData(0xe866);
+  // for icon called lemur
+  static const IconData lemur = _IcoFontData(0xe867);
+  // for icon called lion-head-1
+  static const IconData lionHead1 = _IcoFontData(0xe868);
+  // for icon called lion-head-2
+  static const IconData lionHead2 = _IcoFontData(0xe869);
+  // for icon called lion-head
+  static const IconData lionHead = _IcoFontData(0xe86a);
+  // for icon called lion
+  static const IconData lion = _IcoFontData(0xe86b);
+  // for icon called monkey-2
+  static const IconData monkey2 = _IcoFontData(0xe86c);
+  // for icon called monkey-3
+  static const IconData monkey3 = _IcoFontData(0xe86d);
+  // for icon called monkey-face
+  static const IconData monkeyFace = _IcoFontData(0xe86e);
+  // for icon called monkey
+  static const IconData monkey = _IcoFontData(0xe86f);
+  // for icon called octopus-alt
+  static const IconData octopusAlt = _IcoFontData(0xe870);
+  // for icon called octopus
+  static const IconData octopus = _IcoFontData(0xe871);
+  // for icon called owl
+  static const IconData owl = _IcoFontData(0xe872);
+  // for icon called panda-face
+  static const IconData pandaFace = _IcoFontData(0xe873);
+  // for icon called panda
+  static const IconData panda = _IcoFontData(0xe874);
+  // for icon called panther
+  static const IconData panther = _IcoFontData(0xe875);
+  // for icon called parrot-lip
+  static const IconData parrotLip = _IcoFontData(0xe876);
+  // for icon called parrot
+  static const IconData parrot = _IcoFontData(0xe877);
+  // for icon called paw
+  static const IconData paw = _IcoFontData(0xe878);
+  // for icon called pelican
+  static const IconData pelican = _IcoFontData(0xe879);
+  // for icon called penguin
+  static const IconData penguin = _IcoFontData(0xe87a);
+  // for icon called pig-face
+  static const IconData pigFace = _IcoFontData(0xe87b);
+  // for icon called pig
+  static const IconData pig = _IcoFontData(0xe87c);
+  // for icon called pigeon-1
+  static const IconData pigeon1 = _IcoFontData(0xe87d);
+  // for icon called pigeon-2
+  static const IconData pigeon2 = _IcoFontData(0xe87e);
+  // for icon called pigeon
+  static const IconData pigeon = _IcoFontData(0xe87f);
+  // for icon called rabbit
+  static const IconData rabbit = _IcoFontData(0xe880);
+  // for icon called rat
+  static const IconData rat = _IcoFontData(0xe881);
+  // for icon called rhino-head
+  static const IconData rhinoHead = _IcoFontData(0xe882);
+  // for icon called rhino
+  static const IconData rhino = _IcoFontData(0xe883);
+  // for icon called rooster
+  static const IconData rooster = _IcoFontData(0xe884);
+  // for icon called seahorse
+  static const IconData seahorse = _IcoFontData(0xe885);
+  // for icon called seal
+  static const IconData seal = _IcoFontData(0xe886);
+  // for icon called shrimp-alt
+  static const IconData shrimpAlt = _IcoFontData(0xe887);
+  // for icon called shrimp
+  static const IconData shrimp = _IcoFontData(0xe888);
+  // for icon called snail-1
+  static const IconData snail1 = _IcoFontData(0xe889);
+  // for icon called snail-2
+  static const IconData snail2 = _IcoFontData(0xe88a);
+  // for icon called snail-3
+  static const IconData snail3 = _IcoFontData(0xe88b);
+  // for icon called snail
+  static const IconData snail = _IcoFontData(0xe88c);
+  // for icon called snake
+  static const IconData snake = _IcoFontData(0xe88d);
+  // for icon called squid
+  static const IconData squid = _IcoFontData(0xe88e);
+  // for icon called squirrel
+  static const IconData squirrel = _IcoFontData(0xe88f);
+  // for icon called tiger-face
+  static const IconData tigerFace = _IcoFontData(0xe890);
+  // for icon called tiger
+  static const IconData tiger = _IcoFontData(0xe891);
+  // for icon called turtle
+  static const IconData turtle = _IcoFontData(0xe892);
+  // for icon called whale
+  static const IconData whale = _IcoFontData(0xe893);
+  // for icon called woodpecker
+  static const IconData woodpecker = _IcoFontData(0xe894);
+  // for icon called zebra
+  static const IconData zebra = _IcoFontData(0xe895);
+  // for icon called brand-acer
+  static const IconData brandAcer = _IcoFontData(0xe896);
+  // for icon called brand-adidas
+  static const IconData brandAdidas = _IcoFontData(0xe897);
+  // for icon called brand-adobe
+  static const IconData brandAdobe = _IcoFontData(0xe898);
+  // for icon called brand-air-new-zealand
+  static const IconData brandAirNewZealand = _IcoFontData(0xe899);
+  // for icon called brand-airbnb
+  static const IconData brandAirbnb = _IcoFontData(0xe89a);
+  // for icon called brand-aircell
+  static const IconData brandAircell = _IcoFontData(0xe89b);
+  // for icon called brand-airtel
+  static const IconData brandAirtel = _IcoFontData(0xe89c);
+  // for icon called brand-alcatel
+  static const IconData brandAlcatel = _IcoFontData(0xe89d);
+  // for icon called brand-alibaba
+  static const IconData brandAlibaba = _IcoFontData(0xe89e);
+  // for icon called brand-aliexpress
+  static const IconData brandAliexpress = _IcoFontData(0xe89f);
+  // for icon called brand-alipay
+  static const IconData brandAlipay = _IcoFontData(0xe8a0);
+  // for icon called brand-amazon
+  static const IconData brandAmazon = _IcoFontData(0xe8a1);
+  // for icon called brand-amd
+  static const IconData brandAmd = _IcoFontData(0xe8a2);
+  // for icon called brand-american-airlines
+  static const IconData brandAmericanAirlines = _IcoFontData(0xe8a3);
+  // for icon called brand-android-robot
+  static const IconData brandAndroidRobot = _IcoFontData(0xe8a4);
+  // for icon called brand-android
+  static const IconData brandAndroid = _IcoFontData(0xe8a5);
+  // for icon called brand-aol
+  static const IconData brandAol = _IcoFontData(0xe8a6);
+  // for icon called brand-apple
+  static const IconData brandApple = _IcoFontData(0xe8a7);
+  // for icon called brand-appstore
+  static const IconData brandAppstore = _IcoFontData(0xe8a8);
+  // for icon called brand-asus
+  static const IconData brandAsus = _IcoFontData(0xe8a9);
+  // for icon called brand-ati
+  static const IconData brandAti = _IcoFontData(0xe8aa);
+  // for icon called brand-att
+  static const IconData brandAtt = _IcoFontData(0xe8ab);
+  // for icon called brand-audi
+  static const IconData brandAudi = _IcoFontData(0xe8ac);
+  // for icon called brand-axiata
+  static const IconData brandAxiata = _IcoFontData(0xe8ad);
+  // for icon called brand-bada
+  static const IconData brandBada = _IcoFontData(0xe8ae);
+  // for icon called brand-bbc
+  static const IconData brandBbc = _IcoFontData(0xe8af);
+  // for icon called brand-bing
+  static const IconData brandBing = _IcoFontData(0xe8b0);
+  // for icon called brand-blackberry
+  static const IconData brandBlackberry = _IcoFontData(0xe8b1);
+  // for icon called brand-bmw
+  static const IconData brandBmw = _IcoFontData(0xe8b2);
+  // for icon called brand-box
+  static const IconData brandBox = _IcoFontData(0xe8b3);
+  // for icon called brand-burger-king
+  static const IconData brandBurgerKing = _IcoFontData(0xe8b4);
+  // for icon called brand-business-insider
+  static const IconData brandBusinessInsider = _IcoFontData(0xe8b5);
+  // for icon called brand-buzzfeed
+  static const IconData brandBuzzfeed = _IcoFontData(0xe8b6);
+  // for icon called brand-cannon
+  static const IconData brandCannon = _IcoFontData(0xe8b7);
+  // for icon called brand-casio
+  static const IconData brandCasio = _IcoFontData(0xe8b8);
+  // for icon called brand-china-mobile
+  static const IconData brandChinaMobile = _IcoFontData(0xe8b9);
+  // for icon called brand-china-telecom
+  static const IconData brandChinaTelecom = _IcoFontData(0xe8ba);
+  // for icon called brand-china-unicom
+  static const IconData brandChinaUnicom = _IcoFontData(0xe8bb);
+  // for icon called brand-cisco
+  static const IconData brandCisco = _IcoFontData(0xe8bc);
+  // for icon called brand-citibank
+  static const IconData brandCitibank = _IcoFontData(0xe8bd);
+  // for icon called brand-cnet
+  static const IconData brandCnet = _IcoFontData(0xe8be);
+  // for icon called brand-cnn
+  static const IconData brandCnn = _IcoFontData(0xe8bf);
+  // for icon called brand-cocal-cola
+  static const IconData brandCocalCola = _IcoFontData(0xe8c0);
+  // for icon called brand-compaq
+  static const IconData brandCompaq = _IcoFontData(0xe8c1);
+  // for icon called brand-debian
+  static const IconData brandDebian = _IcoFontData(0xe8c2);
+  // for icon called brand-delicious
+  static const IconData brandDelicious = _IcoFontData(0xe8c3);
+  // for icon called brand-dell
+  static const IconData brandDell = _IcoFontData(0xe8c4);
+  // for icon called brand-designbump
+  static const IconData brandDesignbump = _IcoFontData(0xe8c5);
+  // for icon called brand-designfloat
+  static const IconData brandDesignfloat = _IcoFontData(0xe8c6);
+  // for icon called brand-disney
+  static const IconData brandDisney = _IcoFontData(0xe8c7);
+  // for icon called brand-dodge
+  static const IconData brandDodge = _IcoFontData(0xe8c8);
+  // for icon called brand-dove
+  static const IconData brandDove = _IcoFontData(0xe8c9);
+  // for icon called brand-drupal
+  static const IconData brandDrupal = _IcoFontData(0xe8ca);
+  // for icon called brand-ebay
+  static const IconData brandEbay = _IcoFontData(0xe8cb);
+  // for icon called brand-eleven
+  static const IconData brandEleven = _IcoFontData(0xe8cc);
+  // for icon called brand-emirates
+  static const IconData brandEmirates = _IcoFontData(0xe8cd);
+  // for icon called brand-espn
+  static const IconData brandEspn = _IcoFontData(0xe8ce);
+  // for icon called brand-etihad-airways
+  static const IconData brandEtihadAirways = _IcoFontData(0xe8cf);
+  // for icon called brand-etisalat
+  static const IconData brandEtisalat = _IcoFontData(0xe8d0);
+  // for icon called brand-etsy
+  static const IconData brandEtsy = _IcoFontData(0xe8d1);
+  // for icon called brand-fastrack
+  static const IconData brandFastrack = _IcoFontData(0xe8d2);
+  // for icon called brand-fedex
+  static const IconData brandFedex = _IcoFontData(0xe8d3);
+  // for icon called brand-ferrari
+  static const IconData brandFerrari = _IcoFontData(0xe8d4);
+  // for icon called brand-fitbit
+  static const IconData brandFitbit = _IcoFontData(0xe8d5);
+  // for icon called brand-flikr
+  static const IconData brandFlikr = _IcoFontData(0xe8d6);
+  // for icon called brand-forbes
+  static const IconData brandForbes = _IcoFontData(0xe8d7);
+  // for icon called brand-foursquare
+  static const IconData brandFoursquare = _IcoFontData(0xe8d8);
+  // for icon called brand-foxconn
+  static const IconData brandFoxconn = _IcoFontData(0xe8d9);
+  // for icon called brand-fujitsu
+  static const IconData brandFujitsu = _IcoFontData(0xe8da);
+  // for icon called brand-general-electric
+  static const IconData brandGeneralElectric = _IcoFontData(0xe8db);
+  // for icon called brand-gillette
+  static const IconData brandGillette = _IcoFontData(0xe8dc);
+  // for icon called brand-gizmodo
+  static const IconData brandGizmodo = _IcoFontData(0xe8dd);
+  // for icon called brand-gnome
+  static const IconData brandGnome = _IcoFontData(0xe8de);
+  // for icon called brand-google
+  static const IconData brandGoogle = _IcoFontData(0xe8df);
+  // for icon called brand-gopro
+  static const IconData brandGopro = _IcoFontData(0xe8e0);
+  // for icon called brand-gucci
+  static const IconData brandGucci = _IcoFontData(0xe8e1);
+  // for icon called brand-hallmark
+  static const IconData brandHallmark = _IcoFontData(0xe8e2);
+  // for icon called brand-hi5
+  static const IconData brandHi5 = _IcoFontData(0xe8e3);
+  // for icon called brand-honda
+  static const IconData brandHonda = _IcoFontData(0xe8e4);
+  // for icon called brand-hp
+  static const IconData brandHp = _IcoFontData(0xe8e5);
+  // for icon called brand-hsbc
+  static const IconData brandHsbc = _IcoFontData(0xe8e6);
+  // for icon called brand-htc
+  static const IconData brandHtc = _IcoFontData(0xe8e7);
+  // for icon called brand-huawei
+  static const IconData brandHuawei = _IcoFontData(0xe8e8);
+  // for icon called brand-hulu
+  static const IconData brandHulu = _IcoFontData(0xe8e9);
+  // for icon called brand-hyundai
+  static const IconData brandHyundai = _IcoFontData(0xe8ea);
+  // for icon called brand-ibm
+  static const IconData brandIbm = _IcoFontData(0xe8eb);
+  // for icon called brand-icofont
+  static const IconData brandIcofont = _IcoFontData(0xe8ec);
+  // for icon called brand-icq
+  static const IconData brandIcq = _IcoFontData(0xe8ed);
+  // for icon called brand-ikea
+  static const IconData brandIkea = _IcoFontData(0xe8ee);
+  // for icon called brand-imdb
+  static const IconData brandImdb = _IcoFontData(0xe8ef);
+  // for icon called brand-indiegogo
+  static const IconData brandIndiegogo = _IcoFontData(0xe8f0);
+  // for icon called brand-intel
+  static const IconData brandIntel = _IcoFontData(0xe8f1);
+  // for icon called brand-ipair
+  static const IconData brandIpair = _IcoFontData(0xe8f2);
+  // for icon called brand-jaguar
+  static const IconData brandJaguar = _IcoFontData(0xe8f3);
+  // for icon called brand-java
+  static const IconData brandJava = _IcoFontData(0xe8f4);
+  // for icon called brand-joomla
+  static const IconData brandJoomla = _IcoFontData(0xe8f5);
+  // for icon called brand-kickstarter
+  static const IconData brandKickstarter = _IcoFontData(0xe8f6);
+  // for icon called brand-kik
+  static const IconData brandKik = _IcoFontData(0xe8f7);
+  // for icon called brand-lastfm
+  static const IconData brandLastfm = _IcoFontData(0xe8f8);
+  // for icon called brand-lego
+  static const IconData brandLego = _IcoFontData(0xe8f9);
+  // for icon called brand-lenovo
+  static const IconData brandLenovo = _IcoFontData(0xe8fa);
+  // for icon called brand-levis
+  static const IconData brandLevis = _IcoFontData(0xe8fb);
+  // for icon called brand-lexus
+  static const IconData brandLexus = _IcoFontData(0xe8fc);
+  // for icon called brand-lg
+  static const IconData brandLg = _IcoFontData(0xe8fd);
+  // for icon called brand-life-hacker
+  static const IconData brandLifeHacker = _IcoFontData(0xe8fe);
+  // for icon called brand-linux-mint
+  static const IconData brandLinuxMint = _IcoFontData(0xe8ff);
+  // for icon called brand-linux
+  static const IconData brandLinux = _IcoFontData(0xe900);
+  // for icon called brand-lionix
+  static const IconData brandLionix = _IcoFontData(0xe901);
+  // for icon called brand-loreal
+  static const IconData brandLoreal = _IcoFontData(0xe902);
+  // for icon called brand-louis-vuitton
+  static const IconData brandLouisVuitton = _IcoFontData(0xe903);
+  // for icon called brand-mac-os
+  static const IconData brandMacOs = _IcoFontData(0xe904);
+  // for icon called brand-marvel-app
+  static const IconData brandMarvelApp = _IcoFontData(0xe905);
+  // for icon called brand-mashable
+  static const IconData brandMashable = _IcoFontData(0xe906);
+  // for icon called brand-mazda
+  static const IconData brandMazda = _IcoFontData(0xe907);
+  // for icon called brand-mcdonals
+  static const IconData brandMcdonals = _IcoFontData(0xe908);
+  // for icon called brand-mercedes
+  static const IconData brandMercedes = _IcoFontData(0xe909);
+  // for icon called brand-micromax
+  static const IconData brandMicromax = _IcoFontData(0xe90a);
+  // for icon called brand-microsoft
+  static const IconData brandMicrosoft = _IcoFontData(0xe90b);
+  // for icon called brand-mobileme
+  static const IconData brandMobileme = _IcoFontData(0xe90c);
+  // for icon called brand-mobily
+  static const IconData brandMobily = _IcoFontData(0xe90d);
+  // for icon called brand-motorola
+  static const IconData brandMotorola = _IcoFontData(0xe90e);
+  // for icon called brand-msi
+  static const IconData brandMsi = _IcoFontData(0xe90f);
+  // for icon called brand-mts
+  static const IconData brandMts = _IcoFontData(0xe910);
+  // for icon called brand-myspace
+  static const IconData brandMyspace = _IcoFontData(0xe911);
+  // for icon called brand-mytv
+  static const IconData brandMytv = _IcoFontData(0xe912);
+  // for icon called brand-nasa
+  static const IconData brandNasa = _IcoFontData(0xe913);
+  // for icon called brand-natgeo
+  static const IconData brandNatgeo = _IcoFontData(0xe914);
+  // for icon called brand-nbc
+  static const IconData brandNbc = _IcoFontData(0xe915);
+  // for icon called brand-nescafe
+  static const IconData brandNescafe = _IcoFontData(0xe916);
+  // for icon called brand-nestle
+  static const IconData brandNestle = _IcoFontData(0xe917);
+  // for icon called brand-netflix
+  static const IconData brandNetflix = _IcoFontData(0xe918);
+  // for icon called brand-nexus
+  static const IconData brandNexus = _IcoFontData(0xe919);
+  // for icon called brand-nike
+  static const IconData brandNike = _IcoFontData(0xe91a);
+  // for icon called brand-nokia
+  static const IconData brandNokia = _IcoFontData(0xe91b);
+  // for icon called brand-nvidia
+  static const IconData brandNvidia = _IcoFontData(0xe91c);
+  // for icon called brand-omega
+  static const IconData brandOmega = _IcoFontData(0xe91d);
+  // for icon called brand-opensuse
+  static const IconData brandOpensuse = _IcoFontData(0xe91e);
+  // for icon called brand-oracle
+  static const IconData brandOracle = _IcoFontData(0xe91f);
+  // for icon called brand-panasonic
+  static const IconData brandPanasonic = _IcoFontData(0xe920);
+  // for icon called brand-paypal
+  static const IconData brandPaypal = _IcoFontData(0xe921);
+  // for icon called brand-pepsi
+  static const IconData brandPepsi = _IcoFontData(0xe922);
+  // for icon called brand-philips
+  static const IconData brandPhilips = _IcoFontData(0xe923);
+  // for icon called brand-pizza-hut
+  static const IconData brandPizzaHut = _IcoFontData(0xe924);
+  // for icon called brand-playstation
+  static const IconData brandPlaystation = _IcoFontData(0xe925);
+  // for icon called brand-puma
+  static const IconData brandPuma = _IcoFontData(0xe926);
+  // for icon called brand-qatar-air
+  static const IconData brandQatarAir = _IcoFontData(0xe927);
+  // for icon called brand-qvc
+  static const IconData brandQvc = _IcoFontData(0xe928);
+  // for icon called brand-readernaut
+  static const IconData brandReadernaut = _IcoFontData(0xe929);
+  // for icon called brand-redbull
+  static const IconData brandRedbull = _IcoFontData(0xe92a);
+  // for icon called brand-reebok
+  static const IconData brandReebok = _IcoFontData(0xe92b);
+  // for icon called brand-reuters
+  static const IconData brandReuters = _IcoFontData(0xe92c);
+  // for icon called brand-samsung
+  static const IconData brandSamsung = _IcoFontData(0xe92d);
+  // for icon called brand-sap
+  static const IconData brandSap = _IcoFontData(0xe92e);
+  // for icon called brand-saudia-airlines
+  static const IconData brandSaudiaAirlines = _IcoFontData(0xe92f);
+  // for icon called brand-scribd
+  static const IconData brandScribd = _IcoFontData(0xe930);
+  // for icon called brand-shell
+  static const IconData brandShell = _IcoFontData(0xe931);
+  // for icon called brand-siemens
+  static const IconData brandSiemens = _IcoFontData(0xe932);
+  // for icon called brand-sk-telecom
+  static const IconData brandSkTelecom = _IcoFontData(0xe933);
+  // for icon called brand-slideshare
+  static const IconData brandSlideshare = _IcoFontData(0xe934);
+  // for icon called brand-smashing-magazine
+  static const IconData brandSmashingMagazine = _IcoFontData(0xe935);
+  // for icon called brand-snapchat
+  static const IconData brandSnapchat = _IcoFontData(0xe936);
+  // for icon called brand-sony-ericsson
+  static const IconData brandSonyEricsson = _IcoFontData(0xe937);
+  // for icon called brand-sony
+  static const IconData brandSony = _IcoFontData(0xe938);
+  // for icon called brand-soundcloud
+  static const IconData brandSoundcloud = _IcoFontData(0xe939);
+  // for icon called brand-sprint
+  static const IconData brandSprint = _IcoFontData(0xe93a);
+  // for icon called brand-squidoo
+  static const IconData brandSquidoo = _IcoFontData(0xe93b);
+  // for icon called brand-starbucks
+  static const IconData brandStarbucks = _IcoFontData(0xe93c);
+  // for icon called brand-stc
+  static const IconData brandStc = _IcoFontData(0xe93d);
+  // for icon called brand-steam
+  static const IconData brandSteam = _IcoFontData(0xe93e);
+  // for icon called brand-suzuki
+  static const IconData brandSuzuki = _IcoFontData(0xe93f);
+  // for icon called brand-symbian
+  static const IconData brandSymbian = _IcoFontData(0xe940);
+  // for icon called brand-t-mobile
+  static const IconData brandTMobile = _IcoFontData(0xe941);
+  // for icon called brand-tango
+  static const IconData brandTango = _IcoFontData(0xe942);
+  // for icon called brand-target
+  static const IconData brandTarget = _IcoFontData(0xe943);
+  // for icon called brand-tata-indicom
+  static const IconData brandTataIndicom = _IcoFontData(0xe944);
+  // for icon called brand-techcrunch
+  static const IconData brandTechcrunch = _IcoFontData(0xe945);
+  // for icon called brand-telenor
+  static const IconData brandTelenor = _IcoFontData(0xe946);
+  // for icon called brand-teliasonera
+  static const IconData brandTeliasonera = _IcoFontData(0xe947);
+  // for icon called brand-tesla
+  static const IconData brandTesla = _IcoFontData(0xe948);
+  // for icon called brand-the-verge
+  static const IconData brandTheVerge = _IcoFontData(0xe949);
+  // for icon called brand-thenextweb
+  static const IconData brandThenextweb = _IcoFontData(0xe94a);
+  // for icon called brand-toshiba
+  static const IconData brandToshiba = _IcoFontData(0xe94b);
+  // for icon called brand-toyota
+  static const IconData brandToyota = _IcoFontData(0xe94c);
+  // for icon called brand-tribenet
+  static const IconData brandTribenet = _IcoFontData(0xe94d);
+  // for icon called brand-ubuntu
+  static const IconData brandUbuntu = _IcoFontData(0xe94e);
+  // for icon called brand-unilever
+  static const IconData brandUnilever = _IcoFontData(0xe94f);
+  // for icon called brand-vaio
+  static const IconData brandVaio = _IcoFontData(0xe950);
+  // for icon called brand-verizon
+  static const IconData brandVerizon = _IcoFontData(0xe951);
+  // for icon called brand-viber
+  static const IconData brandViber = _IcoFontData(0xe952);
+  // for icon called brand-vodafone
+  static const IconData brandVodafone = _IcoFontData(0xe953);
+  // for icon called brand-volkswagen
+  static const IconData brandVolkswagen = _IcoFontData(0xe954);
+  // for icon called brand-walmart
+  static const IconData brandWalmart = _IcoFontData(0xe955);
+  // for icon called brand-warnerbros
+  static const IconData brandWarnerbros = _IcoFontData(0xe956);
+  // for icon called brand-whatsapp
+  static const IconData brandWhatsapp = _IcoFontData(0xe957);
+  // for icon called brand-wikipedia
+  static const IconData brandWikipedia = _IcoFontData(0xe958);
+  // for icon called brand-windows
+  static const IconData brandWindows = _IcoFontData(0xe959);
+  // for icon called brand-wire
+  static const IconData brandWire = _IcoFontData(0xe95a);
+  // for icon called brand-wordpress
+  static const IconData brandWordpress = _IcoFontData(0xe95b);
+  // for icon called brand-xiaomi
+  static const IconData brandXiaomi = _IcoFontData(0xe95c);
+  // for icon called brand-yahoobuzz
+  static const IconData brandYahoobuzz = _IcoFontData(0xe95d);
+  // for icon called brand-yamaha
+  static const IconData brandYamaha = _IcoFontData(0xe95e);
+  // for icon called brand-youtube
+  static const IconData brandYoutube = _IcoFontData(0xe95f);
+  // for icon called brand-zain
+  static const IconData brandZain = _IcoFontData(0xe960);
+  // for icon called bank-alt
+  static const IconData bankAlt = _IcoFontData(0xe961);
+  // for icon called bank
+  static const IconData bank = _IcoFontData(0xe962);
+  // for icon called barcode
+  static const IconData barcode = _IcoFontData(0xe963);
+  // for icon called bill-alt
+  static const IconData billAlt = _IcoFontData(0xe964);
+  // for icon called billboard
+  static const IconData billboard = _IcoFontData(0xe965);
+  // for icon called briefcase-1
+  static const IconData briefcase1 = _IcoFontData(0xe966);
+  // for icon called briefcase-2
+  static const IconData briefcase2 = _IcoFontData(0xe967);
+  // for icon called businessman
+  static const IconData businessman = _IcoFontData(0xe968);
+  // for icon called businesswoman
+  static const IconData businesswoman = _IcoFontData(0xe969);
+  // for icon called chair
+  static const IconData chair = _IcoFontData(0xe96a);
+  // for icon called coins
+  static const IconData coins = _IcoFontData(0xe96b);
+  // for icon called company
+  static const IconData company = _IcoFontData(0xe96c);
+  // for icon called contact-add
+  static const IconData contactAdd = _IcoFontData(0xe96d);
+  // for icon called files-stack
+  static const IconData filesStack = _IcoFontData(0xe96e);
+  // for icon called handshake-deal
+  static const IconData handshakeDeal = _IcoFontData(0xe96f);
+  // for icon called id-card
+  static const IconData idCard = _IcoFontData(0xe970);
+  // for icon called meeting-add
+  static const IconData meetingAdd = _IcoFontData(0xe971);
+  // for icon called money-bag
+  static const IconData moneyBag = _IcoFontData(0xe972);
+  // for icon called pie-chart
+  static const IconData pieChart = _IcoFontData(0xe973);
+  // for icon called presentation-alt
+  static const IconData presentationAlt = _IcoFontData(0xe974);
+  // for icon called presentation
+  static const IconData presentation = _IcoFontData(0xe975);
+  // for icon called stamp
+  static const IconData stamp = _IcoFontData(0xe976);
+  // for icon called stock-mobile
+  static const IconData stockMobile = _IcoFontData(0xe977);
+  // for icon called chart-arrows-axis
+  static const IconData chartArrowsAxis = _IcoFontData(0xe978);
+  // for icon called chart-bar-graph
+  static const IconData chartBarGraph = _IcoFontData(0xe979);
+  // for icon called chart-flow-1
+  static const IconData chartFlow1 = _IcoFontData(0xe97a);
+  // for icon called chart-flow-2
+  static const IconData chartFlow2 = _IcoFontData(0xe97b);
+  // for icon called chart-flow
+  static const IconData chartFlow = _IcoFontData(0xe97c);
+  // for icon called chart-growth
+  static const IconData chartGrowth = _IcoFontData(0xe97d);
+  // for icon called chart-histogram-alt
+  static const IconData chartHistogramAlt = _IcoFontData(0xe97e);
+  // for icon called chart-histogram
+  static const IconData chartHistogram = _IcoFontData(0xe97f);
+  // for icon called chart-line-alt
+  static const IconData chartLineAlt = _IcoFontData(0xe980);
+  // for icon called chart-line
+  static const IconData chartLine = _IcoFontData(0xe981);
+  // for icon called chart-pie-alt
+  static const IconData chartPieAlt = _IcoFontData(0xe982);
+  // for icon called chart-pie
+  static const IconData chartPie = _IcoFontData(0xe983);
+  // for icon called chart-radar-graph
+  static const IconData chartRadarGraph = _IcoFontData(0xe984);
+  // for icon called architecture-alt
+  static const IconData architectureAlt = _IcoFontData(0xe985);
+  // for icon called architecture
+  static const IconData architecture = _IcoFontData(0xe986);
+  // for icon called barricade
+  static const IconData barricade = _IcoFontData(0xe987);
+  // for icon called bolt
+  static const IconData bolt = _IcoFontData(0xe988);
+  // for icon called bricks
+  static const IconData bricks = _IcoFontData(0xe989);
+  // for icon called building-alt
+  static const IconData buildingAlt = _IcoFontData(0xe98a);
+  // for icon called bull-dozer
+  static const IconData bullDozer = _IcoFontData(0xe98b);
+  // for icon called calculations
+  static const IconData calculations = _IcoFontData(0xe98c);
+  // for icon called cement-mix
+  static const IconData cementMix = _IcoFontData(0xe98d);
+  // for icon called cement-mixer
+  static const IconData cementMixer = _IcoFontData(0xe98e);
+  // for icon called concrete-mixer
+  static const IconData concreteMixer = _IcoFontData(0xe98f);
+  // for icon called danger-zone
+  static const IconData dangerZone = _IcoFontData(0xe990);
+  // for icon called drill
+  static const IconData drill = _IcoFontData(0xe991);
+  // for icon called eco-energy
+  static const IconData ecoEnergy = _IcoFontData(0xe992);
+  // for icon called eco-environmen
+  static const IconData ecoEnvironmen = _IcoFontData(0xe993);
+  // for icon called energy-air
+  static const IconData energyAir = _IcoFontData(0xe994);
+  // for icon called energy-oil
+  static const IconData energyOil = _IcoFontData(0xe995);
+  // for icon called energy-savings
+  static const IconData energySavings = _IcoFontData(0xe996);
+  // for icon called energy-solar
+  static const IconData energySolar = _IcoFontData(0xe997);
+  // for icon called energy-water
+  static const IconData energyWater = _IcoFontData(0xe998);
+  // for icon called engineer
+  static const IconData engineer = _IcoFontData(0xe999);
+  // for icon called fire-extinguisher-alt
+  static const IconData fireExtinguisherAlt = _IcoFontData(0xe99a);
+  // for icon called fire-extinguisher
+  static const IconData fireExtinguisher = _IcoFontData(0xe99b);
+  // for icon called fix-tools
+  static const IconData fixTools = _IcoFontData(0xe99c);
+  // for icon called fork-lift
+  static const IconData forkLift = _IcoFontData(0xe99d);
+  // for icon called glue-oil
+  static const IconData glueOil = _IcoFontData(0xe99e);
+  // for icon called hammer-alt
+  static const IconData hammerAlt = _IcoFontData(0xe99f);
+  // for icon called hammer
+  static const IconData hammer = _IcoFontData(0xe9a0);
+  // for icon called help-robot
+  static const IconData helpRobot = _IcoFontData(0xe9a1);
+  // for icon called industries-1
+  static const IconData industries1 = _IcoFontData(0xe9a2);
+  // for icon called industries-2
+  static const IconData industries2 = _IcoFontData(0xe9a3);
+  // for icon called industries-3
+  static const IconData industries3 = _IcoFontData(0xe9a4);
+  // for icon called industries-4
+  static const IconData industries4 = _IcoFontData(0xe9a5);
+  // for icon called industries-5
+  static const IconData industries5 = _IcoFontData(0xe9a6);
+  // for icon called industries
+  static const IconData industries = _IcoFontData(0xe9a7);
+  // for icon called labour
+  static const IconData labour = _IcoFontData(0xe9a8);
+  // for icon called mining
+  static const IconData mining = _IcoFontData(0xe9a9);
+  // for icon called paint-brush
+  static const IconData paintBrush = _IcoFontData(0xe9aa);
+  // for icon called pollution
+  static const IconData pollution = _IcoFontData(0xe9ab);
+  // for icon called power-zone
+  static const IconData powerZone = _IcoFontData(0xe9ac);
+  // for icon called radio-active
+  static const IconData radioActive = _IcoFontData(0xe9ad);
+  // for icon called recycle-alt
+  static const IconData recycleAlt = _IcoFontData(0xe9ae);
+  // for icon called recycling-man
+  static const IconData recyclingMan = _IcoFontData(0xe9af);
+  // for icon called safety-hat-light
+  static const IconData safetyHatLight = _IcoFontData(0xe9b0);
+  // for icon called safety-hat
+  static const IconData safetyHat = _IcoFontData(0xe9b1);
+  // for icon called saw
+  static const IconData saw = _IcoFontData(0xe9b2);
+  // for icon called screw-driver
+  static const IconData screwDriver = _IcoFontData(0xe9b3);
+  // for icon called tools-1
+  static const IconData tools1 = _IcoFontData(0xe9b4);
+  // for icon called tools-bag
+  static const IconData toolsBag = _IcoFontData(0xe9b5);
+  // for icon called tow-truck
+  static const IconData towTruck = _IcoFontData(0xe9b6);
+  // for icon called trolley
+  static const IconData trolley = _IcoFontData(0xe9b7);
+  // for icon called trowel
+  static const IconData trowel = _IcoFontData(0xe9b8);
+  // for icon called under-construction-alt
+  static const IconData underConstructionAlt = _IcoFontData(0xe9b9);
+  // for icon called under-construction
+  static const IconData underConstruction = _IcoFontData(0xe9ba);
+  // for icon called vehicle-cement
+  static const IconData vehicleCement = _IcoFontData(0xe9bb);
+  // for icon called vehicle-crane
+  static const IconData vehicleCrane = _IcoFontData(0xe9bc);
+  // for icon called vehicle-delivery-van
+  static const IconData vehicleDeliveryVan = _IcoFontData(0xe9bd);
+  // for icon called vehicle-dozer
+  static const IconData vehicleDozer = _IcoFontData(0xe9be);
+  // for icon called vehicle-excavator
+  static const IconData vehicleExcavator = _IcoFontData(0xe9bf);
+  // for icon called vehicle-trucktor
+  static const IconData vehicleTrucktor = _IcoFontData(0xe9c0);
+  // for icon called vehicle-wrecking
+  static const IconData vehicleWrecking = _IcoFontData(0xe9c1);
+  // for icon called worker
+  static const IconData worker = _IcoFontData(0xe9c2);
+  // for icon called workers-group
+  static const IconData workersGroup = _IcoFontData(0xe9c3);
+  // for icon called wrench
+  static const IconData wrench = _IcoFontData(0xe9c4);
+  // for icon called afghani-false
+  static const IconData afghaniFalse = _IcoFontData(0xe9c5);
+  // for icon called afghani-minus
+  static const IconData afghaniMinus = _IcoFontData(0xe9c6);
+  // for icon called afghani-plus
+  static const IconData afghaniPlus = _IcoFontData(0xe9c7);
+  // for icon called afghani-true
+  static const IconData afghaniTrue = _IcoFontData(0xe9c8);
+  // for icon called afghani
+  static const IconData afghani = _IcoFontData(0xe9c9);
+  // for icon called baht-false
+  static const IconData bahtFalse = _IcoFontData(0xe9ca);
+  // for icon called baht-minus
+  static const IconData bahtMinus = _IcoFontData(0xe9cb);
+  // for icon called baht-plus
+  static const IconData bahtPlus = _IcoFontData(0xe9cc);
+  // for icon called baht-true
+  static const IconData bahtTrue = _IcoFontData(0xe9cd);
+  // for icon called baht
+  static const IconData baht = _IcoFontData(0xe9ce);
+  // for icon called bitcoin-false
+  static const IconData bitcoinFalse = _IcoFontData(0xe9cf);
+  // for icon called bitcoin-minus
+  static const IconData bitcoinMinus = _IcoFontData(0xe9d0);
+  // for icon called bitcoin-plus
+  static const IconData bitcoinPlus = _IcoFontData(0xe9d1);
+  // for icon called bitcoin-true
+  static const IconData bitcoinTrue = _IcoFontData(0xe9d2);
+  // for icon called bitcoin
+  static const IconData bitcoin = _IcoFontData(0xe9d3);
+  // for icon called dollar-flase
+  static const IconData dollarFlase = _IcoFontData(0xe9d4);
+  // for icon called dollar-minus
+  static const IconData dollarMinus = _IcoFontData(0xe9d5);
+  // for icon called dollar-plus
+  static const IconData dollarPlus = _IcoFontData(0xe9d6);
+  // for icon called dollar-true
+  static const IconData dollarTrue = _IcoFontData(0xe9d7);
+  // for icon called dollar
+  static const IconData dollar = _IcoFontData(0xe9d8);
+  // for icon called dong-false
+  static const IconData dongFalse = _IcoFontData(0xe9d9);
+  // for icon called dong-minus
+  static const IconData dongMinus = _IcoFontData(0xe9da);
+  // for icon called dong-plus
+  static const IconData dongPlus = _IcoFontData(0xe9db);
+  // for icon called dong-true
+  static const IconData dongTrue = _IcoFontData(0xe9dc);
+  // for icon called dong
+  static const IconData dong = _IcoFontData(0xe9dd);
+  // for icon called euro-false
+  static const IconData euroFalse = _IcoFontData(0xe9de);
+  // for icon called euro-minus
+  static const IconData euroMinus = _IcoFontData(0xe9df);
+  // for icon called euro-plus
+  static const IconData euroPlus = _IcoFontData(0xe9e0);
+  // for icon called euro-true
+  static const IconData euroTrue = _IcoFontData(0xe9e1);
+  // for icon called euro
+  static const IconData euro = _IcoFontData(0xe9e2);
+  // for icon called frank-false
+  static const IconData frankFalse = _IcoFontData(0xe9e3);
+  // for icon called frank-minus
+  static const IconData frankMinus = _IcoFontData(0xe9e4);
+  // for icon called frank-plus
+  static const IconData frankPlus = _IcoFontData(0xe9e5);
+  // for icon called frank-true
+  static const IconData frankTrue = _IcoFontData(0xe9e6);
+  // for icon called frank
+  static const IconData frank = _IcoFontData(0xe9e7);
+  // for icon called hryvnia-false
+  static const IconData hryvniaFalse = _IcoFontData(0xe9e8);
+  // for icon called hryvnia-minus
+  static const IconData hryvniaMinus = _IcoFontData(0xe9e9);
+  // for icon called hryvnia-plus
+  static const IconData hryvniaPlus = _IcoFontData(0xe9ea);
+  // for icon called hryvnia-true
+  static const IconData hryvniaTrue = _IcoFontData(0xe9eb);
+  // for icon called hryvnia
+  static const IconData hryvnia = _IcoFontData(0xe9ec);
+  // for icon called lira-false
+  static const IconData liraFalse = _IcoFontData(0xe9ed);
+  // for icon called lira-minus
+  static const IconData liraMinus = _IcoFontData(0xe9ee);
+  // for icon called lira-plus
+  static const IconData liraPlus = _IcoFontData(0xe9ef);
+  // for icon called lira-true
+  static const IconData liraTrue = _IcoFontData(0xe9f0);
+  // for icon called lira
+  static const IconData lira = _IcoFontData(0xe9f1);
+  // for icon called peseta-false
+  static const IconData pesetaFalse = _IcoFontData(0xe9f2);
+  // for icon called peseta-minus
+  static const IconData pesetaMinus = _IcoFontData(0xe9f3);
+  // for icon called peseta-plus
+  static const IconData pesetaPlus = _IcoFontData(0xe9f4);
+  // for icon called peseta-true
+  static const IconData pesetaTrue = _IcoFontData(0xe9f5);
+  // for icon called peseta
+  static const IconData peseta = _IcoFontData(0xe9f6);
+  // for icon called peso-false
+  static const IconData pesoFalse = _IcoFontData(0xe9f7);
+  // for icon called peso-minus
+  static const IconData pesoMinus = _IcoFontData(0xe9f8);
+  // for icon called peso-plus
+  static const IconData pesoPlus = _IcoFontData(0xe9f9);
+  // for icon called peso-true
+  static const IconData pesoTrue = _IcoFontData(0xe9fa);
+  // for icon called peso
+  static const IconData peso = _IcoFontData(0xe9fb);
+  // for icon called pound-false
+  static const IconData poundFalse = _IcoFontData(0xe9fc);
+  // for icon called pound-minus
+  static const IconData poundMinus = _IcoFontData(0xe9fd);
+  // for icon called pound-plus
+  static const IconData poundPlus = _IcoFontData(0xe9fe);
+  // for icon called pound-true
+  static const IconData poundTrue = _IcoFontData(0xe9ff);
+  // for icon called pound
+  static const IconData pound = _IcoFontData(0xea00);
+  // for icon called renminbi-false
+  static const IconData renminbiFalse = _IcoFontData(0xea01);
+  // for icon called renminbi-minus
+  static const IconData renminbiMinus = _IcoFontData(0xea02);
+  // for icon called renminbi-plus
+  static const IconData renminbiPlus = _IcoFontData(0xea03);
+  // for icon called renminbi-true
+  static const IconData renminbiTrue = _IcoFontData(0xea04);
+  // for icon called renminbi
+  static const IconData renminbi = _IcoFontData(0xea05);
+  // for icon called riyal-false
+  static const IconData riyalFalse = _IcoFontData(0xea06);
+  // for icon called riyal-minus
+  static const IconData riyalMinus = _IcoFontData(0xea07);
+  // for icon called riyal-plus
+  static const IconData riyalPlus = _IcoFontData(0xea08);
+  // for icon called riyal-true
+  static const IconData riyalTrue = _IcoFontData(0xea09);
+  // for icon called riyal
+  static const IconData riyal = _IcoFontData(0xea0a);
+  // for icon called rouble-false
+  static const IconData roubleFalse = _IcoFontData(0xea0b);
+  // for icon called rouble-minus
+  static const IconData roubleMinus = _IcoFontData(0xea0c);
+  // for icon called rouble-plus
+  static const IconData roublePlus = _IcoFontData(0xea0d);
+  // for icon called rouble-true
+  static const IconData roubleTrue = _IcoFontData(0xea0e);
+  // for icon called rouble
+  static const IconData rouble = _IcoFontData(0xea0f);
+  // for icon called rupee-false
+  static const IconData rupeeFalse = _IcoFontData(0xea10);
+  // for icon called rupee-minus
+  static const IconData rupeeMinus = _IcoFontData(0xea11);
+  // for icon called rupee-plus
+  static const IconData rupeePlus = _IcoFontData(0xea12);
+  // for icon called rupee-true
+  static const IconData rupeeTrue = _IcoFontData(0xea13);
+  // for icon called rupee
+  static const IconData rupee = _IcoFontData(0xea14);
+  // for icon called taka-false
+  static const IconData takaFalse = _IcoFontData(0xea15);
+  // for icon called taka-minus
+  static const IconData takaMinus = _IcoFontData(0xea16);
+  // for icon called taka-plus
+  static const IconData takaPlus = _IcoFontData(0xea17);
+  // for icon called taka-true
+  static const IconData takaTrue = _IcoFontData(0xea18);
+  // for icon called taka
+  static const IconData taka = _IcoFontData(0xea19);
+  // for icon called turkish-lira-false
+  static const IconData turkishLiraFalse = _IcoFontData(0xea1a);
+  // for icon called turkish-lira-minus
+  static const IconData turkishLiraMinus = _IcoFontData(0xea1b);
+  // for icon called turkish-lira-plus
+  static const IconData turkishLiraPlus = _IcoFontData(0xea1c);
+  // for icon called turkish-lira-true
+  static const IconData turkishLiraTrue = _IcoFontData(0xea1d);
+  // for icon called turkish-lira
+  static const IconData turkishLira = _IcoFontData(0xea1e);
+  // for icon called won-false
+  static const IconData wonFalse = _IcoFontData(0xea1f);
+  // for icon called won-minus
+  static const IconData wonMinus = _IcoFontData(0xea20);
+  // for icon called won-plus
+  static const IconData wonPlus = _IcoFontData(0xea21);
+  // for icon called won-true
+  static const IconData wonTrue = _IcoFontData(0xea22);
+  // for icon called won
+  static const IconData won = _IcoFontData(0xea23);
+  // for icon called yen-false
+  static const IconData yenFalse = _IcoFontData(0xea24);
+  // for icon called yen-minus
+  static const IconData yenMinus = _IcoFontData(0xea25);
+  // for icon called yen-plus
+  static const IconData yenPlus = _IcoFontData(0xea26);
+  // for icon called yen-true
+  static const IconData yenTrue = _IcoFontData(0xea27);
+  // for icon called yen
+  static const IconData yen = _IcoFontData(0xea28);
+  // for icon called android-nexus
+  static const IconData androidNexus = _IcoFontData(0xea29);
+  // for icon called android-tablet
+  static const IconData androidTablet = _IcoFontData(0xea2a);
+  // for icon called apple-watch
+  static const IconData appleWatch = _IcoFontData(0xea2b);
+  // for icon called drawing-tablet
+  static const IconData drawingTablet = _IcoFontData(0xea2c);
+  // for icon called earphone
+  static const IconData earphone = _IcoFontData(0xea2d);
+  // for icon called flash-drive
+  static const IconData flashDrive = _IcoFontData(0xea2e);
+  // for icon called game-console
+  static const IconData gameConsole = _IcoFontData(0xea2f);
+  // for icon called game-controller
+  static const IconData gameController = _IcoFontData(0xea30);
+  // for icon called game-pad
+  static const IconData gamePad = _IcoFontData(0xea31);
+  // for icon called game
+  static const IconData game = _IcoFontData(0xea32);
+  // for icon called headphone-alt-1
+  static const IconData headphoneAlt1 = _IcoFontData(0xea33);
+  // for icon called headphone-alt-2
+  static const IconData headphoneAlt2 = _IcoFontData(0xea34);
+  // for icon called headphone-alt-3
+  static const IconData headphoneAlt3 = _IcoFontData(0xea35);
+  // for icon called headphone-alt
+  static const IconData headphoneAlt = _IcoFontData(0xea36);
+  // for icon called headphone
+  static const IconData headphone = _IcoFontData(0xea37);
+  // for icon called htc-one
+  static const IconData htcOne = _IcoFontData(0xea38);
+  // for icon called imac
+  static const IconData imac = _IcoFontData(0xea39);
+  // for icon called ipad
+  static const IconData ipad = _IcoFontData(0xea3a);
+  // for icon called iphone
+  static const IconData iphone = _IcoFontData(0xea3b);
+  // for icon called ipod-nano
+  static const IconData ipodNano = _IcoFontData(0xea3c);
+  // for icon called ipod-touch
+  static const IconData ipodTouch = _IcoFontData(0xea3d);
+  // for icon called keyboard-alt
+  static const IconData keyboardAlt = _IcoFontData(0xea3e);
+  // for icon called keyboard-wireless
+  static const IconData keyboardWireless = _IcoFontData(0xea3f);
+  // for icon called keyboard
+  static const IconData keyboard = _IcoFontData(0xea40);
+  // for icon called laptop-alt
+  static const IconData laptopAlt = _IcoFontData(0xea41);
+  // for icon called laptop
+  static const IconData laptop = _IcoFontData(0xea42);
+  // for icon called macbook
+  static const IconData macbook = _IcoFontData(0xea43);
+  // for icon called magic-mouse
+  static const IconData magicMouse = _IcoFontData(0xea44);
+  // for icon called micro-chip
+  static const IconData microChip = _IcoFontData(0xea45);
+  // for icon called microphone-alt
+  static const IconData microphoneAlt = _IcoFontData(0xea46);
+  // for icon called microphone
+  static const IconData microphone = _IcoFontData(0xea47);
+  // for icon called monitor
+  static const IconData monitor = _IcoFontData(0xea48);
+  // for icon called mouse
+  static const IconData mouse = _IcoFontData(0xea49);
+  // for icon called mp3-player
+  static const IconData mp3Player = _IcoFontData(0xea4a);
+  // for icon called nintendo
+  static const IconData nintendo = _IcoFontData(0xea4b);
+  // for icon called playstation-alt
+  static const IconData playstationAlt = _IcoFontData(0xea4c);
+  // for icon called psvita
+  static const IconData psvita = _IcoFontData(0xea4d);
+  // for icon called radio-mic
+  static const IconData radioMic = _IcoFontData(0xea4e);
+  // for icon called radio
+  static const IconData radio = _IcoFontData(0xea4f);
+  // for icon called refrigerator
+  static const IconData refrigerator = _IcoFontData(0xea50);
+  // for icon called samsung-galaxy
+  static const IconData samsungGalaxy = _IcoFontData(0xea51);
+  // for icon called surface-tablet
+  static const IconData surfaceTablet = _IcoFontData(0xea52);
+  // for icon called ui-head-phone
+  static const IconData uiHeadPhone = _IcoFontData(0xea53);
+  // for icon called ui-keyboard
+  static const IconData uiKeyboard = _IcoFontData(0xea54);
+  // for icon called washing-machine
+  static const IconData washingMachine = _IcoFontData(0xea55);
+  // for icon called wifi-router
+  static const IconData wifiRouter = _IcoFontData(0xea56);
+  // for icon called wii-u
+  static const IconData wiiU = _IcoFontData(0xea57);
+  // for icon called windows-lumia
+  static const IconData windowsLumia = _IcoFontData(0xea58);
+  // for icon called wireless-mouse
+  static const IconData wirelessMouse = _IcoFontData(0xea59);
+  // for icon called xbox-360
+  static const IconData xbox360 = _IcoFontData(0xea5a);
+  // for icon called arrow-down
+  static const IconData arrowDown = _IcoFontData(0xea5b);
+  // for icon called arrow-left
+  static const IconData arrowLeft = _IcoFontData(0xea5c);
+  // for icon called arrow-right
+  static const IconData arrowRight = _IcoFontData(0xea5d);
+  // for icon called arrow-up
+  static const IconData arrowUp = _IcoFontData(0xea5e);
+  // for icon called block-down
+  static const IconData blockDown = _IcoFontData(0xea5f);
+  // for icon called block-left
+  static const IconData blockLeft = _IcoFontData(0xea60);
+  // for icon called block-right
+  static const IconData blockRight = _IcoFontData(0xea61);
+  // for icon called block-up
+  static const IconData blockUp = _IcoFontData(0xea62);
+  // for icon called bubble-down
+  static const IconData bubbleDown = _IcoFontData(0xea63);
+  // for icon called bubble-left
+  static const IconData bubbleLeft = _IcoFontData(0xea64);
+  // for icon called bubble-right
+  static const IconData bubbleRight = _IcoFontData(0xea65);
+  // for icon called bubble-up
+  static const IconData bubbleUp = _IcoFontData(0xea66);
+  // for icon called caret-down
+  static const IconData caretDown = _IcoFontData(0xea67);
+  // for icon called caret-left
+  static const IconData caretLeft = _IcoFontData(0xea68);
+  // for icon called caret-right
+  static const IconData caretRight = _IcoFontData(0xea69);
+  // for icon called caret-up
+  static const IconData caretUp = _IcoFontData(0xea6a);
+  // for icon called circled-down
+  static const IconData circledDown = _IcoFontData(0xea6b);
+  // for icon called circled-left
+  static const IconData circledLeft = _IcoFontData(0xea6c);
+  // for icon called circled-right
+  static const IconData circledRight = _IcoFontData(0xea6d);
+  // for icon called circled-up
+  static const IconData circledUp = _IcoFontData(0xea6e);
+  // for icon called collapse
+  static const IconData collapse = _IcoFontData(0xea6f);
+  // for icon called cursor-drag
+  static const IconData cursorDrag = _IcoFontData(0xea70);
+  // for icon called curved-double-left
+  static const IconData curvedDoubleLeft = _IcoFontData(0xea71);
+  // for icon called curved-double-right
+  static const IconData curvedDoubleRight = _IcoFontData(0xea72);
+  // for icon called curved-down
+  static const IconData curvedDown = _IcoFontData(0xea73);
+  // for icon called curved-left
+  static const IconData curvedLeft = _IcoFontData(0xea74);
+  // for icon called curved-right
+  static const IconData curvedRight = _IcoFontData(0xea75);
+  // for icon called curved-up
+  static const IconData curvedUp = _IcoFontData(0xea76);
+  // for icon called dotted-down
+  static const IconData dottedDown = _IcoFontData(0xea77);
+  // for icon called dotted-left
+  static const IconData dottedLeft = _IcoFontData(0xea78);
+  // for icon called dotted-right
+  static const IconData dottedRight = _IcoFontData(0xea79);
+  // for icon called dotted-up
+  static const IconData dottedUp = _IcoFontData(0xea7a);
+  // for icon called double-left
+  static const IconData doubleLeft = _IcoFontData(0xea7b);
+  // for icon called double-right
+  static const IconData doubleRight = _IcoFontData(0xea7c);
+  // for icon called expand-alt
+  static const IconData expandAlt = _IcoFontData(0xea7d);
+  // for icon called hand-down
+  static const IconData handDown = _IcoFontData(0xea7e);
+  // for icon called hand-drag
+  static const IconData handDrag = _IcoFontData(0xea7f);
+  // for icon called hand-drag1
+  static const IconData handDrag1 = _IcoFontData(0xea80);
+  // for icon called hand-drag2
+  static const IconData handDrag2 = _IcoFontData(0xea81);
+  // for icon called hand-drawn-alt-down
+  static const IconData handDrawnAltDown = _IcoFontData(0xea82);
+  // for icon called hand-drawn-alt-left
+  static const IconData handDrawnAltLeft = _IcoFontData(0xea83);
+  // for icon called hand-drawn-alt-right
+  static const IconData handDrawnAltRight = _IcoFontData(0xea84);
+  // for icon called hand-drawn-alt-up
+  static const IconData handDrawnAltUp = _IcoFontData(0xea85);
+  // for icon called hand-drawn-down
+  static const IconData handDrawnDown = _IcoFontData(0xea86);
+  // for icon called hand-drawn-left
+  static const IconData handDrawnLeft = _IcoFontData(0xea87);
+  // for icon called hand-drawn-right
+  static const IconData handDrawnRight = _IcoFontData(0xea88);
+  // for icon called hand-drawn-up
+  static const IconData handDrawnUp = _IcoFontData(0xea89);
+  // for icon called hand-grippers
+  static const IconData handGrippers = _IcoFontData(0xea8a);
+  // for icon called hand-left
+  static const IconData handLeft = _IcoFontData(0xea8b);
+  // for icon called hand-right
+  static const IconData handRight = _IcoFontData(0xea8c);
+  // for icon called hand-up
+  static const IconData handUp = _IcoFontData(0xea8d);
+  // for icon called line-block-down
+  static const IconData lineBlockDown = _IcoFontData(0xea8e);
+  // for icon called line-block-left
+  static const IconData lineBlockLeft = _IcoFontData(0xea8f);
+  // for icon called line-block-right
+  static const IconData lineBlockRight = _IcoFontData(0xea90);
+  // for icon called line-block-up
+  static const IconData lineBlockUp = _IcoFontData(0xea91);
+  // for icon called long-arrow-down
+  static const IconData longArrowDown = _IcoFontData(0xea92);
+  // for icon called long-arrow-left
+  static const IconData longArrowLeft = _IcoFontData(0xea93);
+  // for icon called long-arrow-right
+  static const IconData longArrowRight = _IcoFontData(0xea94);
+  // for icon called long-arrow-up
+  static const IconData longArrowUp = _IcoFontData(0xea95);
+  // for icon called rounded-collapse
+  static const IconData roundedCollapse = _IcoFontData(0xea96);
+  // for icon called rounded-double-left
+  static const IconData roundedDoubleLeft = _IcoFontData(0xea97);
+  // for icon called rounded-double-right
+  static const IconData roundedDoubleRight = _IcoFontData(0xea98);
+  // for icon called rounded-down
+  static const IconData roundedDown = _IcoFontData(0xea99);
+  // for icon called rounded-expand
+  static const IconData roundedExpand = _IcoFontData(0xea9a);
+  // for icon called rounded-left-down
+  static const IconData roundedLeftDown = _IcoFontData(0xea9b);
+  // for icon called rounded-left-up
+  static const IconData roundedLeftUp = _IcoFontData(0xea9c);
+  // for icon called rounded-left
+  static const IconData roundedLeft = _IcoFontData(0xea9d);
+  // for icon called rounded-right-down
+  static const IconData roundedRightDown = _IcoFontData(0xea9e);
+  // for icon called rounded-right-up
+  static const IconData roundedRightUp = _IcoFontData(0xea9f);
+  // for icon called rounded-right
+  static const IconData roundedRight = _IcoFontData(0xeaa0);
+  // for icon called rounded-up
+  static const IconData roundedUp = _IcoFontData(0xeaa1);
+  // for icon called scroll-bubble-down
+  static const IconData scrollBubbleDown = _IcoFontData(0xeaa2);
+  // for icon called scroll-bubble-left
+  static const IconData scrollBubbleLeft = _IcoFontData(0xeaa3);
+  // for icon called scroll-bubble-right
+  static const IconData scrollBubbleRight = _IcoFontData(0xeaa4);
+  // for icon called scroll-bubble-up
+  static const IconData scrollBubbleUp = _IcoFontData(0xeaa5);
+  // for icon called scroll-double-down
+  static const IconData scrollDoubleDown = _IcoFontData(0xeaa6);
+  // for icon called scroll-double-left
+  static const IconData scrollDoubleLeft = _IcoFontData(0xeaa7);
+  // for icon called scroll-double-right
+  static const IconData scrollDoubleRight = _IcoFontData(0xeaa8);
+  // for icon called scroll-double-up
+  static const IconData scrollDoubleUp = _IcoFontData(0xeaa9);
+  // for icon called scroll-down
+  static const IconData scrollDown = _IcoFontData(0xeaaa);
+  // for icon called scroll-left
+  static const IconData scrollLeft = _IcoFontData(0xeaab);
+  // for icon called scroll-long-down
+  static const IconData scrollLongDown = _IcoFontData(0xeaac);
+  // for icon called scroll-long-left
+  static const IconData scrollLongLeft = _IcoFontData(0xeaad);
+  // for icon called scroll-long-right
+  static const IconData scrollLongRight = _IcoFontData(0xeaae);
+  // for icon called scroll-long-up
+  static const IconData scrollLongUp = _IcoFontData(0xeaaf);
+  // for icon called scroll-right
+  static const IconData scrollRight = _IcoFontData(0xeab0);
+  // for icon called scroll-up
+  static const IconData scrollUp = _IcoFontData(0xeab1);
+  // for icon called simple-down
+  static const IconData simpleDown = _IcoFontData(0xeab2);
+  // for icon called simple-left-down
+  static const IconData simpleLeftDown = _IcoFontData(0xeab3);
+  // for icon called simple-left-up
+  static const IconData simpleLeftUp = _IcoFontData(0xeab4);
+  // for icon called simple-left
+  static const IconData simpleLeft = _IcoFontData(0xeab5);
+  // for icon called simple-right-down
+  static const IconData simpleRightDown = _IcoFontData(0xeab6);
+  // for icon called simple-right-up
+  static const IconData simpleRightUp = _IcoFontData(0xeab7);
+  // for icon called simple-right
+  static const IconData simpleRight = _IcoFontData(0xeab8);
+  // for icon called simple-up
+  static const IconData simpleUp = _IcoFontData(0xeab9);
+  // for icon called square-down
+  static const IconData squareDown = _IcoFontData(0xeaba);
+  // for icon called square-left
+  static const IconData squareLeft = _IcoFontData(0xeabb);
+  // for icon called square-right
+  static const IconData squareRight = _IcoFontData(0xeabc);
+  // for icon called square-up
+  static const IconData squareUp = _IcoFontData(0xeabd);
+  // for icon called stylish-down
+  static const IconData stylishDown = _IcoFontData(0xeabe);
+  // for icon called stylish-left
+  static const IconData stylishLeft = _IcoFontData(0xeabf);
+  // for icon called stylish-right
+  static const IconData stylishRight = _IcoFontData(0xeac0);
+  // for icon called stylish-up
+  static const IconData stylishUp = _IcoFontData(0xeac1);
+  // for icon called swoosh-down
+  static const IconData swooshDown = _IcoFontData(0xeac2);
+  // for icon called swoosh-left
+  static const IconData swooshLeft = _IcoFontData(0xeac3);
+  // for icon called swoosh-right
+  static const IconData swooshRight = _IcoFontData(0xeac4);
+  // for icon called swoosh-up
+  static const IconData swooshUp = _IcoFontData(0xeac5);
+  // for icon called thin-double-left
+  static const IconData thinDoubleLeft = _IcoFontData(0xeac6);
+  // for icon called thin-double-right
+  static const IconData thinDoubleRight = _IcoFontData(0xeac7);
+  // for icon called thin-down
+  static const IconData thinDown = _IcoFontData(0xeac8);
+  // for icon called thin-left
+  static const IconData thinLeft = _IcoFontData(0xeac9);
+  // for icon called thin-right
+  static const IconData thinRight = _IcoFontData(0xeaca);
+  // for icon called thin-up
+  static const IconData thinUp = _IcoFontData(0xeacb);
+  // for icon called abc
+  static const IconData abc = _IcoFontData(0xeacc);
+  // for icon called atom
+  static const IconData atom = _IcoFontData(0xeacd);
+  // for icon called award
+  static const IconData award = _IcoFontData(0xeace);
+  // for icon called bell-alt
+  static const IconData bellAlt = _IcoFontData(0xeacf);
+  // for icon called black-board
+  static const IconData blackBoard = _IcoFontData(0xead0);
+  // for icon called book-alt
+  static const IconData bookAlt = _IcoFontData(0xead1);
+  // for icon called book
+  static const IconData book = _IcoFontData(0xead2);
+  // for icon called brainstorming
+  static const IconData brainstorming = _IcoFontData(0xead3);
+  // for icon called certificate-alt-1
+  static const IconData certificateAlt1 = _IcoFontData(0xead4);
+  // for icon called certificate-alt-2
+  static const IconData certificateAlt2 = _IcoFontData(0xead5);
+  // for icon called certificate
+  static const IconData certificate = _IcoFontData(0xead6);
+  // for icon called education
+  static const IconData education = _IcoFontData(0xead7);
+  // for icon called electron
+  static const IconData electron = _IcoFontData(0xead8);
+  // for icon called fountain-pen
+  static const IconData fountainPen = _IcoFontData(0xead9);
+  // for icon called globe-alt
+  static const IconData globeAlt = _IcoFontData(0xeada);
+  // for icon called graduate-alt
+  static const IconData graduateAlt = _IcoFontData(0xeadb);
+  // for icon called graduate
+  static const IconData graduate = _IcoFontData(0xeadc);
+  // for icon called group-students
+  static const IconData groupStudents = _IcoFontData(0xeadd);
+  // for icon called hat-alt
+  static const IconData hatAlt = _IcoFontData(0xeade);
+  // for icon called hat
+  static const IconData hat = _IcoFontData(0xeadf);
+  // for icon called instrument
+  static const IconData instrument = _IcoFontData(0xeae0);
+  // for icon called lamp-light
+  static const IconData lampLight = _IcoFontData(0xeae1);
+  // for icon called medal
+  static const IconData medal = _IcoFontData(0xeae2);
+  // for icon called microscope-alt
+  static const IconData microscopeAlt = _IcoFontData(0xeae3);
+  // for icon called microscope
+  static const IconData microscope = _IcoFontData(0xeae4);
+  // for icon called paper
+  static const IconData paper = _IcoFontData(0xeae5);
+  // for icon called pen-alt-4
+  static const IconData penAlt4 = _IcoFontData(0xeae6);
+  // for icon called pen-nib
+  static const IconData penNib = _IcoFontData(0xeae7);
+  // for icon called pencil-alt-5
+  static const IconData pencilAlt5 = _IcoFontData(0xeae8);
+  // for icon called quill-pen
+  static const IconData quillPen = _IcoFontData(0xeae9);
+  // for icon called read-book-alt
+  static const IconData readBookAlt = _IcoFontData(0xeaea);
+  // for icon called read-book
+  static const IconData readBook = _IcoFontData(0xeaeb);
+  // for icon called school-bag
+  static const IconData schoolBag = _IcoFontData(0xeaec);
+  // for icon called school-bus
+  static const IconData schoolBus = _IcoFontData(0xeaed);
+  // for icon called student-alt
+  static const IconData studentAlt = _IcoFontData(0xeaee);
+  // for icon called student
+  static const IconData student = _IcoFontData(0xeaef);
+  // for icon called teacher
+  static const IconData teacher = _IcoFontData(0xeaf0);
+  // for icon called test-bulb
+  static const IconData testBulb = _IcoFontData(0xeaf1);
+  // for icon called test-tube-alt
+  static const IconData testTubeAlt = _IcoFontData(0xeaf2);
+  // for icon called university
+  static const IconData university = _IcoFontData(0xeaf3);
+  // for icon called angry
+  static const IconData angry = _IcoFontData(0xeaf4);
+  // for icon called astonished
+  static const IconData astonished = _IcoFontData(0xeaf5);
+  // for icon called confounded
+  static const IconData confounded = _IcoFontData(0xeaf6);
+  // for icon called confused
+  static const IconData confused = _IcoFontData(0xeaf7);
+  // for icon called crying
+  static const IconData crying = _IcoFontData(0xeaf8);
+  // for icon called dizzy
+  static const IconData dizzy = _IcoFontData(0xeaf9);
+  // for icon called expressionless
+  static const IconData expressionless = _IcoFontData(0xeafa);
+  // for icon called heart-eyes
+  static const IconData heartEyes = _IcoFontData(0xeafb);
+  // for icon called laughing
+  static const IconData laughing = _IcoFontData(0xeafc);
+  // for icon called nerd-smile
+  static const IconData nerdSmile = _IcoFontData(0xeafd);
+  // for icon called open-mouth
+  static const IconData openMouth = _IcoFontData(0xeafe);
+  // for icon called rage
+  static const IconData rage = _IcoFontData(0xeaff);
+  // for icon called rolling-eyes
+  static const IconData rollingEyes = _IcoFontData(0xeb00);
+  // for icon called sad
+  static const IconData sad = _IcoFontData(0xeb01);
+  // for icon called simple-smile
+  static const IconData simpleSmile = _IcoFontData(0xeb02);
+  // for icon called slightly-smile
+  static const IconData slightlySmile = _IcoFontData(0xeb03);
+  // for icon called smirk
+  static const IconData smirk = _IcoFontData(0xeb04);
+  // for icon called stuck-out-tongue
+  static const IconData stuckOutTongue = _IcoFontData(0xeb05);
+  // for icon called wink-smile
+  static const IconData winkSmile = _IcoFontData(0xeb06);
+  // for icon called worried
+  static const IconData worried = _IcoFontData(0xeb07);
+  // for icon called file-alt
+  static const IconData fileAlt = _IcoFontData(0xeb08);
+  // for icon called file-audio
+  static const IconData fileAudio = _IcoFontData(0xeb09);
+  // for icon called file-avi-mp4
+  static const IconData fileAviMp4 = _IcoFontData(0xeb0a);
+  // for icon called file-bmp
+  static const IconData fileBmp = _IcoFontData(0xeb0b);
+  // for icon called file-code
+  static const IconData fileCode = _IcoFontData(0xeb0c);
+  // for icon called file-css
+  static const IconData fileCss = _IcoFontData(0xeb0d);
+  // for icon called file-document
+  static const IconData fileDocument = _IcoFontData(0xeb0e);
+  // for icon called file-eps
+  static const IconData fileEps = _IcoFontData(0xeb0f);
+  // for icon called file-excel
+  static const IconData fileExcel = _IcoFontData(0xeb10);
+  // for icon called file-exe
+  static const IconData fileExe = _IcoFontData(0xeb11);
+  // for icon called file-file
+  static const IconData fileFile = _IcoFontData(0xeb12);
+  // for icon called file-flv
+  static const IconData fileFlv = _IcoFontData(0xeb13);
+  // for icon called file-gif
+  static const IconData fileGif = _IcoFontData(0xeb14);
+  // for icon called file-html5
+  static const IconData fileHtml5 = _IcoFontData(0xeb15);
+  // for icon called file-image
+  static const IconData fileImage = _IcoFontData(0xeb16);
+  // for icon called file-iso
+  static const IconData fileIso = _IcoFontData(0xeb17);
+  // for icon called file-java
+  static const IconData fileJava = _IcoFontData(0xeb18);
+  // for icon called file-javascript
+  static const IconData fileJavascript = _IcoFontData(0xeb19);
+  // for icon called file-jpg
+  static const IconData fileJpg = _IcoFontData(0xeb1a);
+  // for icon called file-midi
+  static const IconData fileMidi = _IcoFontData(0xeb1b);
+  // for icon called file-mov
+  static const IconData fileMov = _IcoFontData(0xeb1c);
+  // for icon called file-mp3
+  static const IconData fileMp3 = _IcoFontData(0xeb1d);
+  // for icon called file-pdf
+  static const IconData filePdf = _IcoFontData(0xeb1e);
+  // for icon called file-php
+  static const IconData filePhp = _IcoFontData(0xeb1f);
+  // for icon called file-png
+  static const IconData filePng = _IcoFontData(0xeb20);
+  // for icon called file-powerpoint
+  static const IconData filePowerpoint = _IcoFontData(0xeb21);
+  // for icon called file-presentation
+  static const IconData filePresentation = _IcoFontData(0xeb22);
+  // for icon called file-psb
+  static const IconData filePsb = _IcoFontData(0xeb23);
+  // for icon called file-psd
+  static const IconData filePsd = _IcoFontData(0xeb24);
+  // for icon called file-python
+  static const IconData filePython = _IcoFontData(0xeb25);
+  // for icon called file-ruby
+  static const IconData fileRuby = _IcoFontData(0xeb26);
+  // for icon called file-spreadsheet
+  static const IconData fileSpreadsheet = _IcoFontData(0xeb27);
+  // for icon called file-sql
+  static const IconData fileSql = _IcoFontData(0xeb28);
+  // for icon called file-svg
+  static const IconData fileSvg = _IcoFontData(0xeb29);
+  // for icon called file-text
+  static const IconData fileText = _IcoFontData(0xeb2a);
+  // for icon called file-tiff
+  static const IconData fileTiff = _IcoFontData(0xeb2b);
+  // for icon called file-video
+  static const IconData fileVideo = _IcoFontData(0xeb2c);
+  // for icon called file-wave
+  static const IconData fileWave = _IcoFontData(0xeb2d);
+  // for icon called file-wmv
+  static const IconData fileWmv = _IcoFontData(0xeb2e);
+  // for icon called file-word
+  static const IconData fileWord = _IcoFontData(0xeb2f);
+  // for icon called file-zip
+  static const IconData fileZip = _IcoFontData(0xeb30);
+  // for icon called cycling-alt
+  static const IconData cyclingAlt = _IcoFontData(0xeb31);
+  // for icon called cycling
+  static const IconData cycling = _IcoFontData(0xeb32);
+  // for icon called dumbbell
+  static const IconData dumbbell = _IcoFontData(0xeb33);
+  // for icon called dumbbells
+  static const IconData dumbbells = _IcoFontData(0xeb34);
+  // for icon called gym-alt-1
+  static const IconData gymAlt1 = _IcoFontData(0xeb35);
+  // for icon called gym-alt-2
+  static const IconData gymAlt2 = _IcoFontData(0xeb36);
+  // for icon called gym-alt-3
+  static const IconData gymAlt3 = _IcoFontData(0xeb37);
+  // for icon called gym
+  static const IconData gym = _IcoFontData(0xeb38);
+  // for icon called muscle-weight
+  static const IconData muscleWeight = _IcoFontData(0xeb39);
+  // for icon called muscle
+  static const IconData muscle = _IcoFontData(0xeb3a);
+  // for icon called apple
+  static const IconData apple = _IcoFontData(0xeb3b);
+  // for icon called arabian-coffee
+  static const IconData arabianCoffee = _IcoFontData(0xeb3c);
+  // for icon called artichoke
+  static const IconData artichoke = _IcoFontData(0xeb3d);
+  // for icon called asparagus
+  static const IconData asparagus = _IcoFontData(0xeb3e);
+  // for icon called avocado
+  static const IconData avocado = _IcoFontData(0xeb3f);
+  // for icon called baby-food
+  static const IconData babyFood = _IcoFontData(0xeb40);
+  // for icon called banana
+  static const IconData banana = _IcoFontData(0xeb41);
+  // for icon called bbq
+  static const IconData bbq = _IcoFontData(0xeb42);
+  // for icon called beans
+  static const IconData beans = _IcoFontData(0xeb43);
+  // for icon called beer
+  static const IconData beer = _IcoFontData(0xeb44);
+  // for icon called bell-pepper-capsicum
+  static const IconData bellPepperCapsicum = _IcoFontData(0xeb45);
+  // for icon called birthday-cake
+  static const IconData birthdayCake = _IcoFontData(0xeb46);
+  // for icon called bread
+  static const IconData bread = _IcoFontData(0xeb47);
+  // for icon called broccoli
+  static const IconData broccoli = _IcoFontData(0xeb48);
+  // for icon called burger
+  static const IconData burger = _IcoFontData(0xeb49);
+  // for icon called cabbage
+  static const IconData cabbage = _IcoFontData(0xeb4a);
+  // for icon called carrot
+  static const IconData carrot = _IcoFontData(0xeb4b);
+  // for icon called cauli-flower
+  static const IconData cauliFlower = _IcoFontData(0xeb4c);
+  // for icon called cheese
+  static const IconData cheese = _IcoFontData(0xeb4d);
+  // for icon called chef
+  static const IconData chef = _IcoFontData(0xeb4e);
+  // for icon called cherry
+  static const IconData cherry = _IcoFontData(0xeb4f);
+  // for icon called chicken-fry
+  static const IconData chickenFry = _IcoFontData(0xeb50);
+  // for icon called chicken
+  static const IconData chicken = _IcoFontData(0xeb51);
+  // for icon called cocktail
+  static const IconData cocktail = _IcoFontData(0xeb52);
+  // for icon called coconut-water
+  static const IconData coconutWater = _IcoFontData(0xeb53);
+  // for icon called coconut
+  static const IconData coconut = _IcoFontData(0xeb54);
+  // for icon called coffee-alt
+  static const IconData coffeeAlt = _IcoFontData(0xeb55);
+  // for icon called coffee-cup
+  static const IconData coffeeCup = _IcoFontData(0xeb56);
+  // for icon called coffee-mug
+  static const IconData coffeeMug = _IcoFontData(0xeb57);
+  // for icon called coffee-pot
+  static const IconData coffeePot = _IcoFontData(0xeb58);
+  // for icon called cola
+  static const IconData cola = _IcoFontData(0xeb59);
+  // for icon called corn
+  static const IconData corn = _IcoFontData(0xeb5a);
+  // for icon called croissant
+  static const IconData croissant = _IcoFontData(0xeb5b);
+  // for icon called crop-plant
+  static const IconData cropPlant = _IcoFontData(0xeb5c);
+  // for icon called cucumber
+  static const IconData cucumber = _IcoFontData(0xeb5d);
+  // for icon called culinary
+  static const IconData culinary = _IcoFontData(0xeb5e);
+  // for icon called cup-cake
+  static const IconData cupCake = _IcoFontData(0xeb5f);
+  // for icon called dining-table
+  static const IconData diningTable = _IcoFontData(0xeb60);
+  // for icon called donut
+  static const IconData donut = _IcoFontData(0xeb61);
+  // for icon called egg-plant
+  static const IconData eggPlant = _IcoFontData(0xeb62);
+  // for icon called egg-poached
+  static const IconData eggPoached = _IcoFontData(0xeb63);
+  // for icon called farmer-alt
+  static const IconData farmerAlt = _IcoFontData(0xeb64);
+  // for icon called farmer
+  static const IconData farmer = _IcoFontData(0xeb65);
+  // for icon called fast-food
+  static const IconData fastFood = _IcoFontData(0xeb66);
+  // for icon called food-basket
+  static const IconData foodBasket = _IcoFontData(0xeb67);
+  // for icon called food-cart
+  static const IconData foodCart = _IcoFontData(0xeb68);
+  // for icon called fork-and-knife
+  static const IconData forkAndKnife = _IcoFontData(0xeb69);
+  // for icon called french-fries
+  static const IconData frenchFries = _IcoFontData(0xeb6a);
+  // for icon called fruits
+  static const IconData fruits = _IcoFontData(0xeb6b);
+  // for icon called grapes
+  static const IconData grapes = _IcoFontData(0xeb6c);
+  // for icon called honey
+  static const IconData honey = _IcoFontData(0xeb6d);
+  // for icon called hot-dog
+  static const IconData hotDog = _IcoFontData(0xeb6e);
+  // for icon called ice-cream-alt
+  static const IconData iceCreamAlt = _IcoFontData(0xeb6f);
+  // for icon called ice-cream
+  static const IconData iceCream = _IcoFontData(0xeb70);
+  // for icon called juice
+  static const IconData juice = _IcoFontData(0xeb71);
+  // for icon called ketchup
+  static const IconData ketchup = _IcoFontData(0xeb72);
+  // for icon called kiwi
+  static const IconData kiwi = _IcoFontData(0xeb73);
+  // for icon called layered-cake
+  static const IconData layeredCake = _IcoFontData(0xeb74);
+  // for icon called lemon-alt
+  static const IconData lemonAlt = _IcoFontData(0xeb75);
+  // for icon called lemon
+  static const IconData lemon = _IcoFontData(0xeb76);
+  // for icon called lobster
+  static const IconData lobster = _IcoFontData(0xeb77);
+  // for icon called mango
+  static const IconData mango = _IcoFontData(0xeb78);
+  // for icon called milk
+  static const IconData milk = _IcoFontData(0xeb79);
+  // for icon called mushroom
+  static const IconData mushroom = _IcoFontData(0xeb7a);
+  // for icon called noodles
+  static const IconData noodles = _IcoFontData(0xeb7b);
+  // for icon called onion
+  static const IconData onion = _IcoFontData(0xeb7c);
+  // for icon called orange
+  static const IconData orange = _IcoFontData(0xeb7d);
+  // for icon called pear
+  static const IconData pear = _IcoFontData(0xeb7e);
+  // for icon called peas
+  static const IconData peas = _IcoFontData(0xeb7f);
+  // for icon called pepper
+  static const IconData pepper = _IcoFontData(0xeb80);
+  // for icon called pie-alt
+  static const IconData pieAlt = _IcoFontData(0xeb81);
+  // for icon called pie
+  static const IconData pie = _IcoFontData(0xeb82);
+  // for icon called pineapple
+  static const IconData pineapple = _IcoFontData(0xeb83);
+  // for icon called pizza-slice
+  static const IconData pizzaSlice = _IcoFontData(0xeb84);
+  // for icon called pizza
+  static const IconData pizza = _IcoFontData(0xeb85);
+  // for icon called plant
+  static const IconData plant = _IcoFontData(0xeb86);
+  // for icon called popcorn
+  static const IconData popcorn = _IcoFontData(0xeb87);
+  // for icon called potato
+  static const IconData potato = _IcoFontData(0xeb88);
+  // for icon called pumpkin
+  static const IconData pumpkin = _IcoFontData(0xeb89);
+  // for icon called raddish
+  static const IconData raddish = _IcoFontData(0xeb8a);
+  // for icon called restaurant-menu
+  static const IconData restaurantMenu = _IcoFontData(0xeb8b);
+  // for icon called restaurant
+  static const IconData restaurant = _IcoFontData(0xeb8c);
+  // for icon called salt-and-pepper
+  static const IconData saltAndPepper = _IcoFontData(0xeb8d);
+  // for icon called sandwich
+  static const IconData sandwich = _IcoFontData(0xeb8e);
+  // for icon called sausage
+  static const IconData sausage = _IcoFontData(0xeb8f);
+  // for icon called soft-drinks
+  static const IconData softDrinks = _IcoFontData(0xeb90);
+  // for icon called soup-bowl
+  static const IconData soupBowl = _IcoFontData(0xeb91);
+  // for icon called spoon-and-fork
+  static const IconData spoonAndFork = _IcoFontData(0xeb92);
+  // for icon called steak
+  static const IconData steak = _IcoFontData(0xeb93);
+  // for icon called strawberry
+  static const IconData strawberry = _IcoFontData(0xeb94);
+  // for icon called sub-sandwich
+  static const IconData subSandwich = _IcoFontData(0xeb95);
+  // for icon called sushi
+  static const IconData sushi = _IcoFontData(0xeb96);
+  // for icon called taco
+  static const IconData taco = _IcoFontData(0xeb97);
+  // for icon called tea-pot
+  static const IconData teaPot = _IcoFontData(0xeb98);
+  // for icon called tea
+  static const IconData tea = _IcoFontData(0xeb99);
+  // for icon called tomato
+  static const IconData tomato = _IcoFontData(0xeb9a);
+  // for icon called watermelon
+  static const IconData watermelon = _IcoFontData(0xeb9b);
+  // for icon called wheat
+  static const IconData wheat = _IcoFontData(0xeb9c);
+  // for icon called baby-backpack
+  static const IconData babyBackpack = _IcoFontData(0xeb9d);
+  // for icon called baby-cloth
+  static const IconData babyCloth = _IcoFontData(0xeb9e);
+  // for icon called baby-milk-bottle
+  static const IconData babyMilkBottle = _IcoFontData(0xeb9f);
+  // for icon called baby-trolley
+  static const IconData babyTrolley = _IcoFontData(0xeba0);
+  // for icon called baby
+  static const IconData baby = _IcoFontData(0xeba1);
+  // for icon called candy
+  static const IconData candy = _IcoFontData(0xeba2);
+  // for icon called holding-hands
+  static const IconData holdingHands = _IcoFontData(0xeba3);
+  // for icon called infant-nipple
+  static const IconData infantNipple = _IcoFontData(0xeba4);
+  // for icon called kids-scooter
+  static const IconData kidsScooter = _IcoFontData(0xeba5);
+  // for icon called safety-pin
+  static const IconData safetyPin = _IcoFontData(0xeba6);
+  // for icon called teddy-bear
+  static const IconData teddyBear = _IcoFontData(0xeba7);
+  // for icon called toy-ball
+  static const IconData toyBall = _IcoFontData(0xeba8);
+  // for icon called toy-cat
+  static const IconData toyCat = _IcoFontData(0xeba9);
+  // for icon called toy-duck
+  static const IconData toyDuck = _IcoFontData(0xebaa);
+  // for icon called toy-elephant
+  static const IconData toyElephant = _IcoFontData(0xebab);
+  // for icon called toy-hand
+  static const IconData toyHand = _IcoFontData(0xebac);
+  // for icon called toy-horse
+  static const IconData toyHorse = _IcoFontData(0xebad);
+  // for icon called toy-lattu
+  static const IconData toyLattu = _IcoFontData(0xebae);
+  // for icon called toy-train
+  static const IconData toyTrain = _IcoFontData(0xebaf);
+  // for icon called burglar
+  static const IconData burglar = _IcoFontData(0xebb0);
+  // for icon called cannon-firing
+  static const IconData cannonFiring = _IcoFontData(0xebb1);
+  // for icon called cc-camera
+  static const IconData ccCamera = _IcoFontData(0xebb2);
+  // for icon called cop-badge
+  static const IconData copBadge = _IcoFontData(0xebb3);
+  // for icon called cop
+  static const IconData cop = _IcoFontData(0xebb4);
+  // for icon called court-hammer
+  static const IconData courtHammer = _IcoFontData(0xebb5);
+  // for icon called court
+  static const IconData court = _IcoFontData(0xebb6);
+  // for icon called finger-print
+  static const IconData fingerPrint = _IcoFontData(0xebb7);
+  // for icon called gavel
+  static const IconData gavel = _IcoFontData(0xebb8);
+  // for icon called handcuff-alt
+  static const IconData handcuffAlt = _IcoFontData(0xebb9);
+  // for icon called handcuff
+  static const IconData handcuff = _IcoFontData(0xebba);
+  // for icon called investigation
+  static const IconData investigation = _IcoFontData(0xebbb);
+  // for icon called investigator
+  static const IconData investigator = _IcoFontData(0xebbc);
+  // for icon called jail
+  static const IconData jail = _IcoFontData(0xebbd);
+  // for icon called judge
+  static const IconData judge = _IcoFontData(0xebbe);
+  // for icon called law-alt-1
+  static const IconData lawAlt1 = _IcoFontData(0xebbf);
+  // for icon called law-alt-2
+  static const IconData lawAlt2 = _IcoFontData(0xebc0);
+  // for icon called law-alt-3
+  static const IconData lawAlt3 = _IcoFontData(0xebc1);
+  // for icon called law-book
+  static const IconData lawBook = _IcoFontData(0xebc2);
+  // for icon called law-document
+  static const IconData lawDocument = _IcoFontData(0xebc3);
+  // for icon called law-order
+  static const IconData lawOrder = _IcoFontData(0xebc4);
+  // for icon called law-protect
+  static const IconData lawProtect = _IcoFontData(0xebc5);
+  // for icon called law-scales
+  static const IconData lawScales = _IcoFontData(0xebc6);
+  // for icon called law
+  static const IconData law = _IcoFontData(0xebc7);
+  // for icon called lawyer-alt-1
+  static const IconData lawyerAlt1 = _IcoFontData(0xebc8);
+  // for icon called lawyer-alt-2
+  static const IconData lawyerAlt2 = _IcoFontData(0xebc9);
+  // for icon called lawyer
+  static const IconData lawyer = _IcoFontData(0xebca);
+  // for icon called legal
+  static const IconData legal = _IcoFontData(0xebcb);
+  // for icon called pistol
+  static const IconData pistol = _IcoFontData(0xebcc);
+  // for icon called police-badge
+  static const IconData policeBadge = _IcoFontData(0xebcd);
+  // for icon called police-cap
+  static const IconData policeCap = _IcoFontData(0xebce);
+  // for icon called police-car-alt-1
+  static const IconData policeCarAlt1 = _IcoFontData(0xebcf);
+  // for icon called police-car-alt-2
+  static const IconData policeCarAlt2 = _IcoFontData(0xebd0);
+  // for icon called police-car
+  static const IconData policeCar = _IcoFontData(0xebd1);
+  // for icon called police-hat
+  static const IconData policeHat = _IcoFontData(0xebd2);
+  // for icon called police-van
+  static const IconData policeVan = _IcoFontData(0xebd3);
+  // for icon called police
+  static const IconData police = _IcoFontData(0xebd4);
+  // for icon called thief-alt
+  static const IconData thiefAlt = _IcoFontData(0xebd5);
+  // for icon called thief
+  static const IconData thief = _IcoFontData(0xebd6);
+  // for icon called abacus-alt
+  static const IconData abacusAlt = _IcoFontData(0xebd7);
+  // for icon called abacus
+  static const IconData abacus = _IcoFontData(0xebd8);
+  // for icon called angle-180
+  static const IconData angle180 = _IcoFontData(0xebd9);
+  // for icon called angle-45
+  static const IconData angle45 = _IcoFontData(0xebda);
+  // for icon called angle-90
+  static const IconData angle90 = _IcoFontData(0xebdb);
+  // for icon called angle
+  static const IconData angle = _IcoFontData(0xebdc);
+  // for icon called calculator-alt-1
+  static const IconData calculatorAlt1 = _IcoFontData(0xebdd);
+  // for icon called calculator-alt-2
+  static const IconData calculatorAlt2 = _IcoFontData(0xebde);
+  // for icon called calculator
+  static const IconData calculator = _IcoFontData(0xebdf);
+  // for icon called circle-ruler-alt
+  static const IconData circleRulerAlt = _IcoFontData(0xebe0);
+  // for icon called circle-ruler
+  static const IconData circleRuler = _IcoFontData(0xebe1);
+  // for icon called compass-alt-1
+  static const IconData compassAlt1 = _IcoFontData(0xebe2);
+  // for icon called compass-alt-2
+  static const IconData compassAlt2 = _IcoFontData(0xebe3);
+  // for icon called compass-alt-3
+  static const IconData compassAlt3 = _IcoFontData(0xebe4);
+  // for icon called compass-alt-4
+  static const IconData compassAlt4 = _IcoFontData(0xebe5);
+  // for icon called golden-ratio
+  static const IconData goldenRatio = _IcoFontData(0xebe6);
+  // for icon called marker-alt-1
+  static const IconData markerAlt1 = _IcoFontData(0xebe7);
+  // for icon called marker-alt-2
+  static const IconData markerAlt2 = _IcoFontData(0xebe8);
+  // for icon called marker-alt-3
+  static const IconData markerAlt3 = _IcoFontData(0xebe9);
+  // for icon called marker
+  static const IconData marker = _IcoFontData(0xebea);
+  // for icon called math
+  static const IconData math = _IcoFontData(0xebeb);
+  // for icon called mathematical-alt-1
+  static const IconData mathematicalAlt1 = _IcoFontData(0xebec);
+  // for icon called mathematical-alt-2
+  static const IconData mathematicalAlt2 = _IcoFontData(0xebed);
+  // for icon called mathematical
+  static const IconData mathematical = _IcoFontData(0xebee);
+  // for icon called pen-alt-1
+  static const IconData penAlt1 = _IcoFontData(0xebef);
+  // for icon called pen-alt-2
+  static const IconData penAlt2 = _IcoFontData(0xebf0);
+  // for icon called pen-alt-3
+  static const IconData penAlt3 = _IcoFontData(0xebf1);
+  // for icon called pen-holder-alt-1
+  static const IconData penHolderAlt1 = _IcoFontData(0xebf2);
+  // for icon called pen-holder
+  static const IconData penHolder = _IcoFontData(0xebf3);
+  // for icon called pen
+  static const IconData pen = _IcoFontData(0xebf4);
+  // for icon called pencil-alt-1
+  static const IconData pencilAlt1 = _IcoFontData(0xebf5);
+  // for icon called pencil-alt-2
+  static const IconData pencilAlt2 = _IcoFontData(0xebf6);
+  // for icon called pencil-alt-3
+  static const IconData pencilAlt3 = _IcoFontData(0xebf7);
+  // for icon called pencil-alt-4
+  static const IconData pencilAlt4 = _IcoFontData(0xebf8);
+  // for icon called pencil
+  static const IconData pencil = _IcoFontData(0xebf9);
+  // for icon called ruler-alt-1
+  static const IconData rulerAlt1 = _IcoFontData(0xebfa);
+  // for icon called ruler-alt-2
+  static const IconData rulerAlt2 = _IcoFontData(0xebfb);
+  // for icon called ruler-compass-alt
+  static const IconData rulerCompassAlt = _IcoFontData(0xebfc);
+  // for icon called ruler-compass
+  static const IconData rulerCompass = _IcoFontData(0xebfd);
+  // for icon called ruler-pencil-alt-1
+  static const IconData rulerPencilAlt1 = _IcoFontData(0xebfe);
+  // for icon called ruler-pencil-alt-2
+  static const IconData rulerPencilAlt2 = _IcoFontData(0xebff);
+  // for icon called ruler-pencil
+  static const IconData rulerPencil = _IcoFontData(0xec00);
+  // for icon called ruler
+  static const IconData ruler = _IcoFontData(0xec01);
+  // for icon called rulers-alt
+  static const IconData rulersAlt = _IcoFontData(0xec02);
+  // for icon called rulers
+  static const IconData rulers = _IcoFontData(0xec03);
+  // for icon called square-root
+  static const IconData squareRoot = _IcoFontData(0xec04);
+  // for icon called ui-calculator
+  static const IconData uiCalculator = _IcoFontData(0xec05);
+  // for icon called aids
+  static const IconData aids = _IcoFontData(0xec06);
+  // for icon called ambulance-crescent
+  static const IconData ambulanceCrescent = _IcoFontData(0xec07);
+  // for icon called ambulance-cross
+  static const IconData ambulanceCross = _IcoFontData(0xec08);
+  // for icon called ambulance
+  static const IconData ambulance = _IcoFontData(0xec09);
+  // for icon called autism
+  static const IconData autism = _IcoFontData(0xec0a);
+  // for icon called bandage
+  static const IconData bandage = _IcoFontData(0xec0b);
+  // for icon called blind
+  static const IconData blind = _IcoFontData(0xec0c);
+  // for icon called blood-drop
+  static const IconData bloodDrop = _IcoFontData(0xec0d);
+  // for icon called blood-test
+  static const IconData bloodTest = _IcoFontData(0xec0e);
+  // for icon called blood
+  static const IconData blood = _IcoFontData(0xec0f);
+  // for icon called brain-alt
+  static const IconData brainAlt = _IcoFontData(0xec10);
+  // for icon called brain
+  static const IconData brain = _IcoFontData(0xec11);
+  // for icon called capsule
+  static const IconData capsule = _IcoFontData(0xec12);
+  // for icon called crutch
+  static const IconData crutch = _IcoFontData(0xec13);
+  // for icon called disabled
+  static const IconData disabled = _IcoFontData(0xec14);
+  // for icon called dna-alt-1
+  static const IconData dnaAlt1 = _IcoFontData(0xec15);
+  // for icon called dna-alt-2
+  static const IconData dnaAlt2 = _IcoFontData(0xec16);
+  // for icon called dna
+  static const IconData dna = _IcoFontData(0xec17);
+  // for icon called doctor-alt
+  static const IconData doctorAlt = _IcoFontData(0xec18);
+  // for icon called doctor
+  static const IconData doctor = _IcoFontData(0xec19);
+  // for icon called drug-pack
+  static const IconData drugPack = _IcoFontData(0xec1a);
+  // for icon called drug
+  static const IconData drug = _IcoFontData(0xec1b);
+  // for icon called first-aid-alt
+  static const IconData firstAidAlt = _IcoFontData(0xec1c);
+  // for icon called first-aid
+  static const IconData firstAid = _IcoFontData(0xec1d);
+  // for icon called heart-beat-alt
+  static const IconData heartBeatAlt = _IcoFontData(0xec1e);
+  // for icon called heart-beat
+  static const IconData heartBeat = _IcoFontData(0xec1f);
+  // for icon called heartbeat
+  static const IconData heartbeat = _IcoFontData(0xec20);
+  // for icon called herbal
+  static const IconData herbal = _IcoFontData(0xec21);
+  // for icon called hospital
+  static const IconData hospital = _IcoFontData(0xec22);
+  // for icon called icu
+  static const IconData icu = _IcoFontData(0xec23);
+  // for icon called injection-syringe
+  static const IconData injectionSyringe = _IcoFontData(0xec24);
+  // for icon called laboratory
+  static const IconData laboratory = _IcoFontData(0xec25);
+  // for icon called medical-sign-alt
+  static const IconData medicalSignAlt = _IcoFontData(0xec26);
+  // for icon called medical-sign
+  static const IconData medicalSign = _IcoFontData(0xec27);
+  // for icon called nurse-alt
+  static const IconData nurseAlt = _IcoFontData(0xec28);
+  // for icon called nurse
+  static const IconData nurse = _IcoFontData(0xec29);
+  // for icon called nursing-home
+  static const IconData nursingHome = _IcoFontData(0xec2a);
+  // for icon called operation-theater
+  static const IconData operationTheater = _IcoFontData(0xec2b);
+  // for icon called paralysis-disability
+  static const IconData paralysisDisability = _IcoFontData(0xec2c);
+  // for icon called patient-bed
+  static const IconData patientBed = _IcoFontData(0xec2d);
+  // for icon called patient-file
+  static const IconData patientFile = _IcoFontData(0xec2e);
+  // for icon called pills
+  static const IconData pills = _IcoFontData(0xec2f);
+  // for icon called prescription
+  static const IconData prescription = _IcoFontData(0xec30);
+  // for icon called pulse
+  static const IconData pulse = _IcoFontData(0xec31);
+  // for icon called stethoscope-alt
+  static const IconData stethoscopeAlt = _IcoFontData(0xec32);
+  // for icon called stethoscope
+  static const IconData stethoscope = _IcoFontData(0xec33);
+  // for icon called stretcher
+  static const IconData stretcher = _IcoFontData(0xec34);
+  // for icon called surgeon-alt
+  static const IconData surgeonAlt = _IcoFontData(0xec35);
+  // for icon called surgeon
+  static const IconData surgeon = _IcoFontData(0xec36);
+  // for icon called tablets
+  static const IconData tablets = _IcoFontData(0xec37);
+  // for icon called test-bottle
+  static const IconData testBottle = _IcoFontData(0xec38);
+  // for icon called test-tube
+  static const IconData testTube = _IcoFontData(0xec39);
+  // for icon called thermometer-alt
+  static const IconData thermometerAlt = _IcoFontData(0xec3a);
+  // for icon called thermometer
+  static const IconData thermometer = _IcoFontData(0xec3b);
+  // for icon called tooth
+  static const IconData tooth = _IcoFontData(0xec3c);
+  // for icon called xray
+  static const IconData xray = _IcoFontData(0xec3d);
+  // for icon called ui-add
+  static const IconData uiAdd = _IcoFontData(0xec3e);
+  // for icon called ui-alarm
+  static const IconData uiAlarm = _IcoFontData(0xec3f);
+  // for icon called ui-battery
+  static const IconData uiBattery = _IcoFontData(0xec40);
+  // for icon called ui-block
+  static const IconData uiBlock = _IcoFontData(0xec41);
+  // for icon called ui-bluetooth
+  static const IconData uiBluetooth = _IcoFontData(0xec42);
+  // for icon called ui-brightness
+  static const IconData uiBrightness = _IcoFontData(0xec43);
+  // for icon called ui-browser
+  static const IconData uiBrowser = _IcoFontData(0xec44);
+  // for icon called ui-calendar
+  static const IconData uiCalendar = _IcoFontData(0xec45);
+  // for icon called ui-call
+  static const IconData uiCall = _IcoFontData(0xec46);
+  // for icon called ui-camera
+  static const IconData uiCamera = _IcoFontData(0xec47);
+  // for icon called ui-cart
+  static const IconData uiCart = _IcoFontData(0xec48);
+  // for icon called ui-cell-phone
+  static const IconData uiCellPhone = _IcoFontData(0xec49);
+  // for icon called ui-chat
+  static const IconData uiChat = _IcoFontData(0xec4a);
+  // for icon called ui-check
+  static const IconData uiCheck = _IcoFontData(0xec4b);
+  // for icon called ui-clip-board
+  static const IconData uiClipBoard = _IcoFontData(0xec4c);
+  // for icon called ui-clip
+  static const IconData uiClip = _IcoFontData(0xec4d);
+  // for icon called ui-clock
+  static const IconData uiClock = _IcoFontData(0xec4e);
+  // for icon called ui-close
+  static const IconData uiClose = _IcoFontData(0xec4f);
+  // for icon called ui-contact-list
+  static const IconData uiContactList = _IcoFontData(0xec50);
+  // for icon called ui-copy
+  static const IconData uiCopy = _IcoFontData(0xec51);
+  // for icon called ui-cut
+  static const IconData uiCut = _IcoFontData(0xec52);
+  // for icon called ui-delete
+  static const IconData uiDelete = _IcoFontData(0xec53);
+  // for icon called ui-dial-phone
+  static const IconData uiDialPhone = _IcoFontData(0xec54);
+  // for icon called ui-edit
+  static const IconData uiEdit = _IcoFontData(0xec55);
+  // for icon called ui-email
+  static const IconData uiEmail = _IcoFontData(0xec56);
+  // for icon called ui-file
+  static const IconData uiFile = _IcoFontData(0xec57);
+  // for icon called ui-fire-wall
+  static const IconData uiFireWall = _IcoFontData(0xec58);
+  // for icon called ui-flash-light
+  static const IconData uiFlashLight = _IcoFontData(0xec59);
+  // for icon called ui-flight
+  static const IconData uiFlight = _IcoFontData(0xec5a);
+  // for icon called ui-folder
+  static const IconData uiFolder = _IcoFontData(0xec5b);
+  // for icon called ui-game
+  static const IconData uiGame = _IcoFontData(0xec5c);
+  // for icon called ui-handicapped
+  static const IconData uiHandicapped = _IcoFontData(0xec5d);
+  // for icon called ui-home
+  static const IconData uiHome = _IcoFontData(0xec5e);
+  // for icon called ui-image
+  static const IconData uiImage = _IcoFontData(0xec5f);
+  // for icon called ui-laoding
+  static const IconData uiLaoding = _IcoFontData(0xec60);
+  // for icon called ui-lock
+  static const IconData uiLock = _IcoFontData(0xec61);
+  // for icon called ui-love-add
+  static const IconData uiLoveAdd = _IcoFontData(0xec62);
+  // for icon called ui-love-broken
+  static const IconData uiLoveBroken = _IcoFontData(0xec63);
+  // for icon called ui-love-remove
+  static const IconData uiLoveRemove = _IcoFontData(0xec64);
+  // for icon called ui-love
+  static const IconData uiLove = _IcoFontData(0xec65);
+  // for icon called ui-map
+  static const IconData uiMap = _IcoFontData(0xec66);
+  // for icon called ui-message
+  static const IconData uiMessage = _IcoFontData(0xec67);
+  // for icon called ui-messaging
+  static const IconData uiMessaging = _IcoFontData(0xec68);
+  // for icon called ui-movie
+  static const IconData uiMovie = _IcoFontData(0xec69);
+  // for icon called ui-music-player
+  static const IconData uiMusicPlayer = _IcoFontData(0xec6a);
+  // for icon called ui-music
+  static const IconData uiMusic = _IcoFontData(0xec6b);
+  // for icon called ui-mute
+  static const IconData uiMute = _IcoFontData(0xec6c);
+  // for icon called ui-network
+  static const IconData uiNetwork = _IcoFontData(0xec6d);
+  // for icon called ui-next
+  static const IconData uiNext = _IcoFontData(0xec6e);
+  // for icon called ui-note
+  static const IconData uiNote = _IcoFontData(0xec6f);
+  // for icon called ui-office
+  static const IconData uiOffice = _IcoFontData(0xec70);
+  // for icon called ui-password
+  static const IconData uiPassword = _IcoFontData(0xec71);
+  // for icon called ui-pause
+  static const IconData uiPause = _IcoFontData(0xec72);
+  // for icon called ui-play-stop
+  static const IconData uiPlayStop = _IcoFontData(0xec73);
+  // for icon called ui-play
+  static const IconData uiPlay = _IcoFontData(0xec74);
+  // for icon called ui-pointer
+  static const IconData uiPointer = _IcoFontData(0xec75);
+  // for icon called ui-power
+  static const IconData uiPower = _IcoFontData(0xec76);
+  // for icon called ui-press
+  static const IconData uiPress = _IcoFontData(0xec77);
+  // for icon called ui-previous
+  static const IconData uiPrevious = _IcoFontData(0xec78);
+  // for icon called ui-rate-add
+  static const IconData uiRateAdd = _IcoFontData(0xec79);
+  // for icon called ui-rate-blank
+  static const IconData uiRateBlank = _IcoFontData(0xec7a);
+  // for icon called ui-rate-remove
+  static const IconData uiRateRemove = _IcoFontData(0xec7b);
+  // for icon called ui-rating
+  static const IconData uiRating = _IcoFontData(0xec7c);
+  // for icon called ui-record
+  static const IconData uiRecord = _IcoFontData(0xec7d);
+  // for icon called ui-remove
+  static const IconData uiRemove = _IcoFontData(0xec7e);
+  // for icon called ui-reply
+  static const IconData uiReply = _IcoFontData(0xec7f);
+  // for icon called ui-rotation
+  static const IconData uiRotation = _IcoFontData(0xec80);
+  // for icon called ui-rss
+  static const IconData uiRss = _IcoFontData(0xec81);
+  // for icon called ui-search
+  static const IconData uiSearch = _IcoFontData(0xec82);
+  // for icon called ui-settings
+  static const IconData uiSettings = _IcoFontData(0xec83);
+  // for icon called ui-social-link
+  static const IconData uiSocialLink = _IcoFontData(0xec84);
+  // for icon called ui-tag
+  static const IconData uiTag = _IcoFontData(0xec85);
+  // for icon called ui-text-chat
+  static const IconData uiTextChat = _IcoFontData(0xec86);
+  // for icon called ui-text-loading
+  static const IconData uiTextLoading = _IcoFontData(0xec87);
+  // for icon called ui-theme
+  static const IconData uiTheme = _IcoFontData(0xec88);
+  // for icon called ui-timer
+  static const IconData uiTimer = _IcoFontData(0xec89);
+  // for icon called ui-touch-phone
+  static const IconData uiTouchPhone = _IcoFontData(0xec8a);
+  // for icon called ui-travel
+  static const IconData uiTravel = _IcoFontData(0xec8b);
+  // for icon called ui-unlock
+  static const IconData uiUnlock = _IcoFontData(0xec8c);
+  // for icon called ui-user-group
+  static const IconData uiUserGroup = _IcoFontData(0xec8d);
+  // for icon called ui-user
+  static const IconData uiUser = _IcoFontData(0xec8e);
+  // for icon called ui-v-card
+  static const IconData uiVCard = _IcoFontData(0xec8f);
+  // for icon called ui-video-chat
+  static const IconData uiVideoChat = _IcoFontData(0xec90);
+  // for icon called ui-video-message
+  static const IconData uiVideoMessage = _IcoFontData(0xec91);
+  // for icon called ui-video-play
+  static const IconData uiVideoPlay = _IcoFontData(0xec92);
+  // for icon called ui-video
+  static const IconData uiVideo = _IcoFontData(0xec93);
+  // for icon called ui-volume
+  static const IconData uiVolume = _IcoFontData(0xec94);
+  // for icon called ui-weather
+  static const IconData uiWeather = _IcoFontData(0xec95);
+  // for icon called ui-wifi
+  static const IconData uiWifi = _IcoFontData(0xec96);
+  // for icon called ui-zoom-in
+  static const IconData uiZoomIn = _IcoFontData(0xec97);
+  // for icon called ui-zoom-out
+  static const IconData uiZoomOut = _IcoFontData(0xec98);
+  // for icon called cassette-player
+  static const IconData cassettePlayer = _IcoFontData(0xec99);
+  // for icon called cassette
+  static const IconData cassette = _IcoFontData(0xec9a);
+  // for icon called forward
+  static const IconData forward = _IcoFontData(0xec9b);
+  // for icon called guiter
+  static const IconData guiter = _IcoFontData(0xec9c);
+  // for icon called movie
+  static const IconData movie = _IcoFontData(0xec9d);
+  // for icon called multimedia
+  static const IconData multimedia = _IcoFontData(0xec9e);
+  // for icon called music-alt
+  static const IconData musicAlt = _IcoFontData(0xec9f);
+  // for icon called music-disk
+  static const IconData musicDisk = _IcoFontData(0xeca0);
+  // for icon called music-note
+  static const IconData musicNote = _IcoFontData(0xeca1);
+  // for icon called music-notes
+  static const IconData musicNotes = _IcoFontData(0xeca2);
+  // for icon called music
+  static const IconData music = _IcoFontData(0xeca3);
+  // for icon called mute-volume
+  static const IconData muteVolume = _IcoFontData(0xeca4);
+  // for icon called pause
+  static const IconData pause = _IcoFontData(0xeca5);
+  // for icon called play-alt-1
+  static const IconData playAlt1 = _IcoFontData(0xeca6);
+  // for icon called play-alt-2
+  static const IconData playAlt2 = _IcoFontData(0xeca7);
+  // for icon called play-alt-3
+  static const IconData playAlt3 = _IcoFontData(0xeca8);
+  // for icon called play-pause
+  static const IconData playPause = _IcoFontData(0xeca9);
+  // for icon called play
+  static const IconData play = _IcoFontData(0xecaa);
+  // for icon called record
+  static const IconData record = _IcoFontData(0xecab);
+  // for icon called retro-music-disk
+  static const IconData retroMusicDisk = _IcoFontData(0xecac);
+  // for icon called rewind
+  static const IconData rewind = _IcoFontData(0xecad);
+  // for icon called song-notes
+  static const IconData songNotes = _IcoFontData(0xecae);
+  // for icon called sound-wave-alt
+  static const IconData soundWaveAlt = _IcoFontData(0xecaf);
+  // for icon called sound-wave
+  static const IconData soundWave = _IcoFontData(0xecb0);
+  // for icon called stop
+  static const IconData stop = _IcoFontData(0xecb1);
+  // for icon called video-alt
+  static const IconData videoAlt = _IcoFontData(0xecb2);
+  // for icon called video-cam
+  static const IconData videoCam = _IcoFontData(0xecb3);
+  // for icon called video-clapper
+  static const IconData videoClapper = _IcoFontData(0xecb4);
+  // for icon called video
+  static const IconData video = _IcoFontData(0xecb5);
+  // for icon called volume-bar
+  static const IconData volumeBar = _IcoFontData(0xecb6);
+  // for icon called volume-down
+  static const IconData volumeDown = _IcoFontData(0xecb7);
+  // for icon called volume-mute
+  static const IconData volumeMute = _IcoFontData(0xecb8);
+  // for icon called volume-off
+  static const IconData volumeOff = _IcoFontData(0xecb9);
+  // for icon called volume-up
+  static const IconData volumeUp = _IcoFontData(0xecba);
+  // for icon called youtube-play
+  static const IconData youtubePlay = _IcoFontData(0xecbb);
+  // for icon called 2checkout-alt
+  static const IconData twoCheckoutAlt = _IcoFontData(0xecbc);
+  // for icon called 2checkout
+  static const IconData twoCheckout = _IcoFontData(0xecbd);
+  // for icon called amazon-alt
+  static const IconData amazonAlt = _IcoFontData(0xecbe);
+  // for icon called amazon
+  static const IconData amazon = _IcoFontData(0xecbf);
+  // for icon called american-express-alt
+  static const IconData americanExpressAlt = _IcoFontData(0xecc0);
+  // for icon called american-express
+  static const IconData americanExpress = _IcoFontData(0xecc1);
+  // for icon called apple-pay-alt
+  static const IconData applePayAlt = _IcoFontData(0xecc2);
+  // for icon called apple-pay
+  static const IconData applePay = _IcoFontData(0xecc3);
+  // for icon called bank-transfer-alt
+  static const IconData bankTransferAlt = _IcoFontData(0xecc4);
+  // for icon called bank-transfer
+  static const IconData bankTransfer = _IcoFontData(0xecc5);
+  // for icon called braintree-alt
+  static const IconData braintreeAlt = _IcoFontData(0xecc6);
+  // for icon called braintree
+  static const IconData braintree = _IcoFontData(0xecc7);
+  // for icon called cash-on-delivery-alt
+  static const IconData cashOnDeliveryAlt = _IcoFontData(0xecc8);
+  // for icon called cash-on-delivery
+  static const IconData cashOnDelivery = _IcoFontData(0xecc9);
+  // for icon called diners-club-alt-1
+  static const IconData dinersClubAlt1 = _IcoFontData(0xecca);
+  // for icon called diners-club-alt-2
+  static const IconData dinersClubAlt2 = _IcoFontData(0xeccb);
+  // for icon called diners-club-alt-3
+  static const IconData dinersClubAlt3 = _IcoFontData(0xeccc);
+  // for icon called diners-club
+  static const IconData dinersClub = _IcoFontData(0xeccd);
+  // for icon called discover-alt
+  static const IconData discoverAlt = _IcoFontData(0xecce);
+  // for icon called discover
+  static const IconData discover = _IcoFontData(0xeccf);
+  // for icon called eway-alt
+  static const IconData ewayAlt = _IcoFontData(0xecd0);
+  // for icon called eway
+  static const IconData eway = _IcoFontData(0xecd1);
+  // for icon called google-wallet-alt-1
+  static const IconData googleWalletAlt1 = _IcoFontData(0xecd2);
+  // for icon called google-wallet-alt-2
+  static const IconData googleWalletAlt2 = _IcoFontData(0xecd3);
+  // for icon called google-wallet-alt-3
+  static const IconData googleWalletAlt3 = _IcoFontData(0xecd4);
+  // for icon called google-wallet
+  static const IconData googleWallet = _IcoFontData(0xecd5);
+  // for icon called jcb-alt
+  static const IconData jcbAlt = _IcoFontData(0xecd6);
+  // for icon called jcb
+  static const IconData jcb = _IcoFontData(0xecd7);
+  // for icon called maestro-alt
+  static const IconData maestroAlt = _IcoFontData(0xecd8);
+  // for icon called maestro
+  static const IconData maestro = _IcoFontData(0xecd9);
+  // for icon called mastercard-alt
+  static const IconData mastercardAlt = _IcoFontData(0xecda);
+  // for icon called mastercard
+  static const IconData mastercard = _IcoFontData(0xecdb);
+  // for icon called payoneer-alt
+  static const IconData payoneerAlt = _IcoFontData(0xecdc);
+  // for icon called payoneer
+  static const IconData payoneer = _IcoFontData(0xecdd);
+  // for icon called paypal-alt
+  static const IconData paypalAlt = _IcoFontData(0xecde);
+  // for icon called paypal
+  static const IconData paypal = _IcoFontData(0xecdf);
+  // for icon called sage-alt
+  static const IconData sageAlt = _IcoFontData(0xece0);
+  // for icon called sage
+  static const IconData sage = _IcoFontData(0xece1);
+  // for icon called skrill-alt
+  static const IconData skrillAlt = _IcoFontData(0xece2);
+  // for icon called skrill
+  static const IconData skrill = _IcoFontData(0xece3);
+  // for icon called stripe-alt
+  static const IconData stripeAlt = _IcoFontData(0xece4);
+  // for icon called stripe
+  static const IconData stripe = _IcoFontData(0xece5);
+  // for icon called visa-alt
+  static const IconData visaAlt = _IcoFontData(0xece6);
+  // for icon called visa-electron
+  static const IconData visaElectron = _IcoFontData(0xece7);
+  // for icon called visa
+  static const IconData visa = _IcoFontData(0xece8);
+  // for icon called western-union-alt
+  static const IconData westernUnionAlt = _IcoFontData(0xece9);
+  // for icon called western-union
+  static const IconData westernUnion = _IcoFontData(0xecea);
+  // for icon called boy
+  static const IconData boy = _IcoFontData(0xeceb);
+  // for icon called business-man-alt-1
+  static const IconData businessManAlt1 = _IcoFontData(0xecec);
+  // for icon called business-man-alt-2
+  static const IconData businessManAlt2 = _IcoFontData(0xeced);
+  // for icon called business-man-alt-3
+  static const IconData businessManAlt3 = _IcoFontData(0xecee);
+  // for icon called business-man
+  static const IconData businessMan = _IcoFontData(0xecef);
+  // for icon called female
+  static const IconData female = _IcoFontData(0xecf0);
+  // for icon called funky-man
+  static const IconData funkyMan = _IcoFontData(0xecf1);
+  // for icon called girl-alt
+  static const IconData girlAlt = _IcoFontData(0xecf2);
+  // for icon called girl
+  static const IconData girl = _IcoFontData(0xecf3);
+  // for icon called group
+  static const IconData group = _IcoFontData(0xecf4);
+  // for icon called hotel-boy-alt
+  static const IconData hotelBoyAlt = _IcoFontData(0xecf5);
+  // for icon called hotel-boy
+  static const IconData hotelBoy = _IcoFontData(0xecf6);
+  // for icon called kid
+  static const IconData kid = _IcoFontData(0xecf7);
+  // for icon called man-in-glasses
+  static const IconData manInGlasses = _IcoFontData(0xecf8);
+  // for icon called people
+  static const IconData people = _IcoFontData(0xecf9);
+  // for icon called support
+  static const IconData support = _IcoFontData(0xecfa);
+  // for icon called user-alt-1
+  static const IconData userAlt1 = _IcoFontData(0xecfb);
+  // for icon called user-alt-2
+  static const IconData userAlt2 = _IcoFontData(0xecfc);
+  // for icon called user-alt-3
+  static const IconData userAlt3 = _IcoFontData(0xecfd);
+  // for icon called user-alt-4
+  static const IconData userAlt4 = _IcoFontData(0xecfe);
+  // for icon called user-alt-5
+  static const IconData userAlt5 = _IcoFontData(0xecff);
+  // for icon called user-alt-6
+  static const IconData userAlt6 = _IcoFontData(0xed00);
+  // for icon called user-alt-7
+  static const IconData userAlt7 = _IcoFontData(0xed01);
+  // for icon called user-female
+  static const IconData userFemale = _IcoFontData(0xed02);
+  // for icon called user-male
+  static const IconData userMale = _IcoFontData(0xed03);
+  // for icon called user-suited
+  static const IconData userSuited = _IcoFontData(0xed04);
+  // for icon called user
+  static const IconData user = _IcoFontData(0xed05);
+  // for icon called users-alt-1
+  static const IconData usersAlt1 = _IcoFontData(0xed06);
+  // for icon called users-alt-2
+  static const IconData usersAlt2 = _IcoFontData(0xed07);
+  // for icon called users-alt-3
+  static const IconData usersAlt3 = _IcoFontData(0xed08);
+  // for icon called users-alt-4
+  static const IconData usersAlt4 = _IcoFontData(0xed09);
+  // for icon called users-alt-5
+  static const IconData usersAlt5 = _IcoFontData(0xed0a);
+  // for icon called users-alt-6
+  static const IconData usersAlt6 = _IcoFontData(0xed0b);
+  // for icon called users-social
+  static const IconData usersSocial = _IcoFontData(0xed0c);
+  // for icon called users
+  static const IconData users = _IcoFontData(0xed0d);
+  // for icon called waiter-alt
+  static const IconData waiterAlt = _IcoFontData(0xed0e);
+  // for icon called waiter
+  static const IconData waiter = _IcoFontData(0xed0f);
+  // for icon called woman-in-glasses
+  static const IconData womanInGlasses = _IcoFontData(0xed10);
+  // for icon called search-1
+  static const IconData search1 = _IcoFontData(0xed11);
+  // for icon called search-2
+  static const IconData search2 = _IcoFontData(0xed12);
+  // for icon called search-document
+  static const IconData searchDocument = _IcoFontData(0xed13);
+  // for icon called search-folder
+  static const IconData searchFolder = _IcoFontData(0xed14);
+  // for icon called search-job
+  static const IconData searchJob = _IcoFontData(0xed15);
+  // for icon called search-map
+  static const IconData searchMap = _IcoFontData(0xed16);
+  // for icon called search-property
+  static const IconData searchProperty = _IcoFontData(0xed17);
+  // for icon called search-restaurant
+  static const IconData searchRestaurant = _IcoFontData(0xed18);
+  // for icon called search-stock
+  static const IconData searchStock = _IcoFontData(0xed19);
+  // for icon called search-user
+  static const IconData searchUser = _IcoFontData(0xed1a);
+  // for icon called search
+  static const IconData search = _IcoFontData(0xed1b);
+  // for icon called 500px
+  static const IconData fiveHundredpx = _IcoFontData(0xed1c);
+  // for icon called aim
+  static const IconData aim = _IcoFontData(0xed1d);
+  // for icon called badoo
+  static const IconData badoo = _IcoFontData(0xed1e);
+  // for icon called baidu-tieba
+  static const IconData baiduTieba = _IcoFontData(0xed1f);
+  // for icon called bbm-messenger
+  static const IconData bbmMessenger = _IcoFontData(0xed20);
+  // for icon called bebo
+  static const IconData bebo = _IcoFontData(0xed21);
+  // for icon called behance
+  static const IconData behance = _IcoFontData(0xed22);
+  // for icon called blogger
+  static const IconData blogger = _IcoFontData(0xed23);
+  // for icon called bootstrap
+  static const IconData bootstrap = _IcoFontData(0xed24);
+  // for icon called brightkite
+  static const IconData brightkite = _IcoFontData(0xed25);
+  // for icon called cloudapp
+  static const IconData cloudapp = _IcoFontData(0xed26);
+  // for icon called concrete5
+  static const IconData concrete5 = _IcoFontData(0xed27);
+  // for icon called delicious
+  static const IconData delicious = _IcoFontData(0xed28);
+  // for icon called designbump
+  static const IconData designbump = _IcoFontData(0xed29);
+  // for icon called designfloat
+  static const IconData designfloat = _IcoFontData(0xed2a);
+  // for icon called deviantart
+  static const IconData deviantart = _IcoFontData(0xed2b);
+  // for icon called digg
+  static const IconData digg = _IcoFontData(0xed2c);
+  // for icon called dotcms
+  static const IconData dotcms = _IcoFontData(0xed2d);
+  // for icon called dribbble
+  static const IconData dribbble = _IcoFontData(0xed2e);
+  // for icon called dribble
+  static const IconData dribble = _IcoFontData(0xed2f);
+  // for icon called dropbox
+  static const IconData dropbox = _IcoFontData(0xed30);
+  // for icon called ebuddy
+  static const IconData ebuddy = _IcoFontData(0xed31);
+  // for icon called ello
+  static const IconData ello = _IcoFontData(0xed32);
+  // for icon called ember
+  static const IconData ember = _IcoFontData(0xed33);
+  // for icon called envato
+  static const IconData envato = _IcoFontData(0xed34);
+  // for icon called evernote
+  static const IconData evernote = _IcoFontData(0xed35);
+  // for icon called facebook-messenger
+  static const IconData facebookMessenger = _IcoFontData(0xed36);
+  // for icon called facebook
+  static const IconData facebook = _IcoFontData(0xed37);
+  // for icon called feedburner
+  static const IconData feedburner = _IcoFontData(0xed38);
+  // for icon called flikr
+  static const IconData flikr = _IcoFontData(0xed39);
+  // for icon called folkd
+  static const IconData folkd = _IcoFontData(0xed3a);
+  // for icon called foursquare
+  static const IconData foursquare = _IcoFontData(0xed3b);
+  // for icon called friendfeed
+  static const IconData friendfeed = _IcoFontData(0xed3c);
+  // for icon called ghost
+  static const IconData ghost = _IcoFontData(0xed3d);
+  // for icon called github
+  static const IconData github = _IcoFontData(0xed3e);
+  // for icon called gnome
+  static const IconData gnome = _IcoFontData(0xed3f);
+  // for icon called google-buzz
+  static const IconData googleBuzz = _IcoFontData(0xed40);
+  // for icon called google-hangouts
+  static const IconData googleHangouts = _IcoFontData(0xed41);
+  // for icon called google-map
+  static const IconData googleMap = _IcoFontData(0xed42);
+  // for icon called google-plus
+  static const IconData googlePlus = _IcoFontData(0xed43);
+  // for icon called google-talk
+  static const IconData googleTalk = _IcoFontData(0xed44);
+  // for icon called hype-machine
+  static const IconData hypeMachine = _IcoFontData(0xed45);
+  // for icon called instagram
+  static const IconData instagram = _IcoFontData(0xed46);
+  // for icon called kakaotalk
+  static const IconData kakaotalk = _IcoFontData(0xed47);
+  // for icon called kickstarter
+  static const IconData kickstarter = _IcoFontData(0xed48);
+  // for icon called kik
+  static const IconData kik = _IcoFontData(0xed49);
+  // for icon called kiwibox
+  static const IconData kiwibox = _IcoFontData(0xed4a);
+  // for icon called line-messenger
+  static const IconData lineMessenger = _IcoFontData(0xed4b);
+  // for icon called line
+  static const IconData line = _IcoFontData(0xed4c);
+  // for icon called linkedin
+  static const IconData linkedin = _IcoFontData(0xed4d);
+  // for icon called linux-mint
+  static const IconData linuxMint = _IcoFontData(0xed4e);
+  // for icon called live-messenger
+  static const IconData liveMessenger = _IcoFontData(0xed4f);
+  // for icon called livejournal
+  static const IconData livejournal = _IcoFontData(0xed50);
+  // for icon called magento
+  static const IconData magento = _IcoFontData(0xed51);
+  // for icon called meetme
+  static const IconData meetme = _IcoFontData(0xed52);
+  // for icon called meetup
+  static const IconData meetup = _IcoFontData(0xed53);
+  // for icon called mixx
+  static const IconData mixx = _IcoFontData(0xed54);
+  // for icon called newsvine
+  static const IconData newsvine = _IcoFontData(0xed55);
+  // for icon called nimbuss
+  static const IconData nimbuss = _IcoFontData(0xed56);
+  // for icon called odnoklassniki
+  static const IconData odnoklassniki = _IcoFontData(0xed57);
+  // for icon called opencart
+  static const IconData opencart = _IcoFontData(0xed58);
+  // for icon called oscommerce
+  static const IconData oscommerce = _IcoFontData(0xed59);
+  // for icon called pandora
+  static const IconData pandora = _IcoFontData(0xed5a);
+  // for icon called photobucket
+  static const IconData photobucket = _IcoFontData(0xed5b);
+  // for icon called picasa
+  static const IconData picasa = _IcoFontData(0xed5c);
+  // for icon called pinterest
+  static const IconData pinterest = _IcoFontData(0xed5d);
+  // for icon called prestashop
+  static const IconData prestashop = _IcoFontData(0xed5e);
+  // for icon called qik
+  static const IconData qik = _IcoFontData(0xed5f);
+  // for icon called qq
+  static const IconData qq = _IcoFontData(0xed60);
+  // for icon called readernaut
+  static const IconData readernaut = _IcoFontData(0xed61);
+  // for icon called reddit
+  static const IconData reddit = _IcoFontData(0xed62);
+  // for icon called renren
+  static const IconData renren = _IcoFontData(0xed63);
+  // for icon called rss
+  static const IconData rss = _IcoFontData(0xed64);
+  // for icon called shopify
+  static const IconData shopify = _IcoFontData(0xed65);
+  // for icon called silverstripe
+  static const IconData silverstripe = _IcoFontData(0xed66);
+  // for icon called skype
+  static const IconData skype = _IcoFontData(0xed67);
+  // for icon called slack
+  static const IconData slack = _IcoFontData(0xed68);
+  // for icon called slashdot
+  static const IconData slashdot = _IcoFontData(0xed69);
+  // for icon called slidshare
+  static const IconData slidshare = _IcoFontData(0xed6a);
+  // for icon called smugmug
+  static const IconData smugmug = _IcoFontData(0xed6b);
+  // for icon called snapchat
+  static const IconData snapchat = _IcoFontData(0xed6c);
+  // for icon called soundcloud
+  static const IconData soundcloud = _IcoFontData(0xed6d);
+  // for icon called spotify
+  static const IconData spotify = _IcoFontData(0xed6e);
+  // for icon called stack-exchange
+  static const IconData stackExchange = _IcoFontData(0xed6f);
+  // for icon called stack-overflow
+  static const IconData stackOverflow = _IcoFontData(0xed70);
+  // for icon called steam
+  static const IconData steam = _IcoFontData(0xed71);
+  // for icon called stumbleupon
+  static const IconData stumbleupon = _IcoFontData(0xed72);
+  // for icon called tagged
+  static const IconData tagged = _IcoFontData(0xed73);
+  // for icon called technorati
+  static const IconData technorati = _IcoFontData(0xed74);
+  // for icon called telegram
+  static const IconData telegram = _IcoFontData(0xed75);
+  // for icon called tinder
+  static const IconData tinder = _IcoFontData(0xed76);
+  // for icon called trello
+  static const IconData trello = _IcoFontData(0xed77);
+  // for icon called tumblr
+  static const IconData tumblr = _IcoFontData(0xed78);
+  // for icon called twitch
+  static const IconData twitch = _IcoFontData(0xed79);
+  // for icon called twitter
+  static const IconData twitter = _IcoFontData(0xed7a);
+  // for icon called typo3
+  static const IconData typo3 = _IcoFontData(0xed7b);
+  // for icon called ubercart
+  static const IconData ubercart = _IcoFontData(0xed7c);
+  // for icon called viber
+  static const IconData viber = _IcoFontData(0xed7d);
+  // for icon called viddler
+  static const IconData viddler = _IcoFontData(0xed7e);
+  // for icon called vimeo
+  static const IconData vimeo = _IcoFontData(0xed7f);
+  // for icon called vine
+  static const IconData vine = _IcoFontData(0xed80);
+  // for icon called virb
+  static const IconData virb = _IcoFontData(0xed81);
+  // for icon called virtuemart
+  static const IconData virtuemart = _IcoFontData(0xed82);
+  // for icon called vk
+  static const IconData vk = _IcoFontData(0xed83);
+  // for icon called wechat
+  static const IconData wechat = _IcoFontData(0xed84);
+  // for icon called weibo
+  static const IconData weibo = _IcoFontData(0xed85);
+  // for icon called whatsapp
+  static const IconData whatsapp = _IcoFontData(0xed86);
+  // for icon called xing
+  static const IconData xing = _IcoFontData(0xed87);
+  // for icon called yahoo
+  static const IconData yahoo = _IcoFontData(0xed88);
+  // for icon called yelp
+  static const IconData yelp = _IcoFontData(0xed89);
+  // for icon called youku
+  static const IconData youku = _IcoFontData(0xed8a);
+  // for icon called youtube
+  static const IconData youtube = _IcoFontData(0xed8b);
+  // for icon called zencart
+  static const IconData zencart = _IcoFontData(0xed8c);
+  // for icon called badminton-birdie
+  static const IconData badmintonBirdie = _IcoFontData(0xed8d);
+  // for icon called baseball
+  static const IconData baseball = _IcoFontData(0xed8e);
+  // for icon called baseballer
+  static const IconData baseballer = _IcoFontData(0xed8f);
+  // for icon called basketball-hoop
+  static const IconData basketballHoop = _IcoFontData(0xed90);
+  // for icon called basketball
+  static const IconData basketball = _IcoFontData(0xed91);
+  // for icon called billiard-ball
+  static const IconData billiardBall = _IcoFontData(0xed92);
+  // for icon called boot-alt-1
+  static const IconData bootAlt1 = _IcoFontData(0xed93);
+  // for icon called boot-alt-2
+  static const IconData bootAlt2 = _IcoFontData(0xed94);
+  // for icon called boot
+  static const IconData boot = _IcoFontData(0xed95);
+  // for icon called bowling-alt
+  static const IconData bowlingAlt = _IcoFontData(0xed96);
+  // for icon called bowling
+  static const IconData bowling = _IcoFontData(0xed97);
+  // for icon called canoe
+  static const IconData canoe = _IcoFontData(0xed98);
+  // for icon called cheer-leader
+  static const IconData cheerLeader = _IcoFontData(0xed99);
+  // for icon called climbing
+  static const IconData climbing = _IcoFontData(0xed9a);
+  // for icon called corner
+  static const IconData corner = _IcoFontData(0xed9b);
+  // for icon called field-alt
+  static const IconData fieldAlt = _IcoFontData(0xed9c);
+  // for icon called field
+  static const IconData field = _IcoFontData(0xed9d);
+  // for icon called football-alt
+  static const IconData footballAlt = _IcoFontData(0xed9e);
+  // for icon called football-american
+  static const IconData footballAmerican = _IcoFontData(0xed9f);
+  // for icon called football
+  static const IconData football = _IcoFontData(0xeda0);
+  // for icon called foul
+  static const IconData foul = _IcoFontData(0xeda1);
+  // for icon called goal-keeper
+  static const IconData goalKeeper = _IcoFontData(0xeda2);
+  // for icon called goal
+  static const IconData goal = _IcoFontData(0xeda3);
+  // for icon called golf-alt
+  static const IconData golfAlt = _IcoFontData(0xeda4);
+  // for icon called golf-bag
+  static const IconData golfBag = _IcoFontData(0xeda5);
+  // for icon called golf-cart
+  static const IconData golfCart = _IcoFontData(0xeda6);
+  // for icon called golf-field
+  static const IconData golfField = _IcoFontData(0xeda7);
+  // for icon called golf
+  static const IconData golf = _IcoFontData(0xeda8);
+  // for icon called golfer
+  static const IconData golfer = _IcoFontData(0xeda9);
+  // for icon called helmet
+  static const IconData helmet = _IcoFontData(0xedaa);
+  // for icon called hockey-alt
+  static const IconData hockeyAlt = _IcoFontData(0xedab);
+  // for icon called hockey
+  static const IconData hockey = _IcoFontData(0xedac);
+  // for icon called ice-skate
+  static const IconData iceSkate = _IcoFontData(0xedad);
+  // for icon called jersey-alt
+  static const IconData jerseyAlt = _IcoFontData(0xedae);
+  // for icon called jersey
+  static const IconData jersey = _IcoFontData(0xedaf);
+  // for icon called jumping
+  static const IconData jumping = _IcoFontData(0xedb0);
+  // for icon called kick
+  static const IconData kick = _IcoFontData(0xedb1);
+  // for icon called leg
+  static const IconData leg = _IcoFontData(0xedb2);
+  // for icon called match-review
+  static const IconData matchReview = _IcoFontData(0xedb3);
+  // for icon called medal-sport
+  static const IconData medalSport = _IcoFontData(0xedb4);
+  // for icon called offside
+  static const IconData offside = _IcoFontData(0xedb5);
+  // for icon called olympic-logo
+  static const IconData olympicLogo = _IcoFontData(0xedb6);
+  // for icon called olympic
+  static const IconData olympic = _IcoFontData(0xedb7);
+  // for icon called padding
+  static const IconData padding = _IcoFontData(0xedb8);
+  // for icon called penalty-card
+  static const IconData penaltyCard = _IcoFontData(0xedb9);
+  // for icon called racer
+  static const IconData racer = _IcoFontData(0xedba);
+  // for icon called racing-car
+  static const IconData racingCar = _IcoFontData(0xedbb);
+  // for icon called racing-flag-alt
+  static const IconData racingFlagAlt = _IcoFontData(0xedbc);
+  // for icon called racing-flag
+  static const IconData racingFlag = _IcoFontData(0xedbd);
+  // for icon called racings-wheel
+  static const IconData racingsWheel = _IcoFontData(0xedbe);
+  // for icon called referee
+  static const IconData referee = _IcoFontData(0xedbf);
+  // for icon called refree-jersey
+  static const IconData refreeJersey = _IcoFontData(0xedc0);
+  // for icon called result-sport
+  static const IconData resultSport = _IcoFontData(0xedc1);
+  // for icon called rugby-ball
+  static const IconData rugbyBall = _IcoFontData(0xedc2);
+  // for icon called rugby-player
+  static const IconData rugbyPlayer = _IcoFontData(0xedc3);
+  // for icon called rugby
+  static const IconData rugby = _IcoFontData(0xedc4);
+  // for icon called runner-alt-1
+  static const IconData runnerAlt1 = _IcoFontData(0xedc5);
+  // for icon called runner-alt-2
+  static const IconData runnerAlt2 = _IcoFontData(0xedc6);
+  // for icon called runner
+  static const IconData runner = _IcoFontData(0xedc7);
+  // for icon called score-board
+  static const IconData scoreBoard = _IcoFontData(0xedc8);
+  // for icon called skiing-man
+  static const IconData skiingMan = _IcoFontData(0xedc9);
+  // for icon called skydiving-goggles
+  static const IconData skydivingGoggles = _IcoFontData(0xedca);
+  // for icon called snow-mobile
+  static const IconData snowMobile = _IcoFontData(0xedcb);
+  // for icon called steering
+  static const IconData steering = _IcoFontData(0xedcc);
+  // for icon called stopwatch
+  static const IconData stopwatch = _IcoFontData(0xedcd);
+  // for icon called substitute
+  static const IconData substitute = _IcoFontData(0xedce);
+  // for icon called swimmer
+  static const IconData swimmer = _IcoFontData(0xedcf);
+  // for icon called table-tennis
+  static const IconData tableTennis = _IcoFontData(0xedd0);
+  // for icon called team-alt
+  static const IconData teamAlt = _IcoFontData(0xedd1);
+  // for icon called team
+  static const IconData team = _IcoFontData(0xedd2);
+  // for icon called tennis-player
+  static const IconData tennisPlayer = _IcoFontData(0xedd3);
+  // for icon called tennis
+  static const IconData tennis = _IcoFontData(0xedd4);
+  // for icon called tracking
+  static const IconData tracking = _IcoFontData(0xedd5);
+  // for icon called trophy-alt
+  static const IconData trophyAlt = _IcoFontData(0xedd6);
+  // for icon called trophy
+  static const IconData trophy = _IcoFontData(0xedd7);
+  // for icon called volleyball-alt
+  static const IconData volleyballAlt = _IcoFontData(0xedd8);
+  // for icon called volleyball-fire
+  static const IconData volleyballFire = _IcoFontData(0xedd9);
+  // for icon called volleyball
+  static const IconData volleyball = _IcoFontData(0xedda);
+  // for icon called water-bottle
+  static const IconData waterBottle = _IcoFontData(0xeddb);
+  // for icon called whistle-alt
+  static const IconData whistleAlt = _IcoFontData(0xeddc);
+  // for icon called whistle
+  static const IconData whistle = _IcoFontData(0xeddd);
+  // for icon called win-trophy
+  static const IconData winTrophy = _IcoFontData(0xedde);
+  // for icon called align-center
+  static const IconData alignCenter = _IcoFontData(0xeddf);
+  // for icon called align-left
+  static const IconData alignLeft = _IcoFontData(0xede0);
+  // for icon called align-right
+  static const IconData alignRight = _IcoFontData(0xede1);
+  // for icon called all-caps
+  static const IconData allCaps = _IcoFontData(0xede2);
+  // for icon called bold
+  static const IconData bold = _IcoFontData(0xede3);
+  // for icon called brush
+  static const IconData brush = _IcoFontData(0xede4);
+  // for icon called clip-board
+  static const IconData clipBoard = _IcoFontData(0xede5);
+  // for icon called code-alt
+  static const IconData codeAlt = _IcoFontData(0xede6);
+  // for icon called color-bucket
+  static const IconData colorBucket = _IcoFontData(0xede7);
+  // for icon called color-picker
+  static const IconData colorPicker = _IcoFontData(0xede8);
+  // for icon called copy-invert
+  static const IconData copyInvert = _IcoFontData(0xede9);
+  // for icon called copy
+  static const IconData copy = _IcoFontData(0xedea);
+  // for icon called cut
+  static const IconData cut = _IcoFontData(0xedeb);
+  // for icon called delete-alt
+  static const IconData deleteAlt = _IcoFontData(0xedec);
+  // for icon called edit-alt
+  static const IconData editAlt = _IcoFontData(0xeded);
+  // for icon called eraser-alt
+  static const IconData eraserAlt = _IcoFontData(0xedee);
+  // for icon called font
+  static const IconData font = _IcoFontData(0xedef);
+  // for icon called heading
+  static const IconData heading = _IcoFontData(0xedf0);
+  // for icon called indent
+  static const IconData indent = _IcoFontData(0xedf1);
+  // for icon called italic-alt
+  static const IconData italicAlt = _IcoFontData(0xedf2);
+  // for icon called italic
+  static const IconData italic = _IcoFontData(0xedf3);
+  // for icon called justify-all
+  static const IconData justifyAll = _IcoFontData(0xedf4);
+  // for icon called justify-center
+  static const IconData justifyCenter = _IcoFontData(0xedf5);
+  // for icon called justify-left
+  static const IconData justifyLeft = _IcoFontData(0xedf6);
+  // for icon called justify-right
+  static const IconData justifyRight = _IcoFontData(0xedf7);
+  // for icon called link-broken
+  static const IconData linkBroken = _IcoFontData(0xedf8);
+  // for icon called outdent
+  static const IconData outdent = _IcoFontData(0xedf9);
+  // for icon called paper-clip
+  static const IconData paperClip = _IcoFontData(0xedfa);
+  // for icon called paragraph
+  static const IconData paragraph = _IcoFontData(0xedfb);
+  // for icon called pin
+  static const IconData pin = _IcoFontData(0xedfc);
+  // for icon called printer
+  static const IconData printer = _IcoFontData(0xedfd);
+  // for icon called redo
+  static const IconData redo = _IcoFontData(0xedfe);
+  // for icon called rotation
+  static const IconData rotation = _IcoFontData(0xedff);
+  // for icon called save
+  static const IconData save = _IcoFontData(0xee00);
+  // for icon called small-cap
+  static const IconData smallCap = _IcoFontData(0xee01);
+  // for icon called strike-through
+  static const IconData strikeThrough = _IcoFontData(0xee02);
+  // for icon called sub-listing
+  static const IconData subListing = _IcoFontData(0xee03);
+  // for icon called subscript
+  static const IconData subscript = _IcoFontData(0xee04);
+  // for icon called superscript
+  static const IconData superscript = _IcoFontData(0xee05);
+  // for icon called table
+  static const IconData table = _IcoFontData(0xee06);
+  // for icon called text-height
+  static const IconData textHeight = _IcoFontData(0xee07);
+  // for icon called text-width
+  static const IconData textWidth = _IcoFontData(0xee08);
+  // for icon called trash
+  static const IconData trash = _IcoFontData(0xee09);
+  // for icon called underline
+  static const IconData underline = _IcoFontData(0xee0a);
+  // for icon called undo
+  static const IconData undo = _IcoFontData(0xee0b);
+  // for icon called air-balloon
+  static const IconData airBalloon = _IcoFontData(0xee0c);
+  // for icon called airplane-alt
+  static const IconData airplaneAlt = _IcoFontData(0xee0d);
+  // for icon called airplane
+  static const IconData airplane = _IcoFontData(0xee0e);
+  // for icon called articulated-truck
+  static const IconData articulatedTruck = _IcoFontData(0xee0f);
+  // for icon called auto-mobile
+  static const IconData autoMobile = _IcoFontData(0xee10);
+  // for icon called auto-rickshaw
+  static const IconData autoRickshaw = _IcoFontData(0xee11);
+  // for icon called bicycle-alt-1
+  static const IconData bicycleAlt1 = _IcoFontData(0xee12);
+  // for icon called bicycle-alt-2
+  static const IconData bicycleAlt2 = _IcoFontData(0xee13);
+  // for icon called bicycle
+  static const IconData bicycle = _IcoFontData(0xee14);
+  // for icon called bus-alt-1
+  static const IconData busAlt1 = _IcoFontData(0xee15);
+  // for icon called bus-alt-2
+  static const IconData busAlt2 = _IcoFontData(0xee16);
+  // for icon called bus-alt-3
+  static const IconData busAlt3 = _IcoFontData(0xee17);
+  // for icon called bus
+  static const IconData bus = _IcoFontData(0xee18);
+  // for icon called cab
+  static const IconData cab = _IcoFontData(0xee19);
+  // for icon called cable-car
+  static const IconData cableCar = _IcoFontData(0xee1a);
+  // for icon called car-alt-1
+  static const IconData carAlt1 = _IcoFontData(0xee1b);
+  // for icon called car-alt-2
+  static const IconData carAlt2 = _IcoFontData(0xee1c);
+  // for icon called car-alt-3
+  static const IconData carAlt3 = _IcoFontData(0xee1d);
+  // for icon called car-alt-4
+  static const IconData carAlt4 = _IcoFontData(0xee1e);
+  // for icon called car
+  static const IconData car = _IcoFontData(0xee1f);
+  // for icon called delivery-time
+  static const IconData deliveryTime = _IcoFontData(0xee20);
+  // for icon called fast-delivery
+  static const IconData fastDelivery = _IcoFontData(0xee21);
+  // for icon called fire-truck-alt
+  static const IconData fireTruckAlt = _IcoFontData(0xee22);
+  // for icon called fire-truck
+  static const IconData fireTruck = _IcoFontData(0xee23);
+  // for icon called free-delivery
+  static const IconData freeDelivery = _IcoFontData(0xee24);
+  // for icon called helicopter
+  static const IconData helicopter = _IcoFontData(0xee25);
+  // for icon called motor-bike-alt
+  static const IconData motorBikeAlt = _IcoFontData(0xee26);
+  // for icon called motor-bike
+  static const IconData motorBike = _IcoFontData(0xee27);
+  // for icon called motor-biker
+  static const IconData motorBiker = _IcoFontData(0xee28);
+  // for icon called oil-truck
+  static const IconData oilTruck = _IcoFontData(0xee29);
+  // for icon called rickshaw
+  static const IconData rickshaw = _IcoFontData(0xee2a);
+  // for icon called rocket-alt-1
+  static const IconData rocketAlt1 = _IcoFontData(0xee2b);
+  // for icon called rocket-alt-2
+  static const IconData rocketAlt2 = _IcoFontData(0xee2c);
+  // for icon called rocket
+  static const IconData rocket = _IcoFontData(0xee2d);
+  // for icon called sail-boat-alt-1
+  static const IconData sailBoatAlt1 = _IcoFontData(0xee2e);
+  // for icon called sail-boat-alt-2
+  static const IconData sailBoatAlt2 = _IcoFontData(0xee2f);
+  // for icon called sail-boat
+  static const IconData sailBoat = _IcoFontData(0xee30);
+  // for icon called scooter
+  static const IconData scooter = _IcoFontData(0xee31);
+  // for icon called sea-plane
+  static const IconData seaPlane = _IcoFontData(0xee32);
+  // for icon called ship-alt
+  static const IconData shipAlt = _IcoFontData(0xee33);
+  // for icon called ship
+  static const IconData ship = _IcoFontData(0xee34);
+  // for icon called speed-boat
+  static const IconData speedBoat = _IcoFontData(0xee35);
+  // for icon called taxi
+  static const IconData taxi = _IcoFontData(0xee36);
+  // for icon called tractor
+  static const IconData tractor = _IcoFontData(0xee37);
+  // for icon called train-line
+  static const IconData trainLine = _IcoFontData(0xee38);
+  // for icon called train-steam
+  static const IconData trainSteam = _IcoFontData(0xee39);
+  // for icon called tram
+  static const IconData tram = _IcoFontData(0xee3a);
+  // for icon called truck-alt
+  static const IconData truckAlt = _IcoFontData(0xee3b);
+  // for icon called truck-loaded
+  static const IconData truckLoaded = _IcoFontData(0xee3c);
+  // for icon called truck
+  static const IconData truck = _IcoFontData(0xee3d);
+  // for icon called van-alt
+  static const IconData vanAlt = _IcoFontData(0xee3e);
+  // for icon called van
+  static const IconData van = _IcoFontData(0xee3f);
+  // for icon called yacht
+  static const IconData yacht = _IcoFontData(0xee40);
+  // for icon called 5-star-hotel
+  static const IconData fiveStarHotel = _IcoFontData(0xee41);
+  // for icon called air-ticket
+  static const IconData airTicket = _IcoFontData(0xee42);
+  // for icon called beach-bed
+  static const IconData beachBed = _IcoFontData(0xee43);
+  // for icon called beach
+  static const IconData beach = _IcoFontData(0xee44);
+  // for icon called camping-vest
+  static const IconData campingVest = _IcoFontData(0xee45);
+  // for icon called direction-sign
+  static const IconData directionSign = _IcoFontData(0xee46);
+  // for icon called hill-side
+  static const IconData hillSide = _IcoFontData(0xee47);
+  // for icon called hill
+  static const IconData hill = _IcoFontData(0xee48);
+  // for icon called hotel
+  static const IconData hotel = _IcoFontData(0xee49);
+  // for icon called island-alt
+  static const IconData islandAlt = _IcoFontData(0xee4a);
+  // for icon called island
+  static const IconData island = _IcoFontData(0xee4b);
+  // for icon called sandals-female
+  static const IconData sandalsFemale = _IcoFontData(0xee4c);
+  // for icon called sandals-male
+  static const IconData sandalsMale = _IcoFontData(0xee4d);
+  // for icon called travelling
+  static const IconData travelling = _IcoFontData(0xee4e);
+  // for icon called breakdown
+  static const IconData breakdown = _IcoFontData(0xee4f);
+  // for icon called celsius
+  static const IconData celsius = _IcoFontData(0xee50);
+  // for icon called clouds
+  static const IconData clouds = _IcoFontData(0xee51);
+  // for icon called cloudy
+  static const IconData cloudy = _IcoFontData(0xee52);
+  // for icon called dust
+  static const IconData dust = _IcoFontData(0xee53);
+  // for icon called eclipse
+  static const IconData eclipse = _IcoFontData(0xee54);
+  // for icon called fahrenheit
+  static const IconData fahrenheit = _IcoFontData(0xee55);
+  // for icon called forest-fire
+  static const IconData forestFire = _IcoFontData(0xee56);
+  // for icon called full-night
+  static const IconData fullNight = _IcoFontData(0xee57);
+  // for icon called full-sunny
+  static const IconData fullSunny = _IcoFontData(0xee58);
+  // for icon called hail-night
+  static const IconData hailNight = _IcoFontData(0xee59);
+  // for icon called hail-rainy-night
+  static const IconData hailRainyNight = _IcoFontData(0xee5a);
+  // for icon called hail-rainy-sunny
+  static const IconData hailRainySunny = _IcoFontData(0xee5b);
+  // for icon called hail-rainy
+  static const IconData hailRainy = _IcoFontData(0xee5c);
+  // for icon called hail-sunny
+  static const IconData hailSunny = _IcoFontData(0xee5d);
+  // for icon called hail-thunder-night
+  static const IconData hailThunderNight = _IcoFontData(0xee5e);
+  // for icon called hail-thunder-sunny
+  static const IconData hailThunderSunny = _IcoFontData(0xee5f);
+  // for icon called hail-thunder
+  static const IconData hailThunder = _IcoFontData(0xee60);
+  // for icon called hail
+  static const IconData hail = _IcoFontData(0xee61);
+  // for icon called hill-night
+  static const IconData hillNight = _IcoFontData(0xee62);
+  // for icon called hill-sunny
+  static const IconData hillSunny = _IcoFontData(0xee63);
+  // for icon called hurricane
+  static const IconData hurricane = _IcoFontData(0xee64);
+  // for icon called meteor
+  static const IconData meteor = _IcoFontData(0xee65);
+  // for icon called night
+  static const IconData night = _IcoFontData(0xee66);
+  // for icon called rainy-night
+  static const IconData rainyNight = _IcoFontData(0xee67);
+  // for icon called rainy-sunny
+  static const IconData rainySunny = _IcoFontData(0xee68);
+  // for icon called rainy-thunder
+  static const IconData rainyThunder = _IcoFontData(0xee69);
+  // for icon called rainy
+  static const IconData rainy = _IcoFontData(0xee6a);
+  // for icon called snow-alt
+  static const IconData snowAlt = _IcoFontData(0xee6b);
+  // for icon called snow-flake
+  static const IconData snowFlake = _IcoFontData(0xee6c);
+  // for icon called snow-temp
+  static const IconData snowTemp = _IcoFontData(0xee6d);
+  // for icon called snow
+  static const IconData snow = _IcoFontData(0xee6e);
+  // for icon called snowy-hail
+  static const IconData snowyHail = _IcoFontData(0xee6f);
+  // for icon called snowy-night-hail
+  static const IconData snowyNightHail = _IcoFontData(0xee70);
+  // for icon called snowy-night-rainy
+  static const IconData snowyNightRainy = _IcoFontData(0xee71);
+  // for icon called snowy-night
+  static const IconData snowyNight = _IcoFontData(0xee72);
+  // for icon called snowy-rainy
+  static const IconData snowyRainy = _IcoFontData(0xee73);
+  // for icon called snowy-sunny-hail
+  static const IconData snowySunnyHail = _IcoFontData(0xee74);
+  // for icon called snowy-sunny-rainy
+  static const IconData snowySunnyRainy = _IcoFontData(0xee75);
+  // for icon called snowy-sunny
+  static const IconData snowySunny = _IcoFontData(0xee76);
+  // for icon called snowy-thunder-night
+  static const IconData snowyThunderNight = _IcoFontData(0xee77);
+  // for icon called snowy-thunder-sunny
+  static const IconData snowyThunderSunny = _IcoFontData(0xee78);
+  // for icon called snowy-thunder
+  static const IconData snowyThunder = _IcoFontData(0xee79);
+  // for icon called snowy-windy-night
+  static const IconData snowyWindyNight = _IcoFontData(0xee7a);
+  // for icon called snowy-windy-sunny
+  static const IconData snowyWindySunny = _IcoFontData(0xee7b);
+  // for icon called snowy-windy
+  static const IconData snowyWindy = _IcoFontData(0xee7c);
+  // for icon called snowy
+  static const IconData snowy = _IcoFontData(0xee7d);
+  // for icon called sun-alt
+  static const IconData sunAlt = _IcoFontData(0xee7e);
+  // for icon called sun-rise
+  static const IconData sunRise = _IcoFontData(0xee7f);
+  // for icon called sun-set
+  static const IconData sunSet = _IcoFontData(0xee80);
+  // for icon called sun
+  static const IconData sun = _IcoFontData(0xee81);
+  // for icon called sunny-day-temp
+  static const IconData sunnyDayTemp = _IcoFontData(0xee82);
+  // for icon called sunny
+  static const IconData sunny = _IcoFontData(0xee83);
+  // for icon called thunder-light
+  static const IconData thunderLight = _IcoFontData(0xee84);
+  // for icon called tornado
+  static const IconData tornado = _IcoFontData(0xee85);
+  // for icon called umbrella-alt
+  static const IconData umbrellaAlt = _IcoFontData(0xee86);
+  // for icon called umbrella
+  static const IconData umbrella = _IcoFontData(0xee87);
+  // for icon called volcano
+  static const IconData volcano = _IcoFontData(0xee88);
+  // for icon called wave
+  static const IconData wave = _IcoFontData(0xee89);
+  // for icon called wind-scale-0
+  static const IconData windScale0 = _IcoFontData(0xee8a);
+  // for icon called wind-scale-1
+  static const IconData windScale1 = _IcoFontData(0xee8b);
+  // for icon called wind-scale-10
+  static const IconData windScale10 = _IcoFontData(0xee8c);
+  // for icon called wind-scale-11
+  static const IconData windScale11 = _IcoFontData(0xee8d);
+  // for icon called wind-scale-12
+  static const IconData windScale12 = _IcoFontData(0xee8e);
+  // for icon called wind-scale-2
+  static const IconData windScale2 = _IcoFontData(0xee8f);
+  // for icon called wind-scale-3
+  static const IconData windScale3 = _IcoFontData(0xee90);
+  // for icon called wind-scale-4
+  static const IconData windScale4 = _IcoFontData(0xee91);
+  // for icon called wind-scale-5
+  static const IconData windScale5 = _IcoFontData(0xee92);
+  // for icon called wind-scale-6
+  static const IconData windScale6 = _IcoFontData(0xee93);
+  // for icon called wind-scale-7
+  static const IconData windScale7 = _IcoFontData(0xee94);
+  // for icon called wind-scale-8
+  static const IconData windScale8 = _IcoFontData(0xee95);
+  // for icon called wind-scale-9
+  static const IconData windScale9 = _IcoFontData(0xee96);
+  // for icon called wind-waves
+  static const IconData windWaves = _IcoFontData(0xee97);
+  // for icon called wind
+  static const IconData wind = _IcoFontData(0xee98);
+  // for icon called windy-hail
+  static const IconData windyHail = _IcoFontData(0xee99);
+  // for icon called windy-night
+  static const IconData windyNight = _IcoFontData(0xee9a);
+  // for icon called windy-raining
+  static const IconData windyRaining = _IcoFontData(0xee9b);
+  // for icon called windy-sunny
+  static const IconData windySunny = _IcoFontData(0xee9c);
+  // for icon called windy-thunder-raining
+  static const IconData windyThunderRaining = _IcoFontData(0xee9d);
+  // for icon called windy-thunder
+  static const IconData windyThunder = _IcoFontData(0xee9e);
+  // for icon called windy
+  static const IconData windy = _IcoFontData(0xee9f);
+  // for icon called addons
+  static const IconData addons = _IcoFontData(0xeea0);
+  // for icon called address-book
+  static const IconData addressBook = _IcoFontData(0xeea1);
+  // for icon called adjust
+  static const IconData adjust = _IcoFontData(0xeea2);
+  // for icon called alarm
+  static const IconData alarm = _IcoFontData(0xeea3);
+  // for icon called anchor
+  static const IconData anchor = _IcoFontData(0xeea4);
+  // for icon called archive
+  static const IconData archive = _IcoFontData(0xeea5);
+  // for icon called at
+  static const IconData at = _IcoFontData(0xeea6);
+  // for icon called attachment
+  static const IconData attachment = _IcoFontData(0xeea7);
+  // for icon called audio
+  static const IconData audio = _IcoFontData(0xeea8);
+  // for icon called automation
+  static const IconData automation = _IcoFontData(0xeea9);
+  // for icon called badge
+  static const IconData badge = _IcoFontData(0xeeaa);
+  // for icon called bag-alt
+  static const IconData bagAlt = _IcoFontData(0xeeab);
+  // for icon called bag
+  static const IconData bag = _IcoFontData(0xeeac);
+  // for icon called ban
+  static const IconData ban = _IcoFontData(0xeead);
+  // for icon called bar-code
+  static const IconData barCode = _IcoFontData(0xeeae);
+  // for icon called bars
+  static const IconData bars = _IcoFontData(0xeeaf);
+  // for icon called basket
+  static const IconData basket = _IcoFontData(0xeeb0);
+  // for icon called battery-empty
+  static const IconData batteryEmpty = _IcoFontData(0xeeb1);
+  // for icon called battery-full
+  static const IconData batteryFull = _IcoFontData(0xeeb2);
+  // for icon called battery-half
+  static const IconData batteryHalf = _IcoFontData(0xeeb3);
+  // for icon called battery-low
+  static const IconData batteryLow = _IcoFontData(0xeeb4);
+  // for icon called beaker
+  static const IconData beaker = _IcoFontData(0xeeb5);
+  // for icon called beard
+  static const IconData beard = _IcoFontData(0xeeb6);
+  // for icon called bed
+  static const IconData bed = _IcoFontData(0xeeb7);
+  // for icon called bell
+  static const IconData bell = _IcoFontData(0xeeb8);
+  // for icon called beverage
+  static const IconData beverage = _IcoFontData(0xeeb9);
+  // for icon called bill
+  static const IconData bill = _IcoFontData(0xeeba);
+  // for icon called bin
+  static const IconData bin = _IcoFontData(0xeebb);
+  // for icon called binary
+  static const IconData binary = _IcoFontData(0xeebc);
+  // for icon called binoculars
+  static const IconData binoculars = _IcoFontData(0xeebd);
+  // for icon called bluetooth
+  static const IconData bluetooth = _IcoFontData(0xeebe);
+  // for icon called bomb
+  static const IconData bomb = _IcoFontData(0xeebf);
+  // for icon called book-mark
+  static const IconData bookMark = _IcoFontData(0xeec0);
+  // for icon called box
+  static const IconData box = _IcoFontData(0xeec1);
+  // for icon called briefcase
+  static const IconData briefcase = _IcoFontData(0xeec2);
+  // for icon called broken
+  static const IconData broken = _IcoFontData(0xeec3);
+  // for icon called bucket
+  static const IconData bucket = _IcoFontData(0xeec4);
+  // for icon called bucket1
+  static const IconData bucket1 = _IcoFontData(0xeec5);
+  // for icon called bucket2
+  static const IconData bucket2 = _IcoFontData(0xeec6);
+  // for icon called bug
+  static const IconData bug = _IcoFontData(0xeec7);
+  // for icon called building
+  static const IconData building = _IcoFontData(0xeec8);
+  // for icon called bulb-alt
+  static const IconData bulbAlt = _IcoFontData(0xeec9);
+  // for icon called bullet
+  static const IconData bullet = _IcoFontData(0xeeca);
+  // for icon called bullhorn
+  static const IconData bullhorn = _IcoFontData(0xeecb);
+  // for icon called bullseye
+  static const IconData bullseye = _IcoFontData(0xeecc);
+  // for icon called calendar
+  static const IconData calendar = _IcoFontData(0xeecd);
+  // for icon called camera-alt
+  static const IconData cameraAlt = _IcoFontData(0xeece);
+  // for icon called camera
+  static const IconData camera = _IcoFontData(0xeecf);
+  // for icon called card
+  static const IconData card = _IcoFontData(0xeed0);
+  // for icon called cart-alt
+  static const IconData cartAlt = _IcoFontData(0xeed1);
+  // for icon called cart
+  static const IconData cart = _IcoFontData(0xeed2);
+  // for icon called cc
+  static const IconData cc = _IcoFontData(0xeed3);
+  // for icon called charging
+  static const IconData charging = _IcoFontData(0xeed4);
+  // for icon called chat
+  static const IconData chat = _IcoFontData(0xeed5);
+  // for icon called check-alt
+  static const IconData checkAlt = _IcoFontData(0xeed6);
+  // for icon called check-circled
+  static const IconData checkCircled = _IcoFontData(0xeed7);
+  // for icon called check
+  static const IconData check = _IcoFontData(0xeed8);
+  // for icon called checked
+  static const IconData checked = _IcoFontData(0xeed9);
+  // for icon called children-care
+  static const IconData childrenCare = _IcoFontData(0xeeda);
+  // for icon called clip
+  static const IconData clip = _IcoFontData(0xeedb);
+  // for icon called clock-time
+  static const IconData clockTime = _IcoFontData(0xeedc);
+  // for icon called close-circled
+  static const IconData closeCircled = _IcoFontData(0xeedd);
+  // for icon called close-line-circled
+  static const IconData closeLineCircled = _IcoFontData(0xeede);
+  // for icon called close-line-squared-alt
+  static const IconData closeLineSquaredAlt = _IcoFontData(0xeedf);
+  // for icon called close-line-squared
+  static const IconData closeLineSquared = _IcoFontData(0xeee0);
+  // for icon called close-line
+  static const IconData closeLine = _IcoFontData(0xeee1);
+  // for icon called close-squared-alt
+  static const IconData closeSquaredAlt = _IcoFontData(0xeee2);
+  // for icon called close-squared
+  static const IconData closeSquared = _IcoFontData(0xeee3);
+  // for icon called close
+  static const IconData close = _IcoFontData(0xeee4);
+  // for icon called cloud-download
+  static const IconData cloudDownload = _IcoFontData(0xeee5);
+  // for icon called cloud-refresh
+  static const IconData cloudRefresh = _IcoFontData(0xeee6);
+  // for icon called cloud-upload
+  static const IconData cloudUpload = _IcoFontData(0xeee7);
+  // for icon called cloud
+  static const IconData cloud = _IcoFontData(0xeee8);
+  // for icon called code-not-allowed
+  static const IconData codeNotAllowed = _IcoFontData(0xeee9);
+  // for icon called code
+  static const IconData code = _IcoFontData(0xeeea);
+  // for icon called comment
+  static const IconData comment = _IcoFontData(0xeeeb);
+  // for icon called compass-alt
+  static const IconData compassAlt = _IcoFontData(0xeeec);
+  // for icon called compass
+  static const IconData compass = _IcoFontData(0xeeed);
+  // for icon called computer
+  static const IconData computer = _IcoFontData(0xeeee);
+  // for icon called connection
+  static const IconData connection = _IcoFontData(0xeeef);
+  // for icon called console
+  static const IconData console = _IcoFontData(0xeef0);
+  // for icon called contacts
+  static const IconData contacts = _IcoFontData(0xeef1);
+  // for icon called contrast
+  static const IconData contrast = _IcoFontData(0xeef2);
+  // for icon called copyright
+  static const IconData copyright = _IcoFontData(0xeef3);
+  // for icon called credit-card
+  static const IconData creditCard = _IcoFontData(0xeef4);
+  // for icon called crop
+  static const IconData crop = _IcoFontData(0xeef5);
+  // for icon called crown
+  static const IconData crown = _IcoFontData(0xeef6);
+  // for icon called cube
+  static const IconData cube = _IcoFontData(0xeef7);
+  // for icon called cubes
+  static const IconData cubes = _IcoFontData(0xeef8);
+  // for icon called dashboard-web
+  static const IconData dashboardWeb = _IcoFontData(0xeef9);
+  // for icon called dashboard
+  static const IconData dashboard = _IcoFontData(0xeefa);
+  // for icon called data
+  static const IconData data = _IcoFontData(0xeefb);
+  // for icon called database-add
+  static const IconData databaseAdd = _IcoFontData(0xeefc);
+  // for icon called database-locked
+  static const IconData databaseLocked = _IcoFontData(0xeefd);
+  // for icon called database-remove
+  static const IconData databaseRemove = _IcoFontData(0xeefe);
+  // for icon called database
+  static const IconData database = _IcoFontData(0xeeff);
+  // for icon called delete
+  static const IconData delete = _IcoFontData(0xef00);
+  // for icon called diamond
+  static const IconData diamond = _IcoFontData(0xef01);
+  // for icon called dice-multiple
+  static const IconData diceMultiple = _IcoFontData(0xef02);
+  // for icon called dice
+  static const IconData dice = _IcoFontData(0xef03);
+  // for icon called disc
+  static const IconData disc = _IcoFontData(0xef04);
+  // for icon called diskette
+  static const IconData diskette = _IcoFontData(0xef05);
+  // for icon called document-folder
+  static const IconData documentFolder = _IcoFontData(0xef06);
+  // for icon called download-alt
+  static const IconData downloadAlt = _IcoFontData(0xef07);
+  // for icon called download
+  static const IconData download = _IcoFontData(0xef08);
+  // for icon called downloaded
+  static const IconData downloaded = _IcoFontData(0xef09);
+  // for icon called drag
+  static const IconData drag = _IcoFontData(0xef0a);
+  // for icon called drag1
+  static const IconData drag1 = _IcoFontData(0xef0b);
+  // for icon called drag2
+  static const IconData drag2 = _IcoFontData(0xef0c);
+  // for icon called drag3
+  static const IconData drag3 = _IcoFontData(0xef0d);
+  // for icon called earth
+  static const IconData earth = _IcoFontData(0xef0e);
+  // for icon called ebook
+  static const IconData ebook = _IcoFontData(0xef0f);
+  // for icon called edit
+  static const IconData edit = _IcoFontData(0xef10);
+  // for icon called eject
+  static const IconData eject = _IcoFontData(0xef11);
+  // for icon called email
+  static const IconData email = _IcoFontData(0xef12);
+  // for icon called envelope-open
+  static const IconData envelopeOpen = _IcoFontData(0xef13);
+  // for icon called envelope
+  static const IconData envelope = _IcoFontData(0xef14);
+  // for icon called eraser
+  static const IconData eraser = _IcoFontData(0xef15);
+  // for icon called error
+  static const IconData error = _IcoFontData(0xef16);
+  // for icon called excavator
+  static const IconData excavator = _IcoFontData(0xef17);
+  // for icon called exchange
+  static const IconData exchange = _IcoFontData(0xef18);
+  // for icon called exclamation-circle
+  static const IconData exclamationCircle = _IcoFontData(0xef19);
+  // for icon called exclamation-square
+  static const IconData exclamationSquare = _IcoFontData(0xef1a);
+  // for icon called exclamation-tringle
+  static const IconData exclamationTringle = _IcoFontData(0xef1b);
+  // for icon called exclamation
+  static const IconData exclamation = _IcoFontData(0xef1c);
+  // for icon called exit
+  static const IconData exit = _IcoFontData(0xef1d);
+  // for icon called expand
+  static const IconData expand = _IcoFontData(0xef1e);
+  // for icon called external-link
+  static const IconData externalLink = _IcoFontData(0xef1f);
+  // for icon called external
+  static const IconData external = _IcoFontData(0xef20);
+  // for icon called eye-alt
+  static const IconData eyeAlt = _IcoFontData(0xef21);
+  // for icon called eye-blocked
+  static const IconData eyeBlocked = _IcoFontData(0xef22);
+  // for icon called eye-dropper
+  static const IconData eyeDropper = _IcoFontData(0xef23);
+  // for icon called eye
+  static const IconData eye = _IcoFontData(0xef24);
+  // for icon called favourite
+  static const IconData favourite = _IcoFontData(0xef25);
+  // for icon called fax
+  static const IconData fax = _IcoFontData(0xef26);
+  // for icon called file-fill
+  static const IconData fileFill = _IcoFontData(0xef27);
+  // for icon called film
+  static const IconData film = _IcoFontData(0xef28);
+  // for icon called filter
+  static const IconData filter = _IcoFontData(0xef29);
+  // for icon called fire-alt
+  static const IconData fireAlt = _IcoFontData(0xef2a);
+  // for icon called fire-burn
+  static const IconData fireBurn = _IcoFontData(0xef2b);
+  // for icon called fire
+  static const IconData fire = _IcoFontData(0xef2c);
+  // for icon called flag-alt-1
+  static const IconData flagAlt1 = _IcoFontData(0xef2d);
+  // for icon called flag-alt-2
+  static const IconData flagAlt2 = _IcoFontData(0xef2e);
+  // for icon called flag
+  static const IconData flag = _IcoFontData(0xef2f);
+  // for icon called flame-torch
+  static const IconData flameTorch = _IcoFontData(0xef30);
+  // for icon called flash-light
+  static const IconData flashLight = _IcoFontData(0xef31);
+  // for icon called flash
+  static const IconData flash = _IcoFontData(0xef32);
+  // for icon called flask
+  static const IconData flask = _IcoFontData(0xef33);
+  // for icon called focus
+  static const IconData focus = _IcoFontData(0xef34);
+  // for icon called folder-open
+  static const IconData folderOpen = _IcoFontData(0xef35);
+  // for icon called folder
+  static const IconData folder = _IcoFontData(0xef36);
+  // for icon called foot-print
+  static const IconData footPrint = _IcoFontData(0xef37);
+  // for icon called garbage
+  static const IconData garbage = _IcoFontData(0xef38);
+  // for icon called gear-alt
+  static const IconData gearAlt = _IcoFontData(0xef39);
+  // for icon called gear
+  static const IconData gear = _IcoFontData(0xef3a);
+  // for icon called gears
+  static const IconData gears = _IcoFontData(0xef3b);
+  // for icon called gift
+  static const IconData gift = _IcoFontData(0xef3c);
+  // for icon called glass
+  static const IconData glass = _IcoFontData(0xef3d);
+  // for icon called globe
+  static const IconData globe = _IcoFontData(0xef3e);
+  // for icon called graffiti
+  static const IconData graffiti = _IcoFontData(0xef3f);
+  // for icon called grocery
+  static const IconData grocery = _IcoFontData(0xef40);
+  // for icon called hand
+  static const IconData hand = _IcoFontData(0xef41);
+  // for icon called hanger
+  static const IconData hanger = _IcoFontData(0xef42);
+  // for icon called hard-disk
+  static const IconData hardDisk = _IcoFontData(0xef43);
+  // for icon called heart-alt
+  static const IconData heartAlt = _IcoFontData(0xef44);
+  // for icon called heart
+  static const IconData heart = _IcoFontData(0xef45);
+  // for icon called history
+  static const IconData history = _IcoFontData(0xef46);
+  // for icon called home
+  static const IconData home = _IcoFontData(0xef47);
+  // for icon called horn
+  static const IconData horn = _IcoFontData(0xef48);
+  // for icon called hour-glass
+  static const IconData hourGlass = _IcoFontData(0xef49);
+  // for icon called id
+  static const IconData id = _IcoFontData(0xef4a);
+  // for icon called image
+  static const IconData image = _IcoFontData(0xef4b);
+  // for icon called inbox
+  static const IconData inbox = _IcoFontData(0xef4c);
+  // for icon called infinite
+  static const IconData infinite = _IcoFontData(0xef4d);
+  // for icon called info-circle
+  static const IconData infoCircle = _IcoFontData(0xef4e);
+  // for icon called info-square
+  static const IconData infoSquare = _IcoFontData(0xef4f);
+  // for icon called info
+  static const IconData info = _IcoFontData(0xef50);
+  // for icon called institution
+  static const IconData institution = _IcoFontData(0xef51);
+  // for icon called interface
+  static const IconData interface = _IcoFontData(0xef52);
+  // for icon called invisible
+  static const IconData invisible = _IcoFontData(0xef53);
+  // for icon called jacket
+  static const IconData jacket = _IcoFontData(0xef54);
+  // for icon called jar
+  static const IconData jar = _IcoFontData(0xef55);
+  // for icon called jewlery
+  static const IconData jewlery = _IcoFontData(0xef56);
+  // for icon called karate
+  static const IconData karate = _IcoFontData(0xef57);
+  // for icon called key-hole
+  static const IconData keyHole = _IcoFontData(0xef58);
+  // for icon called key
+  static const IconData key = _IcoFontData(0xef59);
+  // for icon called label
+  static const IconData label = _IcoFontData(0xef5a);
+  // for icon called lamp
+  static const IconData lamp = _IcoFontData(0xef5b);
+  // for icon called layers
+  static const IconData layers = _IcoFontData(0xef5c);
+  // for icon called layout
+  static const IconData layout = _IcoFontData(0xef5d);
+  // for icon called leaf
+  static const IconData leaf = _IcoFontData(0xef5e);
+  // for icon called leaflet
+  static const IconData leaflet = _IcoFontData(0xef5f);
+  // for icon called learn
+  static const IconData learn = _IcoFontData(0xef60);
+  // for icon called lego
+  static const IconData lego = _IcoFontData(0xef61);
+  // for icon called lens
+  static const IconData lens = _IcoFontData(0xef62);
+  // for icon called letter
+  static const IconData letter = _IcoFontData(0xef63);
+  // for icon called letterbox
+  static const IconData letterbox = _IcoFontData(0xef64);
+  // for icon called library
+  static const IconData library = _IcoFontData(0xef65);
+  // for icon called license
+  static const IconData license = _IcoFontData(0xef66);
+  // for icon called life-bouy
+  static const IconData lifeBouy = _IcoFontData(0xef67);
+  // for icon called life-buoy
+  static const IconData lifeBuoy = _IcoFontData(0xef68);
+  // for icon called life-jacket
+  static const IconData lifeJacket = _IcoFontData(0xef69);
+  // for icon called life-ring
+  static const IconData lifeRing = _IcoFontData(0xef6a);
+  // for icon called light-bulb
+  static const IconData lightBulb = _IcoFontData(0xef6b);
+  // for icon called lighter
+  static const IconData lighter = _IcoFontData(0xef6c);
+  // for icon called lightning-ray
+  static const IconData lightningRay = _IcoFontData(0xef6d);
+  // for icon called like
+  static const IconData like = _IcoFontData(0xef6e);
+  // for icon called line-height
+  static const IconData lineHeight = _IcoFontData(0xef6f);
+  // for icon called link-alt
+  static const IconData linkAlt = _IcoFontData(0xef70);
+  // for icon called link
+  static const IconData link = _IcoFontData(0xef71);
+  // for icon called list
+  static const IconData list = _IcoFontData(0xef72);
+  // for icon called listening
+  static const IconData listening = _IcoFontData(0xef73);
+  // for icon called listine-dots
+  static const IconData listineDots = _IcoFontData(0xef74);
+  // for icon called listing-box
+  static const IconData listingBox = _IcoFontData(0xef75);
+  // for icon called listing-number
+  static const IconData listingNumber = _IcoFontData(0xef76);
+  // for icon called live-support
+  static const IconData liveSupport = _IcoFontData(0xef77);
+  // for icon called location-arrow
+  static const IconData locationArrow = _IcoFontData(0xef78);
+  // for icon called location-pin
+  static const IconData locationPin = _IcoFontData(0xef79);
+  // for icon called lock
+  static const IconData lock = _IcoFontData(0xef7a);
+  // for icon called login
+  static const IconData login = _IcoFontData(0xef7b);
+  // for icon called logout
+  static const IconData logout = _IcoFontData(0xef7c);
+  // for icon called lollipop
+  static const IconData lollipop = _IcoFontData(0xef7d);
+  // for icon called long-drive
+  static const IconData longDrive = _IcoFontData(0xef7e);
+  // for icon called look
+  static const IconData look = _IcoFontData(0xef7f);
+  // for icon called loop
+  static const IconData loop = _IcoFontData(0xef80);
+  // for icon called luggage
+  static const IconData luggage = _IcoFontData(0xef81);
+  // for icon called lunch
+  static const IconData lunch = _IcoFontData(0xef82);
+  // for icon called lungs
+  static const IconData lungs = _IcoFontData(0xef83);
+  // for icon called magic-alt
+  static const IconData magicAlt = _IcoFontData(0xef84);
+  // for icon called magic
+  static const IconData magic = _IcoFontData(0xef85);
+  // for icon called magnet
+  static const IconData magnet = _IcoFontData(0xef86);
+  // for icon called mail-box
+  static const IconData mailBox = _IcoFontData(0xef87);
+  // for icon called mail
+  static const IconData mail = _IcoFontData(0xef88);
+  // for icon called male
+  static const IconData male = _IcoFontData(0xef89);
+  // for icon called map-pins
+  static const IconData mapPins = _IcoFontData(0xef8a);
+  // for icon called map
+  static const IconData map = _IcoFontData(0xef8b);
+  // for icon called maximize
+  static const IconData maximize = _IcoFontData(0xef8c);
+  // for icon called measure
+  static const IconData measure = _IcoFontData(0xef8d);
+  // for icon called medicine
+  static const IconData medicine = _IcoFontData(0xef8e);
+  // for icon called mega-phone
+  static const IconData megaPhone = _IcoFontData(0xef8f);
+  // for icon called megaphone-alt
+  static const IconData megaphoneAlt = _IcoFontData(0xef90);
+  // for icon called megaphone
+  static const IconData megaphone = _IcoFontData(0xef91);
+  // for icon called memorial
+  static const IconData memorial = _IcoFontData(0xef92);
+  // for icon called memory-card
+  static const IconData memoryCard = _IcoFontData(0xef93);
+  // for icon called mic-mute
+  static const IconData micMute = _IcoFontData(0xef94);
+  // for icon called mic
+  static const IconData mic = _IcoFontData(0xef95);
+  // for icon called military
+  static const IconData military = _IcoFontData(0xef96);
+  // for icon called mill
+  static const IconData mill = _IcoFontData(0xef97);
+  // for icon called minus-circle
+  static const IconData minusCircle = _IcoFontData(0xef98);
+  // for icon called minus-square
+  static const IconData minusSquare = _IcoFontData(0xef99);
+  // for icon called minus
+  static const IconData minus = _IcoFontData(0xef9a);
+  // for icon called mobile-phone
+  static const IconData mobilePhone = _IcoFontData(0xef9b);
+  // for icon called molecule
+  static const IconData molecule = _IcoFontData(0xef9c);
+  // for icon called money
+  static const IconData money = _IcoFontData(0xef9d);
+  // for icon called moon
+  static const IconData moon = _IcoFontData(0xef9e);
+  // for icon called mop
+  static const IconData mop = _IcoFontData(0xef9f);
+  // for icon called muffin
+  static const IconData muffin = _IcoFontData(0xefa0);
+  // for icon called mustache
+  static const IconData mustache = _IcoFontData(0xefa1);
+  // for icon called navigation-menu
+  static const IconData navigationMenu = _IcoFontData(0xefa2);
+  // for icon called navigation
+  static const IconData navigation = _IcoFontData(0xefa3);
+  // for icon called network-tower
+  static const IconData networkTower = _IcoFontData(0xefa4);
+  // for icon called network
+  static const IconData network = _IcoFontData(0xefa5);
+  // for icon called news
+  static const IconData news = _IcoFontData(0xefa6);
+  // for icon called newspaper
+  static const IconData newspaper = _IcoFontData(0xefa7);
+  // for icon called no-smoking
+  static const IconData noSmoking = _IcoFontData(0xefa8);
+  // for icon called not-allowed
+  static const IconData notAllowed = _IcoFontData(0xefa9);
+  // for icon called notebook
+  static const IconData notebook = _IcoFontData(0xefaa);
+  // for icon called notepad
+  static const IconData notepad = _IcoFontData(0xefab);
+  // for icon called notification
+  static const IconData notification = _IcoFontData(0xefac);
+  // for icon called numbered
+  static const IconData numbered = _IcoFontData(0xefad);
+  // for icon called opposite
+  static const IconData opposite = _IcoFontData(0xefae);
+  // for icon called optic
+  static const IconData optic = _IcoFontData(0xefaf);
+  // for icon called options
+  static const IconData options = _IcoFontData(0xefb0);
+  // for icon called package
+  static const IconData package = _IcoFontData(0xefb1);
+  // for icon called page
+  static const IconData page = _IcoFontData(0xefb2);
+  // for icon called paint
+  static const IconData paint = _IcoFontData(0xefb3);
+  // for icon called paper-plane
+  static const IconData paperPlane = _IcoFontData(0xefb4);
+  // for icon called paperclip
+  static const IconData paperclip = _IcoFontData(0xefb5);
+  // for icon called papers
+  static const IconData papers = _IcoFontData(0xefb6);
+  // for icon called pay
+  static const IconData pay = _IcoFontData(0xefb7);
+  // for icon called penguin-linux
+  static const IconData penguinLinux = _IcoFontData(0xefb8);
+  // for icon called pestle
+  static const IconData pestle = _IcoFontData(0xefb9);
+  // for icon called phone-circle
+  static const IconData phoneCircle = _IcoFontData(0xefba);
+  // for icon called phone
+  static const IconData phone = _IcoFontData(0xefbb);
+  // for icon called picture
+  static const IconData picture = _IcoFontData(0xefbc);
+  // for icon called pine
+  static const IconData pine = _IcoFontData(0xefbd);
+  // for icon called pixels
+  static const IconData pixels = _IcoFontData(0xefbe);
+  // for icon called plugin
+  static const IconData plugin = _IcoFontData(0xefbf);
+  // for icon called plus-circle
+  static const IconData plusCircle = _IcoFontData(0xefc0);
+  // for icon called plus-square
+  static const IconData plusSquare = _IcoFontData(0xefc1);
+  // for icon called plus
+  static const IconData plus = _IcoFontData(0xefc2);
+  // for icon called polygonal
+  static const IconData polygonal = _IcoFontData(0xefc3);
+  // for icon called power
+  static const IconData power = _IcoFontData(0xefc4);
+  // for icon called price
+  static const IconData price = _IcoFontData(0xefc5);
+  // for icon called print
+  static const IconData print = _IcoFontData(0xefc6);
+  // for icon called puzzle
+  static const IconData puzzle = _IcoFontData(0xefc7);
+  // for icon called qr-code
+  static const IconData qrCode = _IcoFontData(0xefc8);
+  // for icon called queen
+  static const IconData queen = _IcoFontData(0xefc9);
+  // for icon called question-circle
+  static const IconData questionCircle = _IcoFontData(0xefca);
+  // for icon called question-square
+  static const IconData questionSquare = _IcoFontData(0xefcb);
+  // for icon called question
+  static const IconData question = _IcoFontData(0xefcc);
+  // for icon called quote-left
+  static const IconData quoteLeft = _IcoFontData(0xefcd);
+  // for icon called quote-right
+  static const IconData quoteRight = _IcoFontData(0xefce);
+  // for icon called random
+  static const IconData random = _IcoFontData(0xefcf);
+  // for icon called recycle
+  static const IconData recycle = _IcoFontData(0xefd0);
+  // for icon called refresh
+  static const IconData refresh = _IcoFontData(0xefd1);
+  // for icon called repair
+  static const IconData repair = _IcoFontData(0xefd2);
+  // for icon called reply-all
+  static const IconData replyAll = _IcoFontData(0xefd3);
+  // for icon called reply
+  static const IconData reply = _IcoFontData(0xefd4);
+  // for icon called resize
+  static const IconData resize = _IcoFontData(0xefd5);
+  // for icon called responsive
+  static const IconData responsive = _IcoFontData(0xefd6);
+  // for icon called retweet
+  static const IconData retweet = _IcoFontData(0xefd7);
+  // for icon called road
+  static const IconData road = _IcoFontData(0xefd8);
+  // for icon called robot
+  static const IconData robot = _IcoFontData(0xefd9);
+  // for icon called royal
+  static const IconData royal = _IcoFontData(0xefda);
+  // for icon called rss-feed
+  static const IconData rssFeed = _IcoFontData(0xefdb);
+  // for icon called safety
+  static const IconData safety = _IcoFontData(0xefdc);
+  // for icon called sale-discount
+  static const IconData saleDiscount = _IcoFontData(0xefdd);
+  // for icon called satellite
+  static const IconData satellite = _IcoFontData(0xefde);
+  // for icon called send-mail
+  static const IconData sendMail = _IcoFontData(0xefdf);
+  // for icon called server
+  static const IconData server = _IcoFontData(0xefe0);
+  // for icon called settings-alt
+  static const IconData settingsAlt = _IcoFontData(0xefe1);
+  // for icon called settings
+  static const IconData settings = _IcoFontData(0xefe2);
+  // for icon called share-alt
+  static const IconData shareAlt = _IcoFontData(0xefe3);
+  // for icon called share-boxed
+  static const IconData shareBoxed = _IcoFontData(0xefe4);
+  // for icon called share
+  static const IconData share = _IcoFontData(0xefe5);
+  // for icon called shield
+  static const IconData shield = _IcoFontData(0xefe6);
+  // for icon called shopping-cart
+  static const IconData shoppingCart = _IcoFontData(0xefe7);
+  // for icon called sign-in
+  static const IconData signIn = _IcoFontData(0xefe8);
+  // for icon called sign-out
+  static const IconData signOut = _IcoFontData(0xefe9);
+  // for icon called signal
+  static const IconData signal = _IcoFontData(0xefea);
+  // for icon called site-map
+  static const IconData siteMap = _IcoFontData(0xefeb);
+  // for icon called smart-phone
+  static const IconData smartPhone = _IcoFontData(0xefec);
+  // for icon called soccer
+  static const IconData soccer = _IcoFontData(0xefed);
+  // for icon called sort-alt
+  static const IconData sortAlt = _IcoFontData(0xefee);
+  // for icon called sort
+  static const IconData sort = _IcoFontData(0xefef);
+  // for icon called space
+  static const IconData space = _IcoFontData(0xeff0);
+  // for icon called spanner
+  static const IconData spanner = _IcoFontData(0xeff1);
+  // for icon called speech-comments
+  static const IconData speechComments = _IcoFontData(0xeff2);
+  // for icon called speed-meter
+  static const IconData speedMeter = _IcoFontData(0xeff3);
+  // for icon called spinner-alt-1
+  static const IconData spinnerAlt1 = _IcoFontData(0xeff4);
+  // for icon called spinner-alt-2
+  static const IconData spinnerAlt2 = _IcoFontData(0xeff5);
+  // for icon called spinner-alt-3
+  static const IconData spinnerAlt3 = _IcoFontData(0xeff6);
+  // for icon called spinner-alt-4
+  static const IconData spinnerAlt4 = _IcoFontData(0xeff7);
+  // for icon called spinner-alt-5
+  static const IconData spinnerAlt5 = _IcoFontData(0xeff8);
+  // for icon called spinner-alt-6
+  static const IconData spinnerAlt6 = _IcoFontData(0xeff9);
+  // for icon called spinner
+  static const IconData spinner = _IcoFontData(0xeffa);
+  // for icon called spreadsheet
+  static const IconData spreadsheet = _IcoFontData(0xeffb);
+  // for icon called square
+  static const IconData square = _IcoFontData(0xeffc);
+  // for icon called ssl-security
+  static const IconData sslSecurity = _IcoFontData(0xeffd);
+  // for icon called star-alt-1
+  static const IconData starAlt1 = _IcoFontData(0xeffe);
+  // for icon called star-alt-2
+  static const IconData starAlt2 = _IcoFontData(0xefff);
+  // for icon called star
+  static const IconData star = _IcoFontData(0xf000);
+  // for icon called street-view
+  static const IconData streetView = _IcoFontData(0xf001);
+  // for icon called support-faq
+  static const IconData supportFaq = _IcoFontData(0xf002);
+  // for icon called tack-pin
+  static const IconData tackPin = _IcoFontData(0xf003);
+  // for icon called tag
+  static const IconData tag = _IcoFontData(0xf004);
+  // for icon called tags
+  static const IconData tags = _IcoFontData(0xf005);
+  // for icon called tasks-alt
+  static const IconData tasksAlt = _IcoFontData(0xf006);
+  // for icon called tasks
+  static const IconData tasks = _IcoFontData(0xf007);
+  // for icon called telephone
+  static const IconData telephone = _IcoFontData(0xf008);
+  // for icon called telescope
+  static const IconData telescope = _IcoFontData(0xf009);
+  // for icon called terminal
+  static const IconData terminal = _IcoFontData(0xf00a);
+  // for icon called thumbs-down
+  static const IconData thumbsDown = _IcoFontData(0xf00b);
+  // for icon called thumbs-up
+  static const IconData thumbsUp = _IcoFontData(0xf00c);
+  // for icon called tick-boxed
+  static const IconData tickBoxed = _IcoFontData(0xf00d);
+  // for icon called tick-mark
+  static const IconData tickMark = _IcoFontData(0xf00e);
+  // for icon called ticket
+  static const IconData ticket = _IcoFontData(0xf00f);
+  // for icon called tie
+  static const IconData tie = _IcoFontData(0xf010);
+  // for icon called toggle-off
+  static const IconData toggleOff = _IcoFontData(0xf011);
+  // for icon called toggle-on
+  static const IconData toggleOn = _IcoFontData(0xf012);
+  // for icon called tools-alt-2
+  static const IconData toolsAlt2 = _IcoFontData(0xf013);
+  // for icon called tools
+  static const IconData tools = _IcoFontData(0xf014);
+  // for icon called touch
+  static const IconData touch = _IcoFontData(0xf015);
+  // for icon called traffic-light
+  static const IconData trafficLight = _IcoFontData(0xf016);
+  // for icon called transparent
+  static const IconData transparent = _IcoFontData(0xf017);
+  // for icon called tree
+  static const IconData tree = _IcoFontData(0xf018);
+  // for icon called unique-idea
+  static const IconData uniqueIdea = _IcoFontData(0xf019);
+  // for icon called unlock
+  static const IconData unlock = _IcoFontData(0xf01a);
+  // for icon called unlocked
+  static const IconData unlocked = _IcoFontData(0xf01b);
+  // for icon called upload-alt
+  static const IconData uploadAlt = _IcoFontData(0xf01c);
+  // for icon called upload
+  static const IconData upload = _IcoFontData(0xf01d);
+  // for icon called usb-drive
+  static const IconData usbDrive = _IcoFontData(0xf01e);
+  // for icon called usb
+  static const IconData usb = _IcoFontData(0xf01f);
+  // for icon called vector-path
+  static const IconData vectorPath = _IcoFontData(0xf020);
+  // for icon called verification-check
+  static const IconData verificationCheck = _IcoFontData(0xf021);
+  // for icon called wall-clock
+  static const IconData wallClock = _IcoFontData(0xf022);
+  // for icon called wall
+  static const IconData wall = _IcoFontData(0xf023);
+  // for icon called wallet
+  static const IconData wallet = _IcoFontData(0xf024);
+  // for icon called warning-alt
+  static const IconData warningAlt = _IcoFontData(0xf025);
+  // for icon called warning
+  static const IconData warning = _IcoFontData(0xf026);
+  // for icon called water-drop
+  static const IconData waterDrop = _IcoFontData(0xf027);
+  // for icon called web
+  static const IconData web = _IcoFontData(0xf028);
+  // for icon called wheelchair
+  static const IconData wheelchair = _IcoFontData(0xf029);
+  // for icon called wifi-alt
+  static const IconData wifiAlt = _IcoFontData(0xf02a);
+  // for icon called wifi
+  static const IconData wifi = _IcoFontData(0xf02b);
+  // for icon called world
+  static const IconData world = _IcoFontData(0xf02c);
+  // for icon called zigzag
+  static const IconData zigzag = _IcoFontData(0xf02d);
+  // for icon called zipped
+  static const IconData zipped = _IcoFontData(0xf02e);
+}
+
+/// This Class responsible for making icon data available
+/// for IcoFontIcons class as IconData.
+class _IcoFontData extends IconData {
+  const _IcoFontData(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'IcoFont',
+          fontPackage: 'icofont_flutter',
+        );
 }
