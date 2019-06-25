@@ -1,3 +1,7 @@
+## [1.3.0] - June 21, 2019.
+
+* Tidy Neat & Clean Code, better for understanding and also some improvements.
+
 ## [1.2.0] - June 19, 2019.
 
 * Desicriptions and SDK version update.
