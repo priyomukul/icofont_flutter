@@ -9,9 +9,8 @@ class IcoFontExampleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xFF494949),
-        secondaryHeaderColor: Color(0xFF44678c)
-      ),
+          primaryColor: Color(0xFF494949),
+          secondaryHeaderColor: Color(0xFF44678c)),
       home: IcoFontHome(),
     );
   }
@@ -25,9 +24,11 @@ class IcoFontHome extends StatefulWidget {
   _IcoFontHomeState createState() => _IcoFontHomeState();
 }
 
-class _IcoFontHomeState extends State<IcoFontHome> with TickerProviderStateMixin {
+class _IcoFontHomeState extends State<IcoFontHome>
+    with TickerProviderStateMixin {
   double abacusSize = 50.0;
   bool isTaped = false;
+  bool isPlayed = false;
 
   AnimationController _controller;
 
@@ -49,37 +50,66 @@ class _IcoFontHomeState extends State<IcoFontHome> with TickerProviderStateMixin
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('IcoFont Flutter Example'),
-        centerTitle: true,
-      ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+        appBar: AppBar(
+          title: Text('IcoFont Flutter Example'),
+          centerTitle: true,
+        ),
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 5.0, vertical: 2.5),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            // direction: Axis.horizontal,
             children: <Widget>[
-              IcoFontWidget( icon: IcoFontIcons.abacus ),
-              IcoFontWidget( icon: IcoFontIcons.apple ),
-              IcoFontWidget( icon: IcoFontIcons.brandAcer ),
+              GestureDetector(
+                onTap : (){
+                  setState(() {
+                    isPlayed = ! isPlayed;
+                  });
+                },
+                child: IcoFontWidget(
+                  icon: IcoFontIcons.apple,
+                  isPlayed: isPlayed,
+                ),
+              ),
+              GestureDetector(
+                onTap : (){
+                  setState(() {
+                    isPlayed = ! isPlayed;
+                  });
+                },
+                child: IcoFontWidget(
+                  icon: IcoFontIcons.orange,
+                  isPlayed: isPlayed,
+                ),
+              ),
+              // IcoFontWidget(
+              //   icon: IcoFontIcons.paperPlane,
+              // ),
+              // IcoFontWidget(
+              //   icon: IcoFontIcons.fruits,
+              // ),
+              // IcoFontWidget(
+              //   icon: IcoFontIcons.magic,
+              // ),
             ],
           ),
-        ],
-      )
-    );
+        ));
   }
 }
 
 class IcoFontWidget extends StatefulWidget {
-  const IcoFontWidget({ @required this.icon});
+  const IcoFontWidget({@required this.icon, @required this.isPlayed});
   final IconData icon;
+  final bool isPlayed;
   @override
   _IcoFontWidgetState createState() => _IcoFontWidgetState();
 }
 
-class _IcoFontWidgetState extends State<IcoFontWidget>  with TickerProviderStateMixin {
+class _IcoFontWidgetState extends State<IcoFontWidget>
+    with TickerProviderStateMixin {
   double abacusSize = 50.0;
   bool isTaped = false;
+  bool isPlayed;
   IconData icon;
 
   IconData iconName;
@@ -87,8 +117,10 @@ class _IcoFontWidgetState extends State<IcoFontWidget>  with TickerProviderState
   AnimationController _controller;
   @override
   void initState() {
+    print(widget.isPlayed);
     super.initState();
     icon = widget.icon;
+    isPlayed = widget.isPlayed;
     _controller = AnimationController(
       duration: const Duration(milliseconds: 1000),
       vsync: this,
@@ -104,36 +136,50 @@ class _IcoFontWidgetState extends State<IcoFontWidget>  with TickerProviderState
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: (){
+      onTap: () {
         setState(() {
           isTaped = isTaped ? false : true;
           iconName = icon;
         });
       },
-      child: AnimatedIcoFont(
-        key: Key( icon.toString() ),
-        controller: _controller, 
-        isTaped : isTaped,
-        icon: icon,
+      child: Container(
+        color: Colors.red,
+        child: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: AnimatedIcoFont(
+            controller: _controller,
+            isTaped: isTaped,
+            isPlayed: isPlayed,
+            icon: icon,
+          ),
+        ),
       ),
     );
   }
 }
 
-
 class AnimatedIcoFont extends AnimatedWidget {
-  const AnimatedIcoFont({Key key, AnimationController controller, @required this.isTaped, @required this.icon})
+  const AnimatedIcoFont(
+      {Key key,
+      this.size,
+      AnimationController controller,
+      @required this.isTaped,
+      @required this.isPlayed,
+      @required this.icon})
       : super(key: key, listenable: controller);
   Animation<double> get _progress => listenable;
   final bool isTaped;
+  final bool isPlayed;
   final IconData icon;
+  final double size;
   @override
   Widget build(BuildContext context) {
     return Transform.scale(
       key: Key(icon.toString()),
-      scale: isTaped ? _progress.value : 1.0,
+      scale: isTaped && !isPlayed ? _progress.value : 1.0,
       child: Icon(
-        icon, size: 50.0,
+        icon,
+        size: size != null ? size : 30.0,
       ),
     );
   }
