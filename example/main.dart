@@ -17,15 +17,12 @@ class IcoFontExampleApp extends StatelessWidget {
 }
 
 class IcoFontHome extends StatefulWidget {
-  // IcoFontHome({ Key key, this.duration }) : super(key: key);
-
-  // final Duration duration;
   @override
   _IcoFontHomeState createState() => _IcoFontHomeState();
 }
 
 class _IcoFontHomeState extends State<IcoFontHome>
-    with TickerProviderStateMixin {
+    with SingleTickerProviderStateMixin {
   double abacusSize = 50.0;
   bool isTaped = false;
   bool isPlayed = false;
@@ -35,8 +32,9 @@ class _IcoFontHomeState extends State<IcoFontHome>
   @override
   void initState() {
     super.initState();
+    isTaped = false;
     _controller = AnimationController(
-      duration: const Duration(milliseconds: 1000),
+      duration: const Duration(seconds: 100),
       vsync: this,
     )..repeat();
   }
@@ -60,127 +58,50 @@ class _IcoFontHomeState extends State<IcoFontHome>
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             // direction: Axis.horizontal,
             children: <Widget>[
-              GestureDetector(
-                onTap : (){
+              InkWell(
+                onTap: () {
                   setState(() {
-                    isPlayed = ! isPlayed;
+                    isTaped = !isTaped;
                   });
                 },
-                child: IcoFontWidget(
-                  icon: IcoFontIcons.apple,
-                  isPlayed: isPlayed,
+                child: Container(
+                  color: Colors.red,
+                  padding: EdgeInsets.all(15.0),
+                  child: AnimatedBuilder(
+                    animation: _controller,
+                    child: Icon(Icons.add),
+                    builder: (BuildContext context, Widget child) {
+                      return Transform.scale(
+                        scale: isTaped ? _controller.value : 1,
+                        child: child,
+                      );
+                    },
+                  ),
                 ),
               ),
-              GestureDetector(
-                onTap : (){
+              InkWell(
+                onTap: () {
                   setState(() {
-                    isPlayed = ! isPlayed;
+                    isTaped = !isTaped;
                   });
                 },
-                child: IcoFontWidget(
-                  icon: IcoFontIcons.orange,
-                  isPlayed: isPlayed,
+                child: Container(
+                  color: Colors.red,
+                  padding: EdgeInsets.all(15.0),
+                  child: AnimatedBuilder(
+                    animation: _controller,
+                    child: Icon(Icons.access_alarm),
+                    builder: (BuildContext context, Widget child) {
+                      return Transform.scale(
+                        scale: isTaped ? _controller.value : 1,
+                        child: child,
+                      );
+                    },
+                  ),
                 ),
               ),
-              // IcoFontWidget(
-              //   icon: IcoFontIcons.paperPlane,
-              // ),
-              // IcoFontWidget(
-              //   icon: IcoFontIcons.fruits,
-              // ),
-              // IcoFontWidget(
-              //   icon: IcoFontIcons.magic,
-              // ),
             ],
           ),
         ));
-  }
-}
-
-class IcoFontWidget extends StatefulWidget {
-  const IcoFontWidget({@required this.icon, @required this.isPlayed});
-  final IconData icon;
-  final bool isPlayed;
-  @override
-  _IcoFontWidgetState createState() => _IcoFontWidgetState();
-}
-
-class _IcoFontWidgetState extends State<IcoFontWidget>
-    with TickerProviderStateMixin {
-  double abacusSize = 50.0;
-  bool isTaped = false;
-  bool isPlayed;
-  IconData icon;
-
-  IconData iconName;
-
-  AnimationController _controller;
-  @override
-  void initState() {
-    print(widget.isPlayed);
-    super.initState();
-    icon = widget.icon;
-    isPlayed = widget.isPlayed;
-    _controller = AnimationController(
-      duration: const Duration(milliseconds: 1000),
-      vsync: this,
-    )..repeat();
-  }
-
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        setState(() {
-          isTaped = isTaped ? false : true;
-          iconName = icon;
-        });
-      },
-      child: Container(
-        color: Colors.red,
-        child: Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: AnimatedIcoFont(
-            controller: _controller,
-            isTaped: isTaped,
-            isPlayed: isPlayed,
-            icon: icon,
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class AnimatedIcoFont extends AnimatedWidget {
-  const AnimatedIcoFont(
-      {Key key,
-      this.size,
-      AnimationController controller,
-      @required this.isTaped,
-      @required this.isPlayed,
-      @required this.icon})
-      : super(key: key, listenable: controller);
-  Animation<double> get _progress => listenable;
-  final bool isTaped;
-  final bool isPlayed;
-  final IconData icon;
-  final double size;
-  @override
-  Widget build(BuildContext context) {
-    return Transform.scale(
-      key: Key(icon.toString()),
-      scale: isTaped && !isPlayed ? _progress.value : 1.0,
-      child: Icon(
-        icon,
-        size: size != null ? size : 30.0,
-      ),
-    );
   }
 }
