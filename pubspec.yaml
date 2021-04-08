@@ -5,9 +5,11 @@ author: Priyo Mukul <priyomukul@gmail.com>
 homepage: https://github.com/priyomukul/icofont_flutter
 documentation: https://github.com/priyomukul/icofont_flutter/wiki
 issue_tracker: https://github.com/priyomukul/icofont_flutter/issues
+
 environment:
-  sdk: ">=2.0.0 <3.0.0"
-  flutter: ">=1.0.0"
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
 dependencies:
   flutter:
     sdk: flutter
