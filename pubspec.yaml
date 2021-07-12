@@ -1,13 +1,15 @@
 name: icofont_flutter
 description: The IcoFont Icon Pack available as Flutter Icon Pack. We are here to elevate your designs with thousands of free icons with smart technologies for smoother usage.
-version: 1.3.0
+version: 1.4.0
 author: Priyo Mukul <priyomukul@gmail.com>
 homepage: https://github.com/priyomukul/icofont_flutter
 documentation: https://github.com/priyomukul/icofont_flutter/wiki
 issue_tracker: https://github.com/priyomukul/icofont_flutter/issues
+
 environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=1.0.0 <2.0.0"
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
 dependencies:
   flutter:
     sdk: flutter

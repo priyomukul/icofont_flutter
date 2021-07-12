@@ -1,3 +1,7 @@
+## [1.4.0] - July 12, 2021.
+
+* Migrate to NULL Safety (Thanks to GJJ2019)
+
 ## [1.3.0] - June 21, 2019.
 
 * Tidy Neat & Clean Code, better for understanding and also some improvements.
