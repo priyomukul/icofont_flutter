@@ -19,6 +19,9 @@
 .vscode/
 
 # Flutter/Dart/Pub related
+# This is a library package: its lockfile is ignored by consumers and only
+# pins the maintainer's local SDK, so it is not committed.
+pubspec.lock
 **/doc/api/
 .dart_tool/
 .flutter-plugins
@@ -59,6 +62,8 @@ build/
 **/ios/Flutter/app.flx
 **/ios/Flutter/app.zip
 **/ios/Flutter/flutter_assets/
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
 
