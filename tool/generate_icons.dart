@@ -1,8 +1,8 @@
 // Regenerates lib/icofont_flutter.dart from lib/fonts/icofont.ttf.
 //
 // Usage:
-//   dart run tools/generate_icons.dart            # rewrite lib/icofont_flutter.dart
-//   dart run tools/generate_icons.dart --check    # fail if the file is out of date
+//   dart run tool/generate_icons.dart            # rewrite lib/icofont_flutter.dart
+//   dart run tool/generate_icons.dart --check    # fail if the file is out of date
 //
 // The constant names come from the font's `post` table glyph names (camelCased)
 // and the code points from its `cmap` table. Names that cannot be derived
@@ -137,7 +137,7 @@ void main(List<String> args) {
         output.existsSync() ? output.readAsStringSync() : '';
     if (current != generated) {
       stderr.writeln('$_outputPath is out of date. '
-          'Run: dart run tools/generate_icons.dart');
+          'Run: dart run tool/generate_icons.dart');
       exit(1);
     }
     stdout.writeln('$_outputPath is up to date (${icons.length} icons).');

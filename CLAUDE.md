@@ -13,8 +13,8 @@ A Flutter package that exposes the IcoFont pack as `IconData` constants.
 `lib/icofont_flutter.dart` is generated — do not hand-edit it.
 
 ```
-dart run tools/generate_icons.dart          # regenerate from lib/fonts/icofont.ttf
-dart run tools/generate_icons.dart --check  # fail if the file is stale
+dart run tool/generate_icons.dart          # regenerate from lib/fonts/icofont.ttf
+dart run tool/generate_icons.dart --check  # fail if the file is stale
 ```
 
 Only the IcoFont range (U+E800–U+F03D) is exposed. Some builds of the .ttf also
