@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:icofont_flutter/icofont_flutter.dart';
-import 'dart:math' as math;
 
 void main() => runApp(IcoFontExampleApp());
 
@@ -27,7 +26,7 @@ class _IcoFontHomeState extends State<IcoFontHome>
   bool isTaped = false;
   bool isPlayed = false;
 
-  AnimationController _controller;
+  late AnimationController _controller;
 
   @override
   void initState() {
@@ -69,8 +68,8 @@ class _IcoFontHomeState extends State<IcoFontHome>
                   padding: EdgeInsets.all(15.0),
                   child: AnimatedBuilder(
                     animation: _controller,
-                    child: Icon(Icons.add),
-                    builder: (BuildContext context, Widget child) {
+                    child: Icon(IcoFontIcons.abacus),
+                    builder: (BuildContext context, Widget? child) {
                       return Transform.scale(
                         scale: isTaped ? _controller.value : 1,
                         child: child,
@@ -90,8 +89,8 @@ class _IcoFontHomeState extends State<IcoFontHome>
                   padding: EdgeInsets.all(15.0),
                   child: AnimatedBuilder(
                     animation: _controller,
-                    child: Icon(Icons.access_alarm),
-                    builder: (BuildContext context, Widget child) {
+                    child: Icon(IcoFontIcons.abacusAlt),
+                    builder: (BuildContext context, Widget? child) {
                       return Transform.scale(
                         scale: isTaped ? _controller.value : 1,
                         child: child,
