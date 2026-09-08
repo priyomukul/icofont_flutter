@@ -31,10 +31,40 @@ const Map<int, String> nameOverrides = <int, String>{
 /// Words that cannot be a member name. Built-in identifiers (`external`,
 /// `interface`, `library`, ...) are legal here and several icons rely on that.
 const Set<String> _dartReservedWords = <String>{
-  'assert', 'await', 'break', 'case', 'catch', 'class', 'const', 'continue',
-  'default', 'do', 'else', 'enum', 'extends', 'false', 'final', 'finally',
-  'for', 'if', 'in', 'is', 'new', 'null', 'rethrow', 'return', 'super',
-  'switch', 'this', 'throw', 'true', 'try', 'var', 'void', 'while', 'with',
+  'assert',
+  'await',
+  'break',
+  'case',
+  'catch',
+  'class',
+  'const',
+  'continue',
+  'default',
+  'do',
+  'else',
+  'enum',
+  'extends',
+  'false',
+  'final',
+  'finally',
+  'for',
+  'if',
+  'in',
+  'is',
+  'new',
+  'null',
+  'rethrow',
+  'return',
+  'super',
+  'switch',
+  'this',
+  'throw',
+  'true',
+  'try',
+  'var',
+  'void',
+  'while',
+  'with',
   'yield',
 };
 
@@ -133,8 +163,7 @@ void main(List<String> args) {
   }
 
   if (checkOnly) {
-    final String current =
-        output.existsSync() ? output.readAsStringSync() : '';
+    final String current = output.existsSync() ? output.readAsStringSync() : '';
     if (current != generated) {
       stderr.writeln('$_outputPath is out of date. '
           'Run: dart run tool/generate_icons.dart');
@@ -248,8 +277,8 @@ class _Font {
       final int subtable = cmap + _data.getUint32(record + 4);
       final int format = _data.getUint16(subtable);
       // Unicode (platform 0) and Windows Unicode (platform 3) subtables.
-      final bool unicode = platform == 0 ||
-          (platform == 3 && (encoding == 1 || encoding == 10));
+      final bool unicode =
+          platform == 0 || (platform == 3 && (encoding == 1 || encoding == 10));
       if (!unicode) {
         continue;
       }

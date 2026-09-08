@@ -1,0 +1,43 @@
+# Runs on every push and pull request.
+#
+# The generator check is the one worth explaining: lib/icofont_flutter.dart is
+# generated from lib/fonts/icofont.ttf, so it can silently drift if someone
+# edits it by hand or swaps the font without regenerating. --check regenerates
+# in memory and fails if the result differs from what is committed.
+
+name: CI
+
+on:
+  push:
+    branches: [master, dev, develop]
+  pull_request:
+
+jobs:
+  test:
+    name: Analyze and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Verify formatting
+        run: dart format --output=none --set-exit-if-changed lib tool example/lib example/test
+
+      - name: Analyze
+        run: flutter analyze
+
+      - name: Verify generated icons match the font
+        run: dart run tool/generate_icons.dart --check
+
+      - name: Test example
+        run: flutter test
+        working-directory: example
+
+      - name: Publish dry run
+        run: flutter pub publish --dry-run
