@@ -1,0 +1,30 @@
+# Publishes to pub.dev when a version tag is pushed.
+#
+# Authentication is OIDC, not a stored token: pub.dev trusts tags from this
+# repository, so there is no secret to manage or rotate. That trust has to be
+# granted once, on https://pub.dev/packages/icofont_flutter/admin --
+# "Enable publishing from GitHub Actions", with repository priyomukul/icofont_flutter
+# and tag pattern v{{version}}. Until that is set, this workflow fails at the
+# publish step.
+#
+# To release: bump `version:` in pubspec.yaml, add a CHANGELOG.md entry, merge,
+# then tag the merge commit with the same version and push the tag:
+#
+#   git tag v1.5.0 && git push origin v1.5.0
+#
+# The tag version must match pubspec.yaml or pub.dev rejects the upload.
+
+name: Publish to pub.dev
+
+on:
+  push:
+    tags:
+      # Must stay in sync with the tag pattern configured on pub.dev.
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+jobs:
+  publish:
+    permissions:
+      id-token: write # Required to mint the OIDC token pub.dev verifies.
+    # Sets up both the Dart and Flutter SDKs, runs a dry run, then publishes.
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
