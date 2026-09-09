@@ -134,7 +134,18 @@ void main(List<String> args) {
   // tidier way to write this, but Flutter made IconData a final class, so a
   // subclass no longer compiles. Naming the font on each constant instead
   // keeps the package working on both old and new SDKs.
+  // Comments are dartdoc (///), not plain comments: pub.dev scores a package
+  // on the share of its public API that carries documentation, and every icon
+  // is public API.
   final StringBuffer out = StringBuffer()
+    ..writeln('/// The [IcoFont](https://icofont.com) icon pack as [IconData]')
+    ..writeln('/// constants.')
+    ..writeln('///')
+    ..writeln('/// Every icon is a `static const` field on [IcoFontIcons]:')
+    ..writeln('///')
+    ..writeln('/// ```dart')
+    ..writeln('/// const Icon(IcoFontIcons.brandIcofont)')
+    ..writeln('/// ```')
     ..writeln('library icofont_flutter;')
     ..writeln()
     ..writeln("import 'package:flutter/widgets.dart';")
@@ -144,10 +155,16 @@ void main(List<String> args) {
     ..writeln()
     ..writeln('/// This is main class which provides IcoFont icon as IconData.')
     ..writeln('class IcoFontIcons {');
+  bool first = true;
   for (final MapEntry<String, _Icon> icon in icons.entries) {
     final String hex = icon.value.codePoint.toRadixString(16).padLeft(4, '0');
+    // dart format puts a blank line before every documented member.
+    if (!first) {
+      out.writeln();
+    }
+    first = false;
     out
-      ..writeln('  // for icon called ${icon.value.comment}')
+      ..writeln('  /// The IcoFont `${icon.value.comment}` icon.')
       ..writeln('  static const IconData ${icon.key} =')
       ..writeln('      IconData(0x$hex, '
           'fontFamily: _fontFamily, fontPackage: _fontPackage);');
