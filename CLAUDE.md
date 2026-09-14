@@ -17,10 +17,12 @@ dart run tool/generate_icons.dart          # regenerate from lib/fonts/icofont.t
 dart run tool/generate_icons.dart --check  # fail if the file is stale
 ```
 
-Only the IcoFont range (U+E800–U+F03D) is exposed. Some builds of the .ttf also
-carry an unrelated Joomla admin icon set above U+FFFF whose `post` names cannot
-identify its glyphs (310 glyphs, 161 names), so the generator skips everything
-above U+FFFF and reports how many. That skip is deliberate — not a parser bug.
+Only the single-layer range (U+E800–U+F03D) is exposed. Above U+FFFF the .ttf
+also carries IcoFont's 324 duotone icons, drawn as pairs of stacked glyphs — so
+310 glyphs share 161 `post` names and cannot be named one-to-one, and a duotone
+icon needs two `IconData` values layered in different colours, which a single
+constant cannot express. The generator skips everything above U+FFFF and reports
+how many. That skip is deliberate — not a parser bug.
 
 Constant names come from the font's `post` glyph names, camelCased. When a glyph
 name starts with a digit, or a code point reuses an earlier glyph, the generator
@@ -48,6 +50,25 @@ are plain `IconData` constants for that reason.
 
 ## Workflow
 
-- Work on `dev`; open PRs against `master`.
-- Release: bump `version:` in `pubspec.yaml`, add a `CHANGELOG.md` entry, then
-  `flutter pub publish`.
+Work on `dev`; open PRs against `main`. `main` is the only long-lived branch
+besides `dev` — `master` and `develop` are gone.
+
+CI runs formatting, `flutter analyze`, `dart run tool/generate_icons.dart
+--check`, the example tests, and a publish dry run on every push and PR. Run
+them locally before opening a PR.
+
+## Releasing
+
+Publishing is automated — do not run `flutter pub publish` by hand.
+
+1. Bump `version:` in `pubspec.yaml`.
+2. Add a `CHANGELOG.md` entry.
+3. Merge to `main`.
+4. Tag and push: `git tag v1.5.0 && git push origin v1.5.0`.
+
+The tag must match `pubspec.yaml` or pub.dev rejects the upload. The workflow
+authenticates with OIDC, so there is no token in repository secrets.
+
+User-facing docs live in the [GitHub wiki](https://github.com/priyomukul/icofont_flutter/wiki),
+which is a separate git repo (`...icofont_flutter.wiki.git`). Update it when
+behaviour or the public API changes.

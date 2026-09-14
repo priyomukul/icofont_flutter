@@ -91,11 +91,12 @@ void main(List<String> args) {
 
   final List<int> codePoints = charToGlyph.keys.toList()..sort();
   for (final int codePoint in codePoints) {
-    // IcoFont lives in the private use area. Some builds of the font also
-    // carry an unrelated icon set above U+FFFF (a Joomla admin set at
-    // U+13AB2+) whose `post` names cannot identify its glyphs -- 310 glyphs
-    // share 161 names -- so it cannot be named mechanically. This package
-    // ships the IcoFont range only.
+    // IcoFont's single-layer icons live in the private use area. Above U+FFFF
+    // the font also carries its 324 duotone icons, drawn as pairs of stacked
+    // glyphs: 310 glyphs share 161 `post` names, so they cannot be named
+    // one-to-one, and rendering one needs two IconData values layered in
+    // different colours, which a single constant cannot express. This package
+    // ships the single-layer range only.
     if (codePoint > 0xffff) {
       skipped++;
       continue;
